@@ -1,0 +1,142 @@
+﻿<!doctype html>
+<html lang="ru" class="static-mode">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f0e">
+  <meta name="description" content="IT English Lab — офлайн-тренажёр IT-английского: слова, тексты, аудирование, экзамены и интервальные повторения.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="IT English Lab">
+  <title>IT English Lab — английский для IT</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="static.css">
+  <link rel="stylesheet" href="telegram.css">
+  <link rel="stylesheet" href="telegram.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <a class="skip-link" href="#view" data-action="skip-content">Перейти к содержимому</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#/home">
+        <span class="brand-mark">IT</span>
+        <span class="brand-text">English<em>Lab</em></span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav-link" data-nav="home" href="#/home">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg></span><span>Главная</span>
+        </a>
+        <a class="nav-link" data-nav="textbook" href="#/textbook">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v18H6.5A2.5 2.5 0 0 0 4 23V5.5Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg></span><span>Материалы</span>
+        </a>
+        <a class="nav-link" data-nav="trainer" href="#/trainer">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v13"/></svg></span><span>Тренажёр</span>
+        </a>
+        <a class="nav-link" data-nav="study" href="#/study">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8h14M7 8v8a5 5 0 0 0 10 0V8"/><path d="M9 21h6"/></svg></span><span>Учёба</span>
+        </a>
+        <a class="nav-link" data-nav="exams" href="#/exams">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 7.6 8 9 4.6-1.4 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span><span>Экзамены</span>
+        </a>
+        <a class="nav-link" data-nav="audio" href="#/audio">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><path d="M4 14h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1v-6ZM20 14h-2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1a1 1 0 0 0 1-1v-6Z"/></svg></span><span>Аудио</span>
+        </a>
+        <a class="nav-link" data-nav="speaking" href="#/speaking">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6"/></svg></span><span>Речь</span>
+        </a>
+        <a class="nav-link" data-nav="analytics" href="#/analytics">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span><span>Аналитика</span>
+        </a>
+        <a class="nav-link" data-nav="tutor" href="#/tutor">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 1.7 4.3L18 9l-4.3 1.7L12 15l-1.7-4.3L6 9l4.3-1.7L12 3Z"/><path d="m19 14 .9 2.1L22 17l-2.1.9L19 20l-.9-2.1L16 17l2.1-.9L19 14Z"/></svg></span><span>ИИ-репетитор</span>
+          <span class="nav-live" id="nav-live" title="Статус ИИ"></span>
+        </a>
+        <a class="nav-link" data-nav="settings" href="#/settings">
+          <span class="nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg></span><span>Настройки</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-spacer"></div>
+
+      <div class="sidebar-card" id="sidebar-progress">
+        <div class="sidebar-card-top">
+          <span class="mono-label">Прогресс</span>
+          <span class="sidebar-streak" id="sidebar-streak">0 дней</span>
+        </div>
+        <div class="progress"><i id="sidebar-bar" style="width:0%"></i></div>
+        <div class="sidebar-card-foot">
+          <span id="sidebar-learned">0 слов</span>
+          <span id="sidebar-total">0</span>
+        </div>
+      </div>
+
+      <div class="ai-pill" id="ai-pill">
+        <span class="dot"></span><span>ИИ выключен</span>
+      </div>
+      <div class="sidebar-note">IT ENGLISH LAB<br>ОФЛАЙН · 15 ЮНИТОВ</div>
+    </aside>
+
+    <header class="mobile-top">
+      <a class="brand brand-small" href="#/home"><span class="brand-mark">IT</span><span class="brand-text">English<em>Lab</em></span></a>
+      <button class="icon-btn" data-action="toggle-menu" id="menu-toggle" aria-label="Меню" aria-controls="sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </header>
+
+    <div class="sr-only" id="route-live" aria-live="polite"></div>
+    <main class="main" id="view" tabindex="-1">
+      <div class="boot-screen">
+        <div class="boot-mark">IT</div>
+        <div class="boot-line">Загружаем материалы…</div>
+      </div>
+    </main>
+  </div>
+
+  <nav class="mobile-bottom-nav" aria-label="Мобильная навигация">
+    <a class="mobile-nav-link" data-nav="home" href="#/home" aria-label="Главная">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg><span>Главная</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="textbook" href="#/textbook" aria-label="Материалы">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v18H6.5A2.5 2.5 0 0 0 4 23V5.5Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/></svg><span>Материалы</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="trainer" href="#/trainer" aria-label="Тренажёр">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="15" rx="2"/><path d="M8 3h11a2 2 0 0 1 2 2v13"/></svg><span>Тренажёр</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="study" href="#/study" aria-label="Учёба">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8h14M7 8v8a5 5 0 0 0 10 0V8"/><path d="M9 21h6"/></svg><span>Учёба</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="speaking" href="#/speaking" aria-label="Речь">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6"/></svg><span>Речь</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="exams" href="#/exams" aria-label="Экзамены">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.4 7.6 8 9 4.6-1.4 8-4.5 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg><span>Экзамены</span>
+    </a>
+    <a class="mobile-nav-link" data-nav="settings" href="#/settings" aria-label="Настройки">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-.3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></svg><span>Настройки</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="app.js"></script>
+  <script src="telegram.js"></script>
+  <script src="local-core.js"></script>
+  <script src="static-api.js"></script>
+  <script src="views-home.js"></script>
+  <script src="views-unit.js"></script>
+  <script src="practice.js"></script>
+  <script src="chat.js"></script>
+  <script src="settings.js"></script>
+  <script src="exam.js"></script>
+  <script src="analytics.js"></script>
+  <script src="study.js"></script>
+  <script src="audio.js"></script>
+  <script src="speaking.js"></script>
+  <script src="events.js"></script>
+  <script src="pwa.js"></script>
+</body>
+</html>

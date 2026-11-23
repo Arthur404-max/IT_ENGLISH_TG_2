@@ -1,0 +1,2805 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "title_en": "The History of Computers",
+      "title_ru": "История компьютеров",
+      "vocab": [
+        {
+          "en": "invention",
+          "ru": "изобретение, создание"
+        },
+        {
+          "en": "semiconductor",
+          "ru": "полупроводник"
+        },
+        {
+          "en": "addition",
+          "ru": "сложение"
+        },
+        {
+          "en": "punch card",
+          "ru": "перфокарта"
+        },
+        {
+          "en": "subtraction",
+          "ru": "вычитание"
+        },
+        {
+          "en": "computational time",
+          "ru": "расчётное время"
+        },
+        {
+          "en": "multiplication",
+          "ru": "умножение"
+        },
+        {
+          "en": "division",
+          "ru": "деление"
+        },
+        {
+          "en": "vacuum tube",
+          "ru": "электронные лампы"
+        },
+        {
+          "en": "silicon chip",
+          "ru": "кремниевая микросхема"
+        },
+        {
+          "en": "transistor",
+          "ru": "транзистор"
+        },
+        {
+          "en": "control unit",
+          "ru": "блок управления"
+        },
+        {
+          "en": "computing power",
+          "ru": "вычислительная производительность"
+        },
+        {
+          "en": "artificial intelligence",
+          "ru": "искусственный интеллект"
+        },
+        {
+          "en": "integrated circuit",
+          "ru": "интегральные схемы"
+        },
+        {
+          "en": "parallel processing",
+          "ru": "параллельная обработка данных"
+        },
+        {
+          "en": "power consumption",
+          "ru": "энергопотребление"
+        },
+        {
+          "en": "resistor",
+          "ru": "резистор; сопротивление (элемент схемы)"
+        },
+        {
+          "en": "input/output system",
+          "ru": "система ввода/вывода"
+        },
+        {
+          "en": "major breakthrough",
+          "ru": "основной прорыв"
+        },
+        {
+          "en": "maintenance",
+          "ru": "сопровождение, обслуживание, проведение техобслуживания"
+        },
+        {
+          "en": "capacitor",
+          "ru": "конденсатор (электронный компонент, накапливающий заряд)"
+        },
+        {
+          "en": "Very Large Scale Integrated (VLSI) circuits",
+          "ru": "сверхбольшая интегральная схема"
+        },
+        {
+          "en": "FGCS (Fifth Generation Computer System)",
+          "ru": "вычислительная система пятого поколения"
+        },
+        {
+          "en": "ALU (arithmetic logic unit)",
+          "ru": "арифметико-логическое устройство"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "The History of Computers",
+          "paragraphs": [
+            "The first counting tools people used were sticks and stones. However, as the human mind developed over time, new computing devices were designed starting with the invention of the abacus in China, around 1300 BC. It was used to perform basic arithmetical operations – addition, subtraction, multiplication, division. The first mechanical adding machine, the Pascaline, was built by Blaise Pascal, a French mathematician and scientist, between 1642 and 1644. The Pascaline was able to perform addition and subtraction in short time. The device was basically a wooden box with a number of gears and wheels.",
+            "The first machine resembling today’s modern computers was The Analytical Engine designed in the 1830s by British mathematician Charles Babbage who is often called the father of the computer. He showed his machine at the exhibition in Paris in 1855. The Analytical Engine contained an ALU (arithmetic logic unit), control unit, memory, and an input/output system. These are the essential parts of a modern computer. Babbage never finished this work, but many of his ideas were the basis for building today’s computers.",
+            "The 19th century was a period of a rapid evolution of computing theory and a number of calculating machines began to be used at that time. However, it wasn’t until the middle of the 20th century that a major breakthrough in computing technology was made. In 1936 Konrad Zuse, a German engineer, developed the Z1 machine, the first programmable mechanical computing device, which was later followed by the Z2 and the Z3. This series of inventions led to the advent of the first fully-functioning programmable electro-mechanical computer.",
+            "Vacuum Tubes were employed in the first generation of computers to perform calculations. The first generation computer was ENIAC (Electronic Numerical Integrator and Calculator). This generation of computers was serious and huge. They performed arithmetic calculations by exploiting vacuum tubes. Although the first generation of computers has many disadvantages than its blessings. However, its importance can’t be forgotten.",
+            "As a result, the second generation of computers was created. Transistors were utilized in the second generation of computers. The use of vacuum tubes within the first generation of computers revolutionized the globe of technology.",
+            "Third generation computers start using integrated circuits instead of transistors. The integrated circuit is a semiconductor material, that contains thousands of transistors miniaturized in it. With the help of integrated circuit, the computer becomes more reliable, fast, required less maintenance and power consumption, small in size.",
+            "This generation of computers reduce the computational time. In the previous generation, the computational time was microsecond which was decreased to the nanosecond. In this generation, punch cards were replaced by mouse and keyboard. Integrated Circuits themselves include many transistors, capacitors, and resistors and because of this third generation computer systems are smaller in size, efficient, and extra reliable.",
+            "After third-generation computers, which mostly utilized microprocessors, fourth-generation computers were released in 1972. VLSI technology, or Very Large Scale Integrated (VLSI) circuits, was employed in these computers. As a result, they were dubbed microprocessors. A microprocessor is made up of thousands of integrated circuits that are assembled on a single chip known as a silicon chip.",
+            "Fifth-generation computers were introduced after the fourth-generation computers were invented. Fifth-generation computers, also known as modern computers, are still in the development stage and are based on artificial intelligence. In 1982, Japan was invented the FGCS (Fifth Generation Computer System). Computers of this generation are based on microelectronic technology with high computing power and parallel processing."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "How have computers developed over time?",
+            "What major inventions influenced the development of computers?",
+            "What is the difference between mechanical and electromechanical computer generations?",
+            "What are basic arithmetical operations?",
+            "What features of modern computers did the Analytical Engine contain?",
+            "What modifications were employed in digital generations of computers (5 generations)?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Find in the text above equivalents to the following words:",
+          "body": [
+            "1) were used | 7) computing time",
+            "2) reduce | 8) the fifth generation",
+            "3) carry out calculations | 9) similar",
+            "4) consist of | 10) to execute addition",
+            "5) come out | 11) progress",
+            "6) improve | 12) advantages"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Find English equivalents for the following words in the text:",
+          "body": [
+            "1) выполнять вычисления | 6) назвали микропроцессорами",
+            "2) используя электронные лампы | 7) меньше технического обслуживания",
+            "3) преимущества | 8) время для обработки данных",
+            "4) полупроводниковый материал | 9) параллельная обработка данных",
+            "5) совершила революцию в мире / технологий"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Fill in each blank with a word chosen from the list below:",
+          "body": [
+            "arithmetical operations / resembling / mathematician / a rapid evolution / programmable / invention / computer / vacuum tubes / instructions / predecessors / transistors / integrated circuits / less maintenance / replaced / reduced / artificial / parallel",
+            "1. Abacus used to perform basic ____: addition, subtraction, multiplication, division.",
+            "2. The first machine ____ today’s modern computers was The Analytical Engine.",
+            "3. The Analytical Engine designed by British ____ Charles Babbage is often called the father of the computer.",
+            "4. The 19th century was a period of ____ of computing theory.",
+            "5. In 1936 Konrad Zuse developed the first ____ mechanical computing device (Z1). His ____ led to the advent of the first fully-functioning programmable electro-mechanical ____.",
+            "6. The first generation of computers worked on ____.",
+            "7. John von Neumann developed the idea of keeping ____ inside the computer’s memory.",
+            "8. In the late 1950s and early 1960s, the second generation of computers was developed and could work ten times faster than their ____.",
+            "9. The reason for this high speed was the use of ____ instead of vacuum tubes.",
+            "10. Third generation computers started using ____ instead of transistors.",
+            "11. With the help of integrated circuits, computers become more reliable and fast, require ____, are small in size and generate less heat.",
+            "12. In this generation, punch cards were ____ by the mouse and keyboard.",
+            "13. In fourth-generation computers, integrated circuits were greatly ____ in size.",
+            "14. Fifth-generation computers, also known as modern computers, are still in the development stage and are based on ____ intelligence.",
+            "15. Computers of this generation are based on microelectronic technology with high computing power and ____ processing."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Translate these sentences into English:",
+          "body": [
+            "Счеты использовали для выполнения простых математических действий.",
+            "Чарльз Бэббидж считается основоположником компьютеров.",
+            "Первое поколение компьютеров использовало электронные лампы.",
+            "Во втором поколении компьютеров транзисторы заменили электронные лампы.",
+            "Энергопотребление заметно снизилось.",
+            "Третье поколение компьютеров начало использовать интегральные схемы вместо транзисторов.",
+            "Интегральные схемы состоят из полупроводникового материала, содержащего тысячи крошечных транзисторов.",
+            "Четвертое поколение компьютеров использовало микропроцессоры, содержащие тысячи интегральных схем, собранных на одном кремниевом чипе.",
+            "Пятое поколение компьютеров считается современным поколением компьютеров и использует искусственный интеллект и параллельную обработку данных."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Счеты использовали для выполнения простых математических действий.",
+        "Чарльз Бэббидж считается основоположником компьютеров.",
+        "Первое поколение компьютеров использовало электронные лампы.",
+        "Во втором поколении компьютеров транзисторы заменили электронные лампы.",
+        "Энергопотребление заметно снизилось.",
+        "Третье поколение компьютеров начало использовать интегральные схемы вместо транзисторов.",
+        "Интегральные схемы состоят из полупроводникового материала, содержащего тысячи крошечных транзисторов.",
+        "Четвертое поколение компьютеров использовало микропроцессоры, содержащие тысячи интегральных схем, собранных на одном кремниевом чипе.",
+        "Пятое поколение компьютеров считается современным поколением компьютеров и использует искусственный интеллект и параллельную обработку данных."
+      ]
+    },
+    {
+      "id": 2,
+      "title_en": "Types of Computers",
+      "title_ru": "Типы компьютеров",
+      "vocab": [
+        {
+          "en": "mainframe",
+          "ru": "мейнфрейм"
+        },
+        {
+          "en": "touch screen",
+          "ru": "сенсорный экран"
+        },
+        {
+          "en": "laptop",
+          "ru": "ноутбук"
+        },
+        {
+          "en": "touchpad",
+          "ru": "сенсорная панель (тачпад)"
+        },
+        {
+          "en": "server",
+          "ru": "сервер"
+        },
+        {
+          "en": "tablet",
+          "ru": "планшет"
+        },
+        {
+          "en": "supercomputer",
+          "ru": "суперкомпьютер"
+        },
+        {
+          "en": "detached / physical keyboard",
+          "ru": "традиционная (физическая) клавиатура"
+        },
+        {
+          "en": "foldable keyboard",
+          "ru": "складная клавиатура"
+        },
+        {
+          "en": "virtual keyboard",
+          "ru": "виртуальная клавиатура"
+        },
+        {
+          "en": "desktop PC",
+          "ru": "стационарный компьютер"
+        },
+        {
+          "en": "battery pack",
+          "ru": "аккумуляторная батарея"
+        },
+        {
+          "en": "handheld, palmtop, portable device",
+          "ru": "портативное устройство"
+        },
+        {
+          "en": "wearable computer",
+          "ru": "носимый компьютер"
+        },
+        {
+          "en": "USB (Universal Serial Bus) port",
+          "ru": "USB-порт"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Types of Computers and their Use",
+          "paragraphs": [
+            "Nowadays computers are available in different shapes and sizes and have different processing capabilities. As a result, the computers are classified based on size and purpose, functionality, and data handling capabilities.",
+            "Servers are computers designed to provide services to other computers or users on a network. They play a crucial role in managing and distributing data, applications, and other resources across a network or the internet. Servers are used in a wide range of industries, including finance, healthcare, education, e-commerce, government, and information technology.",
+            "A mainframe computer is a powerful machine designed to perform considerable computational tasks like enormous volumes of data and handling multiple users simultaneously. The central system is a large server connected to hundreds of terminals over a network. Mainframe computers can have multiple processors with different operating systems and allow many programs to run at the same time. Mainframes are characterized by high processing speed, great memory capacity, and excellent reliability. Industries where mainframes are still used today include financial institutions, government agencies, airlines, telecommunications, manufacturing industries, etc.",
+            "A Supercomputer is a computer with a high level of performance compared to a general purpose computer. Unlike mainframes, people typically only use them for one, complex task. So, the performance of the supercomputer is higher compared to the mainframe as supercomputers can execute billions of operations per second, processing one single but most complex problem at once. Mainframes, in turn, process thousands of queries simultaneously. As a result, their performance is slower. They are designed to process a huge amount of data, sometimes trillions of instructions per second due to the thousands of interconnected processors in them. It is basically used in scientific and engineering applications such as weather forecasting, scientific simulations, and nuclear energy research, oil and gas exploration, quantum mechanics. It was first developed by Roger Cray in 1976.",
+            "A desktop PC is basically a general-purpose computer designed for individual use. It consists of a microprocessor as a central processing unit (CPU), memory, input unit, and output unit, a tower (system unit). This kind of computer is suitable for personal work such as creating a document, making a presentation, watching a movie, surfing the web or communicating with friends, etc.",
+            "A laptop computer is a portable personal computer that is small enough to rest on the user’s lap hence its name. It includes a flip down screen and a keyboard with a touchpad, processor, memory and hard drive all in a battery-operated package. They offer a lot of connectivity options: USB ports for connecting peripherals, slots for memory cards, etc. Users buy different types of laptops for different purposes – education, making reports, gaming, video editing and computational tasks as well.",
+            "A tablet is a wireless touchscreen PC that is slightly smaller and weighs less than the average laptop. It combines the best aspects of smartphones or laptops. However, they don’t include all the same hardware components as a full desktop computer or laptop. Tablets don't have the internal fans that PCs have. They also have less storage capacity than traditional PCs. Tablets are commonly used for reading books, watching films, taking photos, playing games and drawing with a stylus.",
+            "These devices play a vital role in our everyday life and are of great help. As technology continues to advance, computers will continue to play an essential role in our lives."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "How are computers classified?",
+            "What are servers designed for?",
+            "Why is a mainframe called a powerful machine?",
+            "How are mainframe computers characterized?",
+            "What are the principal differences between a supercomputer and a mainframe?",
+            "What makes supercomputers powerful?",
+            "What are basic components of a desktop PC?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "One of the advantages of desktop computers is that they can be placed at one location.",
+            "A server is a kind of normal workstation.",
+            "The biggest difference between mainframes and supercomputers is their size.",
+            "Touch input on a touch screen display is available on every computer nowadays.",
+            "A laptop is the only computer that uses a battery pack.",
+            "Supercomputers refer to general-purpose computers.",
+            "A smartphone is not a computer."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the term with the right definition",
+          "body": [
+            "mainframe, laptop, touch screen, workstation, tablet, desktop PC.",
+            "A large, powerful computer that many people can use at the same time.",
+            "A computer that is small enough to be carried around and used where you are sitting.",
+            "A screen on a computer, phone, etc. that you touch in order to give it instructions, rather than using a keyboard.",
+            "A computer and the area around it where you work in an office.",
+            "A small computer that you use by touching the screen.",
+            "A computer that is small enough to fit on a desk."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Fill in the gaps with a word chosen from the list below",
+          "body": [
+            "computer, browse, smartphone, replace, process, compatible, portable, edit, capabilities, hardware, peripherals",
+            "A computer is any device that can receive input, ____ programs, and store and display the output. A smartphone has the same basic ____ as a computer, but it is based on in-built ____, such as CPU, RAM, memory, storage, and software components, such as operating systems and applications. Therefore, it can do anything a ____ does, only in a more ____ way. Wherever you are, you can check your emails, ____ the net, write notes, play videos, ____ photos, etc., on your smartphone. In terms of functionality, a ____ has even more capabilities than a computer. It can function as a GPS, camera, compass, flashlight, modem, and, more than anything, a mobile telephone. However, most computers have stronger hardware than smartphones. Also, external hard drives and printers only work with computers and aren’t generally ____ with smartphones. Although smartphones are technically computers and are ever-increasing in power and ____, it doesn’t seem they’ll completely ____ PCs in many personal or professional settings in the near future."
+          ]
+        }
+      ],
+      "translation_sentences": []
+    },
+    {
+      "id": 3,
+      "title_en": "Computer Hardware",
+      "title_ru": "Компьютерное железо",
+      "vocab": [
+        {
+          "en": "clock speed",
+          "ru": "тактовая частота"
+        },
+        {
+          "en": "motherboard",
+          "ru": "материнская плата"
+        },
+        {
+          "en": "volatile",
+          "ru": "энергозависимый (ОЗУ)"
+        },
+        {
+          "en": "performance",
+          "ru": "производительность"
+        },
+        {
+          "en": "silicon",
+          "ru": "кремний"
+        },
+        {
+          "en": "bus",
+          "ru": "шина"
+        },
+        {
+          "en": "non-volatile",
+          "ru": "энергонезависимый"
+        },
+        {
+          "en": "flash drive (Memory Stick)",
+          "ru": "флешка"
+        },
+        {
+          "en": "HDD (hard disk drive)",
+          "ru": "жёсткий диск"
+        },
+        {
+          "en": "storage devices",
+          "ru": "устройства хранения"
+        },
+        {
+          "en": "floppy disk",
+          "ru": "дискета"
+        },
+        {
+          "en": "magnetic tape",
+          "ru": "магнитная лента"
+        },
+        {
+          "en": "register",
+          "ru": "регистр памяти"
+        },
+        {
+          "en": "circuit board",
+          "ru": "плата"
+        },
+        {
+          "en": "hardware",
+          "ru": "аппаратное обеспечение"
+        },
+        {
+          "en": "basic input/output system",
+          "ru": "базовая система ввода/вывода"
+        },
+        {
+          "en": "front side bus",
+          "ru": "системная шина (фронтальная)"
+        },
+        {
+          "en": "system clock",
+          "ru": "системный тактовый генератор"
+        },
+        {
+          "en": "main memory",
+          "ru": "внутренняя память; главная память; ОЗУ"
+        },
+        {
+          "en": "software",
+          "ru": "программное обеспечение"
+        },
+        {
+          "en": "peripherals",
+          "ru": "периферийное оборудование, внешние устройства"
+        },
+        {
+          "en": "central processing unit (CPU)",
+          "ru": "центральный процессор"
+        },
+        {
+          "en": "ROM (read-only memory)",
+          "ru": "постоянное запоминающее устройство (ПЗУ)"
+        },
+        {
+          "en": "RAM (random access memory)",
+          "ru": "оперативное запоминающее устройство (ОЗУ); оперативная память"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Computer hardware",
+          "paragraphs": [
+            "A computer is an electronic machine which can accept data in a certain form, process the data, and give the results of the processing in a specified format as information.",
+            "First, data is fed into the computer's memory. Then, when the program is run, the computer performs a set of instructions and processes the data. Finally, we can see the results (the output) on the screen or in printed form.",
+            "A computer system consists of two parts: hardware and software. Hardware is any electronic or mechanical part you can see or touch. Software is a set of instructions, called a program, which tells the computer what to do. There are three basic hardware sections: the central processing unit (CPU), main memory and peripherals.",
+            "The central processing unit (CPU) is built into a single chip which executes program instructions and coordinates the activities that take place within the computer system. The chip itself is a small piece of silicon with a complex electrical circuit called an integrated circuit.",
+            "The processor consists of three main parts:",
+            "The control unit examines the instructions in the user's program, interprets each instruction and causes the circuits and the rest of the components - monitor, disk drives, etc. — to execute the functions specified.",
+            "The arithmetic logic unit (ALU) performs mathematical calculations (+, -, etc.) and logical operations (AND, OR, NOT).",
+            "The registers are high-speed units of memory used to store and control data.",
+            "One of the registers (the program counter, or PC) keeps track of the next instruction to be performed in the main memory. The other (the instruction register, or IR) holds the instruction that is being executed.",
+            "The power and performance of a computer are partly determined by the speed of its processor. A system clock sends out signals at fixed intervals to measure and synchronize the flow of data. Clock speed is measured in gigahertz (GHz).",
+            "RAM and ROM",
+            "The main memory (a collection of RAM chips) holds the instructions and data which are being processed by the CPU. The programs and data which pass through the processor must be loaded into the main memory in order to be processed. Therefore, when the user runs a program, the CPU looks for it on the hard disk and transfers a copy into the RAM chips. RAM (random access memory) is volatile - that is, its information is lost when the computer is turned off. However, ROM (read-only memory) is non-volatile, containing instructions and routines for the basic operations of the CPU. The BIOS (basic input/output system) uses ROM to control communication with peripherals. RAM capacity can be expanded by adding extra chips.",
+            "Peripherals are the physical units attached to the computer. They include storage devices and input/output devices.",
+            "Storage devices (hard drives, DVD drives or flash drives) provide a permanent storage of both data and programs. Storage devices can be classified into three types: magnetic, optical and flash memory storage devices. Magnetic devices store data magnetically (floppy disk, internal or external hard disk drive HDD, magnetic tape).",
+            "Disk drives are used to read and write data on disks. Optical drives use a laser to read and write data, so they are not affected by magnetic fields (CD, DVD, Blu-ray disc, HD-DVD). Flash memory is solid-state, rewritable memory; it is non-volatile, so it retains data when the power is turned off (flash memory cards and flash drives (USB sticks). Input devices enable data to go into the computer's memory. The most common input devices are the mouse and the keyboard. Output devices enable us to extract the finished product from the system. For example, the computer shows the output on the monitor or prints the results onto paper by means of a printer.",
+            "Buses and cards",
+            "The main circuit board inside your system is called the motherboard and contains the processor, the memory chips, expansion slots, and controllers for peripherals, connected by buses - electrical channels which allow devices inside the computer to communicate with each other. For example, the front side bus carries all data that passes from the CPU to other devices. The size of a bus, called bus width, determines how much data can be transmitted."
+          ]
+        },
+        {
+          "letter": "B",
+          "title": "Multicore processors",
+          "paragraphs": [
+            "A multicore processor is a single computing component with two or more independent actual processing units, called cores. The heart of every processor is an execution engine, also known as a core. The core is designed to process instructions and data according to the direction of software programs in the computer's memory. Over the years, designers found that every new processor design had limits. A multicore processor is an integrated circuit that has two or more processor cores attached for enhanced performance and reduced power consumption. These processors also enable more efficient simultaneous processing of multiple tasks, such as with parallel processing and multithreading.",
+            "Multicore processors work on any modern computer hardware platform. Virtually all PCs and laptops today build in some multicore processor model. However, the true power and benefit of these processors depend on software applications designed to emphasize parallelism and increase clock speeds."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read the text and answer the questions below",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is a computer?",
+            "What is hardware? Give a definition.",
+            "What is software? Give a definition.",
+            "How can software be classified?",
+            "What are peripherals? What parts do peripherals consist of?",
+            "What types of storage devices can you name according to how the data is written or read?",
+            "What magnetic, optical and flash memory storage devices can you name?",
+            "What are the three parts of the CPU? What is the function of the CPU?",
+            "What registers are mentioned in the text? What are their functions?",
+            "What is the role of the processor's system clock?",
+            "How do you decipher RAM and ROM? Which is volatile and why?",
+            "What is the role of a bus inside the computer system?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Match the terms with their definitions below:",
+          "body": [
+            "1) | software | a) | small piece of silicon with a complex electrical circuit",
+            "2) | peripherals | b) | examines the instructions from memory and executes / them",
+            "3) | hardware | c) | programs which can be used on a particular computer / system",
+            "4) | clock speed | d) | perform mathematical and logical operations",
+            "5) | bus | e) | carry electronic signals",
+            "6) | RAM capacity | f) | can be expanded by adding extra chips",
+            "7) | ALU | g) | a piece of equipment that is connected to a computer",
+            "8) | control unit | h) | physical components of a computer system",
+            "9) | chip | i) | determines how quickly the CPU can execute basic / instructions and is used to synchronize the activities of various components in the system"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Using the diagram, talk about the computer hardware",
+          "body": [
+            "Figure 3.1. Computer hardware",
+            "Software: system software, application software.",
+            "Hardware: CPU (control unit, ALU, registers), main memory (RAM, ROM), peripherals (input devices, output devices, storage devices: magnetic, optical, flash memory)."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Read the text and fill in the gaps with the following words",
+          "body": [
+            "TEXT B. Multicore processors",
+            "core / process instructions / limits / integrated circuit / multithreading / work on / PCs and laptops / applications / clock speeds / increase",
+            "The heart of every processor is an execution engine, also known as a (1) ____. The core is designed to (2) ____ and data according to the direction of software programs in the computer's memory. Over the years, designers found that every new processor design had (3) ____. A multicore processor is an (4) ____ that has two or more processor cores attached for enhanced performance and reduced power consumption. These processors also enable more efficient simultaneous processing of multiple tasks, such as with parallel processing and (5) ____. Multicore processors (6) ____ any modern computer hardware platform. Virtually all (7) ____ today build in some multicore processor model. However, the true power and benefit of these processors depend on software (8) ____ designed to emphasize parallelism and (9) ____ (10) ____."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Translate into English",
+          "body": [
+            "Главная память, подключаемые устройства и центральный процессор составляют аппаратное обеспечение компьютера.",
+            "Центральный процессор состоит из блока управления, арифметико-логического устройства и регистров.",
+            "Регистр инструкции хранит выполняемые в данный момент инструкции, в то время как программный счетчик отслеживает следующую команду, подлежащую обработке в оперативной памяти.",
+            "Основная память содержит инструкции, которые обрабатываются центральным процессором.",
+            "Носители информации могут быть классифицированы по способу хранения информации: оптические, магнитные и полупроводниковые.",
+            "Все вторичные устройства хранения являются энергонезависимыми, что значит, что данные сохраняются даже при выключенном компьютере."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Главная память, подключаемые устройства и центральный процессор составляют аппаратное обеспечение компьютера.",
+        "Центральный процессор состоит из блока управления, арифметико-логического устройства и регистров.",
+        "Регистр инструкции хранит выполняемые в данный момент инструкции, в то время как программный счетчик отслеживает следующую команду, подлежащую обработке в оперативной памяти.",
+        "Основная память содержит инструкции, которые обрабатываются центральным процессором.",
+        "Носители информации могут быть классифицированы по способу хранения информации: оптические, магнитные и полупроводниковые.",
+        "Все вторичные устройства хранения являются энергонезависимыми, что значит, что данные сохраняются даже при выключенном компьютере."
+      ]
+    },
+    {
+      "id": 4,
+      "title_en": "Primary Storage",
+      "title_ru": "Первичная память",
+      "vocab": [
+        {
+          "en": "access",
+          "ru": "доступ"
+        },
+        {
+          "en": "cache hit",
+          "ru": "попадание в кэш"
+        },
+        {
+          "en": "capacitor",
+          "ru": "конденсатор"
+        },
+        {
+          "en": "volatile",
+          "ru": "энергозависимый"
+        },
+        {
+          "en": "original data",
+          "ru": "исходные данные"
+        },
+        {
+          "en": "line size",
+          "ru": "размер/длина строки"
+        },
+        {
+          "en": "non-volatile",
+          "ru": "энергонезависимый"
+        },
+        {
+          "en": "modified",
+          "ru": "измененный"
+        },
+        {
+          "en": "primary storage",
+          "ru": "основное запоминающее устройство"
+        },
+        {
+          "en": "semiconductor technology",
+          "ru": "полупроводниковая технология"
+        },
+        {
+          "en": "internal storage device",
+          "ru": "внутреннее устройство хранения"
+        },
+        {
+          "en": "consistent data",
+          "ru": "согласованные данные"
+        },
+        {
+          "en": "delay / latency",
+          "ru": "задержка (сигнала)"
+        },
+        {
+          "en": "cache controller",
+          "ru": "контроллер кэш-памяти"
+        },
+        {
+          "en": "erasable",
+          "ru": "перезаписываемый, допускающий стирание"
+        },
+        {
+          "en": "cache memory",
+          "ru": "кэш, быстродействующая буферная память"
+        },
+        {
+          "en": "write-back cache",
+          "ru": "кэш с обратной записью; кэш с последующей выгрузкой изменённых блоков в основную память"
+        },
+        {
+          "en": "write-through cache",
+          "ru": "кэш со сквозной записью; кэш с одновременной записью в основную память"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Primary storage",
+          "paragraphs": [
+            "Data storage is one of the fundamental functions performed by a computer system. A computer stores data using various technologies, which creates different levels of data storage. Storage media are commonly classified into primary and secondary.",
+            "The term primary storage is used to describe internal storage devices, which can be directly accessed by the CPU with minimum or no delay. Primary storage is often referred to as primary memory and can be either volatile – RAM (Random Access Memory) and cache memory or non-volatile – ROM (Read Only Memory).",
+            "A read-only memory chip is an integrated circuit which houses the instructions required to start the work of a computer. BIOS software is stored on a non-volatile ROM chip. The data in ROM can only be read by the CPU; it cannot be modified. The CPU cannot directly access ROM: the data must first be transferred to RAM, and then the CPU can access it from RAM. ROM is often used to store the BIOS program on a computer motherboard. ROM was used as a storage medium in Nintendo, Game Boy, and Sega Genesis game cartridges. ROM chips store several megabytes (MB) of data, usually 4 to 8 MB per chip. They can vary in size from less than an inch to multiple inches in length and width, depending on their use. ROM can be classified into MROM, PROM, EPROM and EEPROM:",
+            "MROM (Masked read-only memory) is as old as semiconductor technology. This type of ROM data is physically encoded in the circuit and can only be programmed during fabrication.",
+            "PROM (Programmable ROM) can be modified only once by the user.",
+            "EPROM (Erasable and Programmable ROM) can be erased using ultraviolet rays and then reprogrammed.",
+            "EEPROM (Electrically Erasable and Programmable ROM) can be erased electrically and reprogrammed about ten thousand times.",
+            "FLASH ROM has modern designs with very high endurance; flash memory can be erased and rewritten more quickly than conventional EEPROM (exceeding 1,000,000 cycles).",
+            "RAM stores the data which is currently being processed by the CPU. The data that is easily modifiable is generally stored in RAM. RAM is of two types: Static Random Access Memory (SRAM) and Dynamic Random Access Memory (DRAM). SRAM stores data in transistors and requires a constant power flow. Because of the continuous power, SRAM doesn’t need to be refreshed to remember the data being stored. SRAM is called static as no change or action (i.e. refreshing) is needed to keep the data intact. It is used in cache memories.",
+            "Dynamic random access memory (DRAM)",
+            "DRAM is relatively less expensive RAM due to the use of one transistor and one capacitor in each cell. Data is stored in capacitors. Capacitors that store data in DRAM gradually discharge energy; no energy means the data has been lost. So, a periodic refresh of power is required in order for it to function. It is used to implement main memory. This memory is slower than SRAM.",
+            "Most PCs are held back not by the speed of the CPU, but by the time it takes to move data in and out of the memory. One of the most important techniques for getting around this bottleneck is the CPU cache. The cache is a smaller and fast memory component in the computer which is inserted between the CPU and the main memory.",
+            "To make this arrangement effective, the cache needs to be much faster than the main memory. This approach is more economical than the use of fast memory devices to implement the entire main memory. Cache is a storage device found on the CPU chip itself. It carries copies of original data that has been accessed recently and therefore increases the speed at which data is accessed. When the processor needs to read or write a location in the main memory, it first checks for a corresponding entry in the cache. If the processor finds that the memory location is in the cache, a cache hit has occurred and data is read from the cache.",
+            "Only if the data is not in the cache does it need to access main memory, but it copies in the process whatever it finds into the cache so that it is there ready for the next time it is needed. The whole process is controlled by a group of logic circuits called the cache controller.",
+            "It is important to ensure that the cache and main memory contain consistent data. Two different techniques can be used to achieve this. In the write-through mode, data is simultaneously updated in cache and main memory. This method is simpler and safer for data coherency. However, the write-through process is quite slow since modifications have to be written in both the cache and main memory. The main alternative is the write-back mode, which allows the processor to write changes only to the cache first. The main memory is not updated until the cache block needs to be replaced. Cache entries that have been changed are flagged as ‘dirty’ telling the cache controller to write their contents back to the main memory before using the space to cache new data. A write-back cache speeds up the write process but requires a more advanced cache controller. Most cache controllers move a ‘line’ of data rather than just a single item each time they need to transfer data between main memory and the cache, thus increasing the chance of a cache hit. The amount of data transferred each time is known as the ‘line size’.",
+            "Figure 4.1. Cache memory"
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A into Russian",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the questions",
+          "body": [
+            "How can data be erased from EPROM?",
+            "What does EEPROM stand for?",
+            "What makes Flash ROM more advanced?",
+            "What is the main function of the CPU cache?",
+            "What is the difference between write-through cache and write-back cache?",
+            "What is the fastest memory in the computer system?",
+            "Which memory is more expensive and takes up more space, DRAM or SRAM?",
+            "What examples of computer storage devices can you remember?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Find in the text above English equivalents to the following words:",
+          "body": [
+            "1) интегральная схема | 6) стирать",
+            "2) полупроводниковая технология | 7) согласованные данные",
+            "3) обновлять | 8) размер строки",
+            "4) попадание в кэш | 9) получить доступ",
+            "5) передавать данные | 10) исходные данные"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Fill in the gaps in the text below with the correct word in italics. Then read the text and translate it into Russian",
+          "body": [
+            "Types of Memory",
+            "perform / memory / currently / boot / faster / order / read",
+            "Memory is the most essential element of a computing system because without it a computer can’t (1) ____ simple tasks. Both types of (2) ____ (RAM and ROM) are important for the computer, but they serve different purposes. RAM is used to store data that the computer is (3) ____ using, while ROM is used to store data that the computer needs to (4) ____ and operate. RAM is (5) ____ than ROM, as the data stored in it can be accessed and modified in any (6) ____, while data stored in ROM can only be (7) ____."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Complete the blanks with the correct prepositions",
+          "body": [
+            "by / to / in / off / without / to / for / into",
+            "1. Static RAM is constantly refreshed ____ electricity to store data.",
+            "2. RAM is a type of computer memory that is used ____ temporarily store data that the computer is currently using or processing.",
+            "3. RAM is volatile memory, which means that the data stored ____ it is lost when the power is turned ____.",
+            "4. The computer cannot run ____ the CPU cache.",
+            "5. ROM is typically used ____ store the computer’s BIOS, which contains the instructions ____ booting the computer, as well as firmware for other hardware devices.",
+            "6. ROM is further classified ____ four types: MROM, PROM, EPROM, and EEPROM."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Translate the following sentences from Russian into English",
+          "body": [
+            "Первичная память может быть энергонезависимой и энергозависимой.",
+            "Оперативная память делится на статическую и динамическую.",
+            "Ячейки динамической оперативной памяти состоят из транзистора и конденсатора.",
+            "Статическая оперативная память представляет собой схему на основе триггеров.",
+            "Программное обеспечение базовой системы ввода/вывода хранится в постоянном запоминающем устройстве.",
+            "Скорость центрального процессора равна скорости кэша первого уровня.",
+            "Есть два типа записи в кэш: сквозная запись и обратная запись.",
+            "Кэш относится к статической оперативной памяти.",
+            "Важно убедиться, что кэш и оперативная память содержат согласованные данные."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Первичная память может быть энергонезависимой и энергозависимой.",
+        "Оперативная память делится на статическую и динамическую.",
+        "Ячейки динамической оперативной памяти состоят из транзистора и конденсатора.",
+        "Статическая оперативная память представляет собой схему на основе триггеров.",
+        "Программное обеспечение базовой системы ввода/вывода хранится в постоянном запоминающем устройстве.",
+        "Скорость центрального процессора равна скорости кэша первого уровня.",
+        "Есть два типа записи в кэш: сквозная запись и обратная запись.",
+        "Кэш относится к статической оперативной памяти.",
+        "Важно убедиться, что кэш и оперативная память содержат согласованные данные."
+      ]
+    },
+    {
+      "id": 5,
+      "title_en": "Secondary Storage",
+      "title_ru": "Вторичная память",
+      "vocab": [
+        {
+          "en": "track",
+          "ru": "дорожка"
+        },
+        {
+          "en": "fragile",
+          "ru": "хрупкий"
+        },
+        {
+          "en": "pit",
+          "ru": "пит (ячейка памяти)"
+        },
+        {
+          "en": "floppy disk",
+          "ru": "дискета"
+        },
+        {
+          "en": "laser beam",
+          "ru": "лазерный луч"
+        },
+        {
+          "en": "partition",
+          "ru": "раздел на жёстком диске"
+        },
+        {
+          "en": "flash drive",
+          "ru": "флэш-накопитель"
+        },
+        {
+          "en": "memory capacity",
+          "ru": "объём памяти"
+        },
+        {
+          "en": "seek time",
+          "ru": "время поиска"
+        },
+        {
+          "en": "CD (Compact Disc)",
+          "ru": "CD-диск"
+        },
+        {
+          "en": "transfer rate",
+          "ru": "скорость передачи"
+        },
+        {
+          "en": "DVD (Digital Video Disc)",
+          "ru": "DVD-диск"
+        },
+        {
+          "en": "flash controller",
+          "ru": "контроллер флэш-памяти"
+        },
+        {
+          "en": "read-write head",
+          "ru": "головка чтения-записи"
+        },
+        {
+          "en": "solid-state drive (SSD)",
+          "ru": "твердотельный накопитель"
+        },
+        {
+          "en": "integrated circuit",
+          "ru": "интегральная схема"
+        },
+        {
+          "en": "hard disk drive (HDD)",
+          "ru": "жёсткий диск"
+        },
+        {
+          "en": "Blu-ray disc",
+          "ru": "диск Blu-ray"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Secondary Storage",
+          "paragraphs": [
+            "Secondary storage devices are one of the solutions to keep data on the long-term basis. Secondary storage media are always non-volatile, considerably slow but offer greater storage capacity. Common examples of secondary storage devices are magnetic, optical devices and flash memory.",
+            "Magnetic storage devices store data by magnetizing particles on a disk or tape. It is covered with a magnetic coating and stores data in the form of tracks, spots and sectors. Hard disk drives and floppy disks are common examples of magnetic devices. A hard drive contains one or more platters housed inside an air-sealed casing. Data is written to the platters using a magnetic head, which moves rapidly over them as they spin. When data is recorded on an HDD, it is converted from the digital form into the analogue form. Magnetized tiny area of the plate denotes a binary one; whereas, the demagnetized tiny area denotes a binary zero. The average time required for the read/write heads to move and find data is called seek time (or access time) and it is measured in milliseconds (ms); most hard drives have a seek time of 7 to 14 ms. While transfer rate means the average speed required to transmit data from the disk to the CPU, measured in megabytes per sec.",
+            "Traditionally, hard drives offer greater capacity and a lower price, but the situation is changing rapidly as solid state drives are replacing hard drives in laptops and desktop PCs. A solid-state drive (SSD) is a type of non-volatile storage media that uses integrated circuit assemblies to store data persistently. Two key components make up an SSD: a flash controller and flash memory chips. Whereas a spinning HDD reads and writes data magnetically, an SSD reads and writes the data to interconnected flash memory chips, which are fabricated out of silicon. Unlike a hard disk drive (HDD), an SSD has no moving parts and it is not so sensitive to shocks and vibrations.",
+            "Optical storage devices allow all read and write activities which are performed by laser beam. An optical disc is a flat disc that stores data in the form of pits. CDs, DVDs and Blue-ray discs are considered standards in today's optical storage market. One of the biggest advantages of optical storage over other storage media is durability. Among disadvantages of optical storage one can name its speed and capacity.",
+            "Secondary storage plays a significant role in computer architecture for multiple reasons. There are many kinds of secondary storage, each with advantages and disadvantages. An emerging cloud computing is a remote server for data storage and backup that needs the Internet connection. It is up to you what to choose."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "How can you explain the term “secondary storage”?",
+            "Which devices are secondary storage media?",
+            "How is data stored on magnetic storage devices?",
+            "What do magnetized and demagnetized areas denote on a disc?",
+            "Why is HDD being replaced by SSD in modern computers?",
+            "What components do SSDs consist of?",
+            "What is the difference between seek time and transfer rate?",
+            "What are the main formats of optical storage devices?",
+            "What are pros and cons of optical storage media?",
+            "What disadvantages of an HDD can you name?",
+            "Which secondary storage doesn’t refer to hardware and is stored on remote servers?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Choose sentences that correspond to the text",
+          "body": [
+            "Magnetic storage devices store data by magnetizing particles on a disk or tape.",
+            "A magnetized tiny area of the plate denotes a binary one.",
+            "Secondary storage devices come in various forms, including hard disk drives (HDDs), solid-state drives (SSDs), optical discs, USB flash drives, and magnetic tape.",
+            "SSD is an example of a primary storage device.",
+            "Hard drives are very resistant to vibration, especially when they are operating.",
+            "Optical storage devices offer less capacity than magnetic ones.",
+            "CDs, DVDs and Blu-ray discs are commonly used optical storage devices in today's market."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the term with the right definition",
+          "body": [
+            "SSD, USB Flash Drive, HDD, Optical Discs, flash drive, floppy disc.",
+            "A traditional storage device that uses spinning magnetic disks to store and access data.",
+            "A small, portable storage device that also uses flash memory and is typically connected to a computer via a USB port.",
+            "A storage device that uses flash memory and has no moving parts, resulting in faster data access and greater reliability than HDDs.",
+            "A storage medium that uses laser technology to read and write data on plastic discs, often used for multimedia files or software distribution.",
+            "It is a thin, flexible magnetic disk encased in a plastic cover.",
+            "A small piece of equipment that you connect to a computer or other piece of electronic equipment to copy and store information."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Fill in the gaps with a word chosen from the list below",
+          "body": [
+            "USB port, USB drive, flash drives, DVDs, transfer rate, circuit board, durability, flash memory, capacities, compatibility",
+            "A flash drive, also known as a ____, pen drive, or thumb drive, is a small storage device that uses ____ to store data. ____ connect to computers and other devices via a ____. They provide a convenient way to store, back up, and transfer files between devices. Flash drives come in a range of storage ____, from a few gigabytes up to multiple terabytes. The small size and ____ make them convenient for transporting and sharing data. Compared to older data storage formats like CDs, ____, and external hard drives, flash drives have many benefits. They are lightweight, portable, reusable, and rewritable. They have high data ____ for quick saving and accessing of files and wide ____ with computers, phones, tablets, TVs, and game consoles. The key components found inside a typical flash drive are a USB connector, a ____, NAND flash memory chips, and a casing."
+          ]
+        }
+      ],
+      "translation_sentences": []
+    },
+    {
+      "id": 6,
+      "title_en": "Software",
+      "title_ru": "Программное обеспечение",
+      "vocab": [
+        {
+          "en": "source code",
+          "ru": "исходный код"
+        },
+        {
+          "en": "firmware",
+          "ru": "прошивка"
+        },
+        {
+          "en": "word processor",
+          "ru": "текстовый редактор"
+        },
+        {
+          "en": "spreadsheets",
+          "ru": "электронные таблицы"
+        },
+        {
+          "en": "Command Line Interface (CLI)",
+          "ru": "интерфейс командной строки"
+        },
+        {
+          "en": "open-source software",
+          "ru": "ПО с открытым исходным кодом"
+        },
+        {
+          "en": "preemptive multitasking",
+          "ru": "вытесняющая многозадачность"
+        },
+        {
+          "en": "device driver",
+          "ru": "драйвер устройства"
+        },
+        {
+          "en": "WIMP (Windows, Icons, Menus, Pointer)",
+          "ru": "окна, иконки, меню, указатель"
+        },
+        {
+          "en": "timesharing operating systems",
+          "ru": "операционная система с разделением времени"
+        },
+        {
+          "en": "proprietary software",
+          "ru": "закрытое (проприетарное) программное обеспечение"
+        },
+        {
+          "en": "single-user OS",
+          "ru": "однопользовательская операционная система"
+        },
+        {
+          "en": "cooperative multitasking",
+          "ru": "кооперативная многозадачность; совместная многозадачность"
+        },
+        {
+          "en": "Graphical User Interface (GUI)",
+          "ru": "графический пользовательский интерфейс"
+        },
+        {
+          "en": "multi-user OS",
+          "ru": "многопользовательская операционная система"
+        },
+        {
+          "en": "real-time operating system",
+          "ru": "операционная система реального времени"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Software",
+          "paragraphs": [
+            "Software is a set of instructions, rules or programs used to operate a computer system and instruct the system to carry out specific tasks. Software can be classified into two main categories: system software and application software. Some common system software examples include: operating systems, firmware, device drivers.",
+            "The most common types of application software are word processors which are used to create documents as well as edit, format and output text (e.g. MS Word, Google Docs), database software which helps in creating and managing databases (e.g. Oracle, MySQL), web Browsers which are mainly used for surfing the Internet to help the user find specific web addresses or retrieve data across the web (e.g. Google Chrome, Internet Explorer), spreadsheets which are used for data organization, analysis and storage in tabular form (e.g. Excel).",
+            "Let’s focus on an operating system which acts as an intermediary between application programs and computer hardware. An operating system has three main functions: manage the computer’s resources, such as the central processing unit, disk drives, establish a computer interface and execute and provide services for application software.",
+            "OS can be single-tasking systems that can run only one program at a time, while a multi-tasking operating system allows more than one program to start simultaneously. Multi-tasking operating systems are also known as time-sharing systems since the available processor time is divided between multiple processes. Multitasking may be characterized in preemptive and cooperative types. In preemptive multi-tasking, the operating system shares the processor time and allocates a slot for each program. In cooperative multitasking, the operating system never initiates the switching between processes to share the CPU computing resources.",
+            "In a single-user operating system, only one user can have access to the computer system at a time. Single-user operating systems can be classified into 2 types: single-user single-tasking operating systems and single-user multi-tasking operating systems. A single-user single-tasking OS, as its name suggests, allows a single user to do only one task at a time. In a single-user multi-tasking OS, a single user can perform multiple tasks simultaneously.",
+            "The desktop operating systems are designed to manage a personal computer. The purpose of a mobile OS is to provide environment for application software to run on mobile devices.",
+            "An open-source operating system means that a source code is visible publically and editable. In proprietary software, the source code is protected and the vendor controls software updates and users can’t add features to proprietary software themselves.",
+            "Every operating system requires a user interface enabling users to interact with the OS in order to set up the operating system and its hardware. There are two primary types of user interface available: CLI and GUI. Applying Command Line Interface (CLI) means that the user runs a program by typing a command. Other operating systems have the GUI (Graphical User Interface) that allows the user to use a mouse to click on icons on the screen or choose commands from a list of choices known as a menu. The distinct feature of a GUI is the use of WIMP environment: windows, icons, menus and pointer."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is software?",
+            "How is software classified?",
+            "What application programs are commonly used? Give examples.",
+            "What is an operating system?",
+            "What are the main OS functions?",
+            "How do single-tasking and multitasking operating systems work?",
+            "How does a cooperative operating system differ from a preemptive operating system?",
+            "What operating system allows a user to make changes?",
+            "What are the differences between CLI and GUI?",
+            "What is the distinct feature of GUI? What does WIMP stand for?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct",
+          "body": [
+            "An operating system is a base on which all the other applications of the system run.",
+            "A single-user operating system is designed to support a single device at a time.",
+            "Spreadsheets are commonly used for database management.",
+            "In preemptive multitasking the computing time is divided between processes as the operating system allocates a time slice for each process.",
+            "Common desktop operating systems include Apple iOS and Google Android.",
+            "Users can interact directly with the operating system through a command-line interface (CLI).",
+            "CLI uses a WIMP environment to run different programs."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Read the description of operating systems, guess them and say to what type of OS they refer to",
+          "body": [
+            "It is a most powerful operating system that was developed in the late 1960s. It is called for its security, stability, and scalability. It provides a command-line interface and supports multitasking and multi-user capabilities.",
+            "It is a command-line-based operating system that was developed by Microsoft in the early 1980s. It was a fundamental platform for IBM-compatible personal computers during that time.",
+            "It offers the user-friendly graphical interface and multitasking capabilities. This OS can support numerous devices, from desktops to laptops, tablets, and smartphones. It provides a way to store files, run software, play games, watch videos, and connect to the Internet.",
+            "It was developed by Google in 2008 and today is also getting more popular in mobile application. It has become the most usable platform for smartphones, tablets, and other devices. Its open-source nature has led to extensive customization options and widespread adoption by device manufacturers worldwide.",
+            "It is an open-source operating system embedded on the GNU tools. These tools give the user a way to manage the resources provided by the kernel, install additional software. It combines the robustness of UNIX with the principles of free software."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Match the term with the right definition",
+          "body": [
+            "CLI, device driver, proprietary, firmware, source code, spreadsheet.",
+            "A permanent software or set of instructions stored in ROM of the computer system.",
+            "A type of software that controls specific hardware of the computer system.",
+            "It is a powerful tool that runs with the help of commands.",
+            "A type of software that is owned and legally controlled by a particular company.",
+            "A piece of computer software used for showing rows and columns of numbers or other data, and for doing calculations with this data.",
+            "It is a set of computer instructions that have been written in order to create a program or piece of software."
+          ]
+        }
+      ],
+      "translation_sentences": []
+    },
+    {
+      "id": 7,
+      "title_en": "Networks",
+      "title_ru": "Компьютерные сети",
+      "vocab": [
+        {
+          "en": "modem",
+          "ru": "модем"
+        },
+        {
+          "en": "node",
+          "ru": "узел"
+        },
+        {
+          "en": "topology",
+          "ru": "топология"
+        },
+        {
+          "en": "router",
+          "ru": "маршрутизатор"
+        },
+        {
+          "en": "gateway",
+          "ru": "шлюз, межсетевой шлюз"
+        },
+        {
+          "en": "bridge",
+          "ru": "мост"
+        },
+        {
+          "en": "ring topology",
+          "ru": "кольцевая топология"
+        },
+        {
+          "en": "star topology",
+          "ru": "топология звезда"
+        },
+        {
+          "en": "peer-to-peer",
+          "ru": "одноранговая сеть"
+        },
+        {
+          "en": "switch",
+          "ru": "переключатель"
+        },
+        {
+          "en": "bandwidth",
+          "ru": "пропускная способность"
+        },
+        {
+          "en": "data link layer",
+          "ru": "канальный уровень"
+        },
+        {
+          "en": "hub",
+          "ru": "концентратор или повторитель"
+        },
+        {
+          "en": "bus topology",
+          "ru": "топология общая шина"
+        },
+        {
+          "en": "backbone",
+          "ru": "магистральный кабель, магистраль"
+        },
+        {
+          "en": "mesh topology",
+          "ru": "топология сетки, ячеистая топология"
+        },
+        {
+          "en": "OSI model",
+          "ru": "модель взаимодействия открытых систем"
+        },
+        {
+          "en": "fiber-optic cable",
+          "ru": "оптоволоконный кабель"
+        },
+        {
+          "en": "twisted-pair cable",
+          "ru": "витая пара"
+        },
+        {
+          "en": "tree topology",
+          "ru": "древовидная топология, топология типа «дерево»"
+        },
+        {
+          "en": "application layer",
+          "ru": "прикладной уровень"
+        },
+        {
+          "en": "presentation layer",
+          "ru": "уровень представления, представительный уровень"
+        },
+        {
+          "en": "session layer",
+          "ru": "сеансовый уровень"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Networks: types, topologies, hardware network components",
+          "paragraphs": [
+            "A network is a collection of computers, servers and network devices connected to one another to allow the sharing of data. Networks can be classified according to different criteria.",
+            "Based on geographical area networks can be classified into three categories. LANs (Local Area Networks) cover a small geographical area such as an office, a home, a building, or a group of buildings. MANs (Metropolitan Area Networks) span an entire city. WANs (Wide Area Networks) cover a country or a continent. The largest WAN in existence is the Internet, which connects millions of people all over the world.",
+            "Following network architecture two types, peer-to-peer and client-server architecture, are considered. In a client-server network, one computer acts as a server. It stores and distributes data to the other nodes, or clients. In a peer-to-peer network, all the computers have the same capabilities - that is, share files and peripherals without requiring a separate server computer.",
+            "A network topology is a configuration of the elements of a network. Typical network configurations include 6 topologies.",
+            "Star network: all nodes are connected to a special central node.",
+            "Bus network: all nodes are connected to a single cable that acts as the backbone of the entire network.",
+            "Ring topology: each device/node is connected with its neighboring node forming the shape of a ring, hence its name.",
+            "Tree topology: all the computers are connected like the branches of a tree. In computer networking, tree topology is known as a combination of a bus and star network topologies.",
+            "Mesh topology: a network topology in which the infrastructure nodes connect directly to as many other nodes as possible.",
+            "Hybrid topology: this type includes a mix of bus topology, mesh topology, ring topology, star topology, and tree topology. The combination of topologies depends on the need of a company.",
+            "On basis of physical medium there are two types of networks. In wired LAN, two or more personal computers are connected through such communication media as coaxial or twisted-pair cables. High-speed fiber optic cables are usually used to send data over longer distances. Wireless networks, on the other hand, use electromagnetic waves, such as radio waves, to transmit data.",
+            "In computer networks, we have multiple networking devices such as modems, routers, hubs, switches, bridges, gateways, etc. Each device has its own specification and is used for a particular purpose.",
+            "Computer networks are one of the important aspects of Computer Science. In the early days, they were used for data transmission on telephone lines and had a very limited use, but nowadays, the integration of computers and other different devices allows users to communicate more easily."
+          ]
+        },
+        {
+          "letter": "B",
+          "title": "The OSI model",
+          "paragraphs": [
+            "OSI (Open System Interconnection) adopted in 1984 by International Organization for Standardization is a reference model that gives an idea of how data is transmitted over networks. It is used by IT networking professionals as a guideline to describe how traffic moves from one part of the network to another and for troubleshooting if a network problem occurs. The OSI model consists of seven layers and at each layer there is a set of protocols, which may be very different depending on the kind of traffic going over a network.",
+            "The application layer is implemented by network applications and seen to the user who can perform activities, like sending emails, transferring files, surfing the web. FTP, HTTP or HTTPS protocols are chosen accordingly.",
+            "The presentation layer ensures that data is in usable format and is where data encryption and decryption occur.",
+            "The session layer maintains connections and is responsible for controlling ports and sessions. After all the data is transferred, it closes sessions. If the session is interrupted, devices can resume the data transfer from the last checkpoint.",
+            "The transport layer is responsible for transferring data using protocols like TCP and UDP, providing error-checking mechanisms and data flow control. It breaks the data into segments, creates checksum tests, provides the confirmation of the successful data transmission and re-transmits the data if an error is found. The segments received from the transport layer are further processed to form packets.",
+            "The network layer uses logical addresses (Internet Protocol addresses) to route data to a destination node. IP addresses of the receiving and sending computers are added at this layer.",
+            "The data link layer manages data transfer between two devices on the same network, defines the format of data on the network. The packets received from the network layer are further divided into frames and transmitted to the appropriate host using its MAC address.",
+            "The physical layer is responsible for transmitting raw bits of data from one node to the other over physical cable or wireless connection.",
+            "So, in order to accomplish a successful communication between computers, data must travel down the seven layers in the source computer and then go up through the layers in the receiving computer.",
+            "Figure 7.1. OSI model",
+            "In computer networks, we have multiple networking devices such as modems, routers, hubs, switches, bridges, gateways, etc. Let’s have a look at each of them.",
+            "A modem performs the function of a border device and makes it possible for a computer to transmit data via cable connections or wirelessly. Previously, modems were used to convert digital data into analog signals that could be transmitted over a phone (modulated). At the same time, they converted the analog signals back into digital data on the receiving end (demodulated). So the role of the modem is to modulate a signal of your ISP (i.e., a higher frequency signal) into a signal your local devices can use and vice versa.",
+            "A router is a device that connects two or more packet-switched networks. It serves two primary functions: managing traffic between these networks by forwarding data packets to their intended IP addresses and allowing multiple devices to use the same Internet connection. Routers operate at OSI Layer 3.",
+            "A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it without restriction. Network hubs are categorized as Layer 1 devices in the OSI model.",
+            "A network switch is identical to a network hub, but a switch is more intelligent than a hub. A network switch inspects packets, determines source and destination address and routes them accordingly. It operates at Layer 2 of the OSI model.",
+            "A bridge is a networking device whose purpose is to divide a network into manageable sections having the same protocol. A network bridge unites these segments enabling each section to have separate bandwidth and, as a result, improving network performance. In the OSI model, bridges work at Layer 2.",
+            "A gateway is an interface that enables dissimilar networks to communicate, such as two LANs based on different topologies or network operating systems, networks using different protocols. This is done using protocol translation. Gateways embed both protocols of different systems in order to provide interoperability functions."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is a network?",
+            "How can networks be classified?",
+            "What is the difference between peer-to-peer and client-server architecture?",
+            "What do wired and wireless networks use to send data?",
+            "What is a topology? How many topologies are there? Name six of them.",
+            "How are nodes connected in star and bus networks?",
+            "How is mesh topology arranged?",
+            "What is a tree topology?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 4,
+          "title": "Answer the following questions",
+          "body": [
+            "What is the OSI model?",
+            "How many layers does it consist of?",
+            "What is the session layer responsible for?",
+            "Which layer ensures that the message is transmitted in a language that the receiving computer can understand?",
+            "Which layer starts communication between network nodes?",
+            "Which layer chooses a route for the message to follow?",
+            "At which layer are packets broken down into frames?",
+            "What networking devices are mentioned in the text? Describe them in detail."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "LANs are usually placed far apart.",
+            "The Internet is an example of a LAN.",
+            "In a client-server architecture all the workstations have the same capabilities.",
+            "Typical network configurations include bus topology, mesh topology, star topology, tree topology, and hybrid topology.",
+            "In a star network all the devices are connected to a central node.",
+            "A tree network is a combination of ring and star topologies.",
+            "A hybrid network includes a mix of all topologies."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Match the term with the right definition",
+          "body": [
+            "hub, switch, gateway, bridge, modem, router",
+            "It is an entry and exit point for data, translating information between different protocols or formats if necessary.",
+            "A networking device in a computer network that is used to connect multiple LANs to a larger LAN.",
+            "A computer networking device connecting several Ethernet ports.",
+            "A networking device connecting multiple wires, allowing them to communicate simultaneously, when possible.",
+            "A device that forwards data packets between computer networks.",
+            "It is an electronic equipment consisting of a device used to connect computers by a telephone line."
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Translate the following sentences into English",
+          "body": [
+            "Сеть — это совокупность компьютеров, сетевых устройств и периферийных устройств, подключенных для обмена данными.",
+            "Самая крупная из существующих глобальных сетей — это Интернет, который соединяет миллионы людей по всему миру.",
+            "Локальные сети охватывают небольшую географическую область, например, офис, дом, здание или группу зданий.",
+            "В одноранговой сети все компьютеры имеют одинаковые возможности — совместно используют файлы и периферийные устройства без необходимости использования отдельного серверного компьютера.",
+            "Все узлы подключены к одному кабелю, который является магистралью в топологии шины.",
+            "В проводной локальной сети два или более компьютера соединяются посредством таких средств связи, как коаксиальный кабель или кабель витой пары.",
+            "В компьютерных сетях используются разные сетевые устройства, например модемы, маршрутизаторы, концентраторы, коммутаторы, мосты, шлюзы и т. д."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Сеть — это совокупность компьютеров, сетевых устройств и периферийных устройств, подключенных для обмена данными.",
+        "Самая крупная из существующих глобальных сетей — это Интернет, который соединяет миллионы людей по всему миру.",
+        "Локальные сети охватывают небольшую географическую область, например, офис, дом, здание или группу зданий.",
+        "В одноранговой сети все компьютеры имеют одинаковые возможности — совместно используют файлы и периферийные устройства без необходимости использования отдельного серверного компьютера.",
+        "Все узлы подключены к одному кабелю, который является магистралью в топологии шины.",
+        "В проводной локальной сети два или более компьютера соединяются посредством таких средств связи, как коаксиальный кабель или кабель витой пары.",
+        "В компьютерных сетях используются разные сетевые устройства, например модемы, маршрутизаторы, концентраторы, коммутаторы, мосты, шлюзы и т. д."
+      ]
+    },
+    {
+      "id": 8,
+      "title_en": "The Internet",
+      "title_ru": "Интернет",
+      "vocab": [
+        {
+          "en": "attenuation",
+          "ru": "затухание"
+        },
+        {
+          "en": "related data",
+          "ru": "связанные данные"
+        },
+        {
+          "en": "distortion",
+          "ru": "искажение"
+        },
+        {
+          "en": "delay/ latency",
+          "ru": "задержка сигнала"
+        },
+        {
+          "en": "satellite dish",
+          "ru": "спутниковая тарелка"
+        },
+        {
+          "en": "to transmit data",
+          "ru": "передавать данные"
+        },
+        {
+          "en": "ISP (Internet Service Provider)",
+          "ru": "провайдер интернет-услуг"
+        },
+        {
+          "en": "request / query",
+          "ru": "запрос"
+        },
+        {
+          "en": "data transmission",
+          "ru": "передача данных"
+        },
+        {
+          "en": "upload speed",
+          "ru": "скорость выгрузки"
+        },
+        {
+          "en": "dedicated line",
+          "ru": "выделенная линия"
+        },
+        {
+          "en": "download speed",
+          "ru": "скорость загрузки"
+        },
+        {
+          "en": "Internet access",
+          "ru": "доступ к интернету"
+        },
+        {
+          "en": "wire",
+          "ru": "провод"
+        },
+        {
+          "en": "digital signal",
+          "ru": "цифровой сигнал"
+        },
+        {
+          "en": "to deny access",
+          "ru": "отказать в доступе"
+        },
+        {
+          "en": "coaxial cable",
+          "ru": "коаксиальный кабель"
+        },
+        {
+          "en": "broadband",
+          "ru": "широкополосный"
+        },
+        {
+          "en": "satellite connection",
+          "ru": "спутниковая связь"
+        },
+        {
+          "en": "cellular connection",
+          "ru": "сотовая связь"
+        },
+        {
+          "en": "copper twisted-pair cable",
+          "ru": "медная витая пара"
+        },
+        {
+          "en": "fiber-optic cable",
+          "ru": "оптоволоконный кабель"
+        },
+        {
+          "en": "FTP (File Transfer Protocol)",
+          "ru": "протокол передачи файлов"
+        },
+        {
+          "en": "dial-up connection",
+          "ru": "коммутируемое соединение"
+        },
+        {
+          "en": "DSL (Digital Subscriber Line)",
+          "ru": "цифровая абонентская линия"
+        },
+        {
+          "en": "network backbone",
+          "ru": "сетевая магистраль"
+        },
+        {
+          "en": "ADSL (Asymmetric Digital Subscriber Line)",
+          "ru": "асимметричная цифровая абонентская линия"
+        },
+        {
+          "en": "bandwidth",
+          "ru": "пропускная способность (ширина полосы пропускания)"
+        },
+        {
+          "en": "SDSL (Symmetric Digital Subscriber Line)",
+          "ru": "симметричная цифровая абонентская линия"
+        },
+        {
+          "en": "WWW (World Wide Web)",
+          "ru": "всемирная паутина"
+        },
+        {
+          "en": "HTTP (HyperText Transfer Protocol)",
+          "ru": "протокол передачи гипертекста"
+        },
+        {
+          "en": "VDSL (Very high bit rate DSL)",
+          "ru": "скоростная цифровая абонентская линия"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "The Internet",
+          "paragraphs": [
+            "Digital Subscriber Line (DSL) is a high-speed Internet connection, which utilizes the standard telephone lines. It allows the full bandwidth of the copper twisted-pair telephone cabling to be utilized. The DSL signal is pulled out from the phone line as it enters the premises and is wired separately to a DSL modem. DSL service can be delivered simultaneously with wired telephone service through the same telephone line since DSL uses higher frequency bands for data transmission.",
+            "The most commonly installed DSL technology for Internet access is ADSL (Asymmetric Digital Subscriber Line). It is asymmetric because the download speed is faster than upload speed.",
+            "Although DSL makes use of telephone cabling, it should not be confused with the dial-up connection of yesteryear. A dial-up connection to the Internet was set up by dialing a phone number, hence the name. It can carry voice or data signals over the copper telephone wire at a time and it was impossible to use the phone to make calls and browse the Internet at the same time.",
+            "Cable Internet is a form of broadband Internet access that uses the infrastructure of cable TV networks to provide Internet services. It is integrated into the cable television infrastructure analogously to DSL. Since TV itself takes up only a small portion of the cable’s bandwidth, it leaves room for Internet access to be provided through the same network.",
+            "First, your Internet Service Provider sends a data signal through the coaxial cable into your home — specifically, to a cable modem. The cable modem then connects to your computer and other devices via an Ethernet cable or through Wi-Fi network using a Wi-Fi router.",
+            "A cable connection is highly reliable and is not subject to outages due to storms, like satellite Internet. However, since residential cable Internet access is provided through shared bandwidth, the speed can be slower during peak usage hours when a lot of Internet users are online. This does not happen with a DSL network, which keeps a consistent Internet signal because each subscriber has their own dedicated line.",
+            "Fiber-optic Internet uses fiber-optic cables instead of copper wires and it is incredibly fast. Those cables send data to and from a computer by harnessing the power of light and can carry data over long distances with low attenuation and distortion of the light signal. That light signal uses binary system to communicate with computers. The presence of light indicates a binary one and the absence of light indicates a binary zero. Fiber-optic cables transfer data faster than copper wiring, which means faster load times and higher-quality streaming.",
+            "The three wireless technologies widely used today are Wi-Fi, cellular and satellite Internet. Wi-Fi uses radio waves to wirelessly connect devices and is commonly applied for local area networking. To get access to the Internet, a device (a tablet or a smartphone) has to be connected over Wi-Fi to a wireless router.",
+            "Internet over Satellite usually allows a user to access the Net via a geostationary satellite that orbits the Earth. As signals must travel long distances from the Earth up to the satellite and back again, it may cause a delay between the request and the answer. However, modern technologies make it possible to minimize this latency. Satellite Internet access can provide high-speed Internet. To get access to the Internet, one needs a satellite dish for two-way (upload and download) data communications and a modem.",
+            "A cellular network is a communication network distributed over land areas called \"cells\". Each cell has at least one fixed-location transceiver, but more commonly, there are three cell sites. These base stations (cell towers) provide a cell with the network coverage, which can be used for transmission of voice and data. A cell typically uses a different set of frequencies from the neighboring cells to avoid interference and provide guaranteed service quality within each cell.",
+            "Circuit switching establishes a dedicated communication path before data transmission begins. So, no other devices can use this path while it’s reserved even if it’s idle, which leads to a waste of bandwidth. Data is not divided into units, so the complete data is to be transmitted through the same route. Circuit switching is mainly utilized in public switched telephone networks. Once you build the circuit, it is in place until you tear it down. Packet switching refers to a technique where data is divided into multiple units called packets. There are two different approaches used for packet switching: datagram packet switching and virtual circuit switching. In datagram packet switching technique, there is no dedicated channel for data transmission and packets can be routed individually through different paths. The packets are later reassembled in the original order based on the sequence number of each packet. The major advantage of this technology is that it provides a more efficient use of Internet bandwidth.",
+            "Virtual circuit switching is a connection-oriented technique that combines the characteristics of circuit switching and datagram packet switching. In this type of packet switching technology, a virtual connection is first established between the source and destination and the packets are then routed along this path sequentially.",
+            "TCP/IP was designed and developed by the Department of Defense (DoD) in the 1960s and is based on standard protocols. It stands for Transmission Control Protocol/Internet Protocol. The TCP/IP model is a concise version of the OSI model. It contains four layers, unlike the seven layers in the OSI model.",
+            "The number of layers is sometimes referred to as five or four. We’ll study five layers. The Physical Layer and Data Link Layer are referred to as one single layer as the ‘Physical Layer’ or ‘Network Interface Layer’ in the 4-layer reference.",
+            "Figure 8.1. Layers of TCP/IP Model"
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "How can we get access to the Internet? What types of the Internet connections do you know?",
+            "What does ADSL stand for? Why is this type of connection called asymmetric?",
+            "What is the difference between a dial-up connection and DSL?",
+            "What is the downside of the cable Internet?",
+            "What types of wireless Internet connections are mentioned in the text?",
+            "How is data transferred over fiber-optic cables?",
+            "What equipment does one need to get access to the Internet through satellite systems?",
+            "What makes the backbone of the Internet?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Translate the terms into Russian and give a definition in English:",
+          "body": [
+            "attenuation of a signal / bandwidth / broadband access / cell sites / coaxial cable | copper twisted-pair cable / dial-up access / fiber-optic cable / Internet protocol suite / transceiver"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Fill in the gaps in the text",
+          "body": [
+            "The World Wide Web",
+            "collection / URLs / website / hyperlinks / related data / keyword / a project",
+            "The world wide web is a (1) ____ of all the web pages and web documents that you can see on the Internet by searching their (2) ____ on the Internet. For example, https://www.geeksforgeeks.org/ is the URL of the GFG (3) ____, and all the content of this site like webpages and web documents are stored on the world wide web. It provides users with a huge array of documents that are connected to each other by means of hypertext or (4) ____. Here, hyperlinks are known as electronic connections that link the (5) ____ so that users can easily access the related information. Hypertext allows the user to pick a word or phrase from text, and using this (6) ____ or word or phrase can access other documents that contain additional information related to that word or keyword or phrase. The world wide web is (7) ____ which was created by Timothy Berners-Lee in 1989 for researchers to work together effectively at CERN."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate the following sentences from Russian into English",
+          "body": [
+            "Доступ к Интернету обеспечивается с помощью оптоволоконных и медных проводов (витая пара, коаксиальный кабель).",
+            "У каждого персонального компьютера есть IP-адрес, предоставляемый интернет-провайдером.",
+            "При коммутируемом доступе к Интернету нужно провести телефонные линии.",
+            "Технология Wi-Fi использует радиоволны, чтобы передавать сигнал.",
+            "Модем преобразует цифровой сигнал в аналоговый и наоборот.",
+            "Цифровая абонентская линия является более быстрым вариантом доступа к Интернету, чем коммутируемый доступ.",
+            "Сотовая сеть обеспечивает беспроводной доступ через специальные базовые станции (сотовые вышки) для передачи сигнала.",
+            "Оптоволоконный кабель имеет значительные преимущества по сравнению с медным проводом.",
+            "Протокол передачи файлов (FTP) был разработан для передачи данных между клиентом и сервером.",
+            "Пропускная способность данных влияет на количество данных, передаваемых в сети."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Доступ к Интернету обеспечивается с помощью оптоволоконных и медных проводов (витая пара, коаксиальный кабель).",
+        "У каждого персонального компьютера есть IP-адрес, предоставляемый интернет-провайдером.",
+        "При коммутируемом доступе к Интернету нужно провести телефонные линии.",
+        "Технология Wi-Fi использует радиоволны, чтобы передавать сигнал.",
+        "Модем преобразует цифровой сигнал в аналоговый и наоборот.",
+        "Цифровая абонентская линия является более быстрым вариантом доступа к Интернету, чем коммутируемый доступ.",
+        "Сотовая сеть обеспечивает беспроводной доступ через специальные базовые станции (сотовые вышки) для передачи сигнала.",
+        "Оптоволоконный кабель имеет значительные преимущества по сравнению с медным проводом.",
+        "Протокол передачи файлов (FTP) был разработан для передачи данных между клиентом и сервером.",
+        "Пропускная способность данных влияет на количество данных, передаваемых в сети."
+      ]
+    },
+    {
+      "id": 9,
+      "title_en": "Search Engines",
+      "title_ru": "Поисковые системы",
+      "vocab": [
+        {
+          "en": "tab",
+          "ru": "вкладка"
+        },
+        {
+          "en": "indexing",
+          "ru": "индексация"
+        },
+        {
+          "en": "directory",
+          "ru": "каталог"
+        },
+        {
+          "en": "ranking",
+          "ru": "ранжирование"
+        },
+        {
+          "en": "keywords",
+          "ru": "ключевые слова"
+        },
+        {
+          "en": "crawling",
+          "ru": "сканирование, обход"
+        },
+        {
+          "en": "search engine",
+          "ru": "поисковая система"
+        },
+        {
+          "en": "search bar",
+          "ru": "строка поиска"
+        },
+        {
+          "en": "meta-search engines",
+          "ru": "мета-поисковая система"
+        },
+        {
+          "en": "search query",
+          "ru": "поисковый запрос"
+        },
+        {
+          "en": "Uniform Resource Locator (URL)",
+          "ru": "адрес ресурса в сети Интернет"
+        },
+        {
+          "en": "Domain Name System (DNS)",
+          "ru": "система доменных имён"
+        },
+        {
+          "en": "crawler-based search engine",
+          "ru": "автоматический поисковик (поисковая система на основе поискового бота)"
+        },
+        {
+          "en": "human-powered directory",
+          "ru": "каталог, управляемый человеком"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Search engines",
+          "paragraphs": [
+            "A search engine is a software program that provides information according to the user query. It finds various websites or web pages that are available on the internet and gives related results according to the search. Today, there are many different search engines available on the Internet, each with its own abilities and features.",
+            "Search engines can be classified into the following three categories: crawler-based search engines; human-powered directories; meta-search engines.",
+            "Crawler-based search engines such as Google and Yahoo, compile their listings automatically. There are three basic steps that every crawler-based search engine follows before displaying search results: crawling, indexing, ranking.",
+            "Search engines crawl the whole web to fetch the web pages available. A piece of software called crawler or bot or spider, performs the crawling of the entire web. Various data mining techniques are used to define which pages should be crawled and the crawling frequency.",
+            "Indexing is next step after crawling which is a process of identifying the words and expressions that best describe the page. The identified words are referred as keywords and the page is assigned to the identified keywords.",
+            "Then, the ranking process involves determining which pieces of content are the best results for specific queries. When someone types a search query, the engine searches through the index to find relevant content. The search engine ranks these results according to how relevant they are. A website with a high ranking means the search engine thinks it is more relevant than other results.",
+            "Human-powered directories like Yahoo! Directory, Open Directory and LookSmart depend on human editors to compile their listings showing results that are added manually. Firstly, a short description along with the website URL is submitted to the directory for approval. Then submitted site is then manually reviewed and added in the appropriate category or rejected for listing. Keywords entered in the search box will be matched with the description of the site.",
+            "Meta-search engine like MetaCrawler or Dogpile do not have a database of indexed pages of its own. They combine the results of various search engines into one and give one result. They send users’ queries to several other search engines and compiles top results from each into one overall list. These results are processed, ranked and presented to the user.",
+            "Search engines are designed to find answers for internet users. They organize the internet so that you can instantly discover relevant search results."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is a search engine?",
+            "How can search engines be classified?",
+            "What are three basic steps that every crawler-based search engine follows?",
+            "What do we call the process of identifying the words and expressions for the page description?",
+            "What is the role of keywords in indexing?",
+            "How does the search engine rank the results?",
+            "How do human-powered directories add their listings showing results?",
+            "Why do meta-search engines combine the results of various search engines into one and give one result?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "Search engines generally work in three parts: crawling, indexing, and identifying.",
+            "A piece of software called URL performs the crawling of the entire web.",
+            "Ranking is the position by which your website is listed in any search engine.",
+            "Every time a web crawler finds a new website through a link, it scans and passes its content for further processing called indexing.",
+            "Human-powered directories depend on crawler-based activities for listings.",
+            "A meta search engine sends search queries to several search engines and ranks the results.",
+            "Internet usage has increased greatly in recent years with easy-to-use search engines like Google, Bing and Yahoo!"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Fill in the gaps with missing words from the active vocabulary",
+          "body": [
+            "ranking / URL / query / meta-search engines / directories / crawler-based search engine / indexing",
+            "A search engine is a software program that searches a database of information according to the user’s ____.",
+            "There are three basic steps that every ____ follows before showing search results.",
+            "The bots collect and store data from the web pages, which is called ____.",
+            "The ordering of search results by relevancy is known as ____.",
+            "A short description along with the website ____ is submitted to the directory for approval.",
+            "Yahoo! Directory, Open Directory and LookSmart can serve as good examples of web ____.",
+            "Dogpile, MetaCrawler, and SavvySearch are a few examples of such ____."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate the following sentences into English using active vocabulary",
+          "body": [
+            "Сегодня в Интернете доступно множество различных поисковых систем для сбора и обработки информации.",
+            "Поисковая система использует веб-сканеры/поисковые боты для сбора информации в интернете.",
+            "Когда пользователь вводит поисковый запрос, поисковая система выполняет поиск по индексу, чтобы найти релевантный контент.",
+            "Автоматизированные поисковые системы, такие как Google, почти вытеснили управляемые человеком каталоги.",
+            "Ключевые слова, введённые в поле поиска, будут соответствовать описанию сайта.",
+            "Новые URL должны быть сначала проиндексированы и выведены вместо старых.",
+            "Мета-поисковые системы не имеют собственной базы данных проиндексированных страниц."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Сегодня в Интернете доступно множество различных поисковых систем для сбора и обработки информации.",
+        "Поисковая система использует веб-сканеры/поисковые боты для сбора информации в интернете.",
+        "Когда пользователь вводит поисковый запрос, поисковая система выполняет поиск по индексу, чтобы найти релевантный контент.",
+        "Автоматизированные поисковые системы, такие как Google, почти вытеснили управляемые человеком каталоги.",
+        "Ключевые слова, введённые в поле поиска, будут соответствовать описанию сайта.",
+        "Новые URL должны быть сначала проиндексированы и выведены вместо старых.",
+        "Мета-поисковые системы не имеют собственной базы данных проиндексированных страниц."
+      ]
+    },
+    {
+      "id": 10,
+      "title_en": "Programming Languages",
+      "title_ru": "Языки программирования",
+      "vocab": [
+        {
+          "en": "machine code",
+          "ru": "машинный код"
+        },
+        {
+          "en": "compiler",
+          "ru": "компилятор"
+        },
+        {
+          "en": "source code",
+          "ru": "исходный код"
+        },
+        {
+          "en": "data analysis",
+          "ru": "анализ данных"
+        },
+        {
+          "en": "object code",
+          "ru": "объектный код"
+        },
+        {
+          "en": "application",
+          "ru": "приложение"
+        },
+        {
+          "en": "assembler",
+          "ru": "ассемблер"
+        },
+        {
+          "en": "binary code",
+          "ru": "двоичный код"
+        },
+        {
+          "en": "interpreter",
+          "ru": "интерпретатор"
+        },
+        {
+          "en": "assembly language",
+          "ru": "язык ассемблера"
+        },
+        {
+          "en": "Java applets",
+          "ru": "мини-приложения на языке Java"
+        },
+        {
+          "en": "high-level abstraction",
+          "ru": "высокоуровневая абстракция"
+        },
+        {
+          "en": "low-level language",
+          "ru": "низкоуровневый язык"
+        },
+        {
+          "en": "programming language",
+          "ru": "язык программирования"
+        },
+        {
+          "en": "high-level language",
+          "ru": "высокоуровневый язык"
+        },
+        {
+          "en": "artificial intelligence",
+          "ru": "искусственный интеллект; ИИ"
+        },
+        {
+          "en": "object-oriented programming (OOP)",
+          "ru": "объектно-ориентированное программирование"
+        },
+        {
+          "en": "symbolic language",
+          "ru": "система символов; язык символов (язык символического кодирования)"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Programming languages",
+          "paragraphs": [
+            "Programming is the process of writing a program using a computer language. A program is a set of instructions which a computer uses to do a specific task. The only language a PC can directly execute is machine code, which consists of 1s and 0s. This language is difficult to write, so we use symbolic languages that are easier to understand. For example, assembly languages use abbreviations such as ADD, SUB, MPY to represent instructions. The program is then translated into machine code by software called an assembler. Machine code and assembly languages are called low-level languages because they are closer to the hardware.",
+            "As they are quite complex and restricted to particular machines software developers designed high-level languages, which are closer to the English language to make the programs easier to write and to overcome the intercommunication problem between different types of computers. Here are some examples.",
+            "FORTRAN was one of the first high-level programming languages designed by IBM in mid-1950s for scientific and engineering computations. It introduced the concept of high-level abstraction allowing programmers to write a code closer to human language.",
+            "C was used to write system software, graphics and commercial programs.",
+            "Java was designed to run on the Web; Java applets are small programs that run automatically on web pages and let you watch animated characters, and play music and games. Java popularized object-oriented programming (OOP) denoting writing program code that's more intuitive and reusable; in other words, code that shortens program-development time.",
+            "Python was created in 1989 and has become popular for various applications, including web development, data analysis, and artificial intelligence.",
+            "Programs written in high-level languages must be translated into machine code by a compiler or an interpreter. A compiler translates the source code into object code - that is, it converts the entire program into machine code in one go. On the other hand, an interpreter translates the source code line by line as the program is running.",
+            "A programming language is the backbone of this digital world. Everything in this world from every electronic device to software programs and websites is operating because of programming languages."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is programming? What is a program?",
+            "Do computers understand human languages? Why? Why not?",
+            "What is the function of an assembler?",
+            "Why are low-level languages called so?",
+            "Why did software developers design high-level languages?",
+            "What is the difference between a compiler and an interpreter?",
+            "What languages were designed for scientific and engineering computations?",
+            "When was Python created?",
+            "Who popularized object-oriented programming?",
+            "What key features of OOP do you know?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "The only language that a computer understands is the source code.",
+            "Programming languages are divided into 2 broad categories: low-level and high-level languages.",
+            "Machine languages consist of the 0s and 1s and are defined by hardware design.",
+            "Assemblers are translator programs created for converting object code into source code.",
+            "Software developers use abbreviations such as ADD, SUB, MPY to represent instructions.",
+            "High-level languages are based on the English language grammar and syntax.",
+            "An interpreter translates the source code into machine code in one go."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the words in two columns so that they should form word-combinations",
+          "body": [
+            "1) source | a) programming",
+            "2) low-level | b) abstraction",
+            "3) binary | c) code",
+            "4) object-oriented | d) language",
+            "5) software | e) time",
+            "6) high-level | f) code",
+            "7) program-development | g) developer"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Match the term with the right definition",
+          "body": [
+            "assembly language, program, compiler, machine code, high-level language, programming.",
+            "assembly language: low-level language translated into machine code by an assembler.",
+            "program: a set of instructions which a computer uses to do a specific task.",
+            "compiler: software that converts a source program into machine code.",
+            "machine code: basic language which consists of binary codes.",
+            "high-level language: programming language such as C, C++, Python, Java.",
+            "programming: writing computer programs."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Complete the following text using the words from the active vocabulary",
+          "body": [
+            "language, abstraction, machine code, assembly, compiler, high level, programming",
+            "Ada Lovelace invented the first-ever machine algorithm for Charles Babbage’s Difference Machine that laid the foundation for all (1) ____ languages. It was 1949 when an assembly language was firstly used. (2) ____ language was a type of low-level programming language that simplified the language of (3) ____. In 1952 Autocode was developed by Alick Glennie. It was the first compiled language that directly converts into machine code using a (4) ____. In 1954 FORTRAN was developed by a team in IBM and became one of the first popular (5) ____ languages. Owing to Fortran the concept of high-level (6) ____ was introduced. There was still time for high-level languages such as Java, C, and C++ to come out. The rapid growth of the internet has become a major point in the programming (7) ____ world which is still improving."
+          ]
+        },
+        {
+          "num": 7,
+          "title": "Translate the following sentences into English using active vocabulary",
+          "body": [
+            "Высокоуровневые языки появились в 1970-х годах.",
+            "В отличие от низкоуровневых языков программирования языки высокого уровня используют элементы естественного языка.",
+            "Языки машинного кода и ассемблера называются языками низкого уровня, потому что они ближе к аппаратному обеспечению.",
+            "Большинство компиляторов переводит программу с высокоуровневого языка программирования в машинный код.",
+            "Компьютерные системы понимают только двоичный язык, то есть язык нулей и единиц.",
+            "C++, Python, Java и C# являются популярными языками объектно-ориентированного программирования (OOP).",
+            "Низкоуровневый язык программирования не требует использования компилятора или интерпретатора.",
+            "Python используется в анализе данных, веб-разработке, в сфере искусственного интеллекта и разработке игр."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Высокоуровневые языки появились в 1970-х годах.",
+        "В отличие от низкоуровневых языков программирования языки высокого уровня используют элементы естественного языка.",
+        "Языки машинного кода и ассемблера называются языками низкого уровня, потому что они ближе к аппаратному обеспечению.",
+        "Большинство компиляторов переводит программу с высокоуровневого языка программирования в машинный код.",
+        "Компьютерные системы понимают только двоичный язык, то есть язык нулей и единиц.",
+        "C++, Python, Java и C# являются популярными языками объектно-ориентированного программирования (OOP).",
+        "Низкоуровневый язык программирования не требует использования компилятора или интерпретатора.",
+        "Python используется в анализе данных, веб-разработке, в сфере искусственного интеллекта и разработке игр."
+      ]
+    },
+    {
+      "id": 11,
+      "title_en": "Web Design",
+      "title_ru": "Веб-дизайн",
+      "vocab": [
+        {
+          "en": "markup tags",
+          "ru": "теги разметки"
+        },
+        {
+          "en": "icon",
+          "ru": "иконка, значок"
+        },
+        {
+          "en": "web page",
+          "ru": "веб-страница"
+        },
+        {
+          "en": "to upload",
+          "ru": "загружать на сервер"
+        },
+        {
+          "en": "layout",
+          "ru": "раскладка, макет сайта"
+        },
+        {
+          "en": "hypertext",
+          "ru": "гипертекст"
+        },
+        {
+          "en": "font",
+          "ru": "шрифт"
+        },
+        {
+          "en": "background",
+          "ru": "фон"
+        },
+        {
+          "en": "hyperlink",
+          "ru": "гиперссылка"
+        },
+        {
+          "en": "template",
+          "ru": "шаблон"
+        },
+        {
+          "en": "CSS",
+          "ru": "каскадные таблицы стилей"
+        },
+        {
+          "en": "opening tag",
+          "ru": "открывающий тег"
+        },
+        {
+          "en": "HTML",
+          "ru": "язык разметки гипертекста"
+        },
+        {
+          "en": "closing tag",
+          "ru": "закрывающий тег"
+        },
+        {
+          "en": "backend development",
+          "ru": "разработка серверной части"
+        },
+        {
+          "en": "website builder",
+          "ru": "конструктор веб-сайтов (веб-редактор)"
+        },
+        {
+          "en": "frontend development",
+          "ru": "разработка интерфейса"
+        },
+        {
+          "en": "Uniform Resource Locator (URL)",
+          "ru": "адрес ресурса в сети Интернет"
+        },
+        {
+          "en": "File Transfer Protocol (FTP)",
+          "ru": "протокол передачи файлов"
+        },
+        {
+          "en": "app",
+          "ru": "прикладная программа, приложение"
+        },
+        {
+          "en": "frame",
+          "ru": "независимо заполняемая область HTML-документа с возможностью прокрутки содержания"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Basics of web design",
+          "paragraphs": [
+            "Web design is the process of planning and arranging content online. The first web page was created at CERN by Tim Berners-Lee on August 6, 1991. Since then designing a website has changed a lot both in aesthetics and functionality. Web design also includes web apps, mobile apps and user interface design.",
+            "A web page is often used to provide information to viewers, including pictures or videos to help illustrate important topics. A web page may also be used as a method to sell products or services to viewers.",
+            "Web designers use Hyper Text Markup Language (HTML). HTML is a code used to describe the structure of information on a webpage. HTML consists of commands called tags which are placed around different kinds of contents (e.g. tables, paragraphs, lists, hyperlinks, images, videos, etc.) telling the web browser how to display them.",
+            "But you do not need to understand HTML to make your own personal home page. Many word-processing, desktop publishing programs will generate HTML tags for you. To upload or copy your web page use the server’s File Transfer Protocol (FTP). Elements usually have an opening tag and a closing tag, and give information about the content they contain.",
+            "CSS also known as Cascading Style Sheets is a design mechanism whose primary function is to improve the appearance of a webpage by defining its styling and layout. CSS provides a way to define and apply styles across all pages of a website, making it easier for developers to maintain and update their designs. CSS is a core technology of the World Wide Web, alongside HTML and JavaScript.",
+            "JavaScript is another core technology of the World Wide Web. It is a cross-platform, object-oriented programming language used by developers to make web pages interactive and user-friendly. It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, etc. HTML & CSS are used to control presentation, formatting, and layout, JavaScript is used to control the behavior of different web elements.",
+            "Though webpages are different there are multiple webpage elements that most pages contain.",
+            "Text is the most significant element of any web site because users surf the web in search of information expressed in hypertext. Text is displayed in a variety of fonts and sizes. Most text files are available in two formats: HTML or PDF.",
+            "Background underlies colours and patterns of a webpage.",
+            "Tables with columns and rows are used to position images and text on a page.",
+            "Frames are a kind of independent box in which you can load a Web page.",
+            "A hyperlink is an element in an HTML document that links to either another portion of the document or to another document altogether. On webpages hyperlinks are usually colored purple or blue and are sometimes underlined.",
+            "An icon is a pictogram displayed on a computer screen in order to help us navigate a computer system using a mouse, pointer, finger or recently voice commands.",
+            "Graphics deals with generating images with the aid of computers, displaying art and image data effectively and meaningfully to the consumer, processing image data received from the physical world, such as photo and video content.",
+            "A web page can be accessed by entering a URL address into a browser's address bar. It may contain text, graphics, and hyperlinks to other web pages and files. When you click a link provided by a search engine, you are accessing a web page. The Internet consists of millions of web pages, with more being added every day."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "What is web design? Why do we need websites?",
+            "When and where was the first web page created?",
+            "What does HTML stand for?",
+            "What do we call the commands HTML consists of?",
+            "Do you need to understand HTML to make your own personal home page? Why?",
+            "What is a Cascading Style Sheet?",
+            "What allows developers to create dynamically updating content?",
+            "Name the basic web page elements.",
+            "What is the most significant element of any Web site? Why?",
+            "How can you access a web page?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "Web designers use Hyper Text Markup Language because computers understand only this language.",
+            "HTML consists of commands called hyperlinks.",
+            "HTML, CSS, and JavaScript are dominating web designing tools.",
+            "Whereas HTML & CSS are used to control the behavior of different web elements, JavaScript is used to control presentation, formatting, and layout.",
+            "An icon is an element in an HTML document that links to a part of the document or to a document altogether.",
+            "Most text files are available in two formats: CSS or FTP."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the sentence beginning (1-5) with the correct ending (a-e)",
+          "body": [
+            "Instructions in HTML are called tags.",
+            "Cascading Style Sheets are the way to define the presentation of webpages, from fonts and colours to page layout.",
+            "A hyperlink is any clickable text, image or button that takes you to another place on the Web.",
+            "HTML elements give information about the web page itself, create lists, tables, and forms.",
+            "Graphics is used for processing image data received from the physical world, such as photo and video content."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Match the term with the right definition",
+          "body": [
+            "frame, layout, tag, HTML, CSS, hyperlink",
+            "frame: rectangular areas that allow the display of different pages in the same browser window.",
+            "layout: a structured arrangement of items within certain limits.",
+            "tag: an element inserted in documents or files that changes the look of content or performs an action with HTML, XML, and other markup languages.",
+            "HTML: the code behind most web pages.",
+            "CSS: a simple mechanism for adding style to web documents.",
+            "hyperlink: highlighted text or pictures that act as links to other pages."
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Translate the following sentences into English",
+          "body": [
+            "6 августа 1991 года Бернерс-Ли запустил первую в мире веб-страницу.",
+            "HTML — это код, используемый для описания структуры информации на веб-странице.",
+            "Текст — это самый важный элемент любого веб-сайта.",
+            "CSS — это основная технология всемирной паутины наряду с HTML и JavaScript.",
+            "JavaScript используется разработчиками для того, чтобы сделать веб-страницы интерактивными и удобными для пользователя.",
+            "Веб-страница может содержать текст, графику и гиперссылки на другие веб-страницы и файлы.",
+            "На веб-страницах гиперссылки обычно окрашены в фиолетовый или синий цвет.",
+            "Frontend- и backend-разработка тесно связаны между собой и не могут существовать самостоятельно."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "6 августа 1991 года Бернерс-Ли запустил первую в мире веб-страницу.",
+        "HTML — это код, используемый для описания структуры информации на веб-странице.",
+        "Текст — это самый важный элемент любого веб-сайта.",
+        "CSS — это основная технология всемирной паутины наряду с HTML и JavaScript.",
+        "JavaScript используется разработчиками для того, чтобы сделать веб-страницы интерактивными и удобными для пользователя.",
+        "Веб-страница может содержать текст, графику и гиперссылки на другие веб-страницы и файлы.",
+        "На веб-страницах гиперссылки обычно окрашены в фиолетовый или синий цвет.",
+        "Frontend- и backend-разработка тесно связаны между собой и не могут существовать самостоятельно."
+      ]
+    },
+    {
+      "id": 12,
+      "title_en": "Malware and Cybercrime",
+      "title_ru": "Вредоносное ПО и киберпреступность",
+      "vocab": [
+        {
+          "en": "trojan",
+          "ru": "троянский конь"
+        },
+        {
+          "en": "freeware",
+          "ru": "бесплатное ПО"
+        },
+        {
+          "en": "spyware",
+          "ru": "шпионские программы"
+        },
+        {
+          "en": "worm",
+          "ru": "червь"
+        },
+        {
+          "en": "trigger",
+          "ru": "запуск, активация вируса"
+        },
+        {
+          "en": "to encrypt data",
+          "ru": "шифровать данные"
+        },
+        {
+          "en": "adware",
+          "ru": "рекламное ПО"
+        },
+        {
+          "en": "cybercrime",
+          "ru": "киберпреступность"
+        },
+        {
+          "en": "malware",
+          "ru": "вредоносное ПО"
+        },
+        {
+          "en": "ransomware",
+          "ru": "программы-вымогатели"
+        },
+        {
+          "en": "misdirection routine",
+          "ru": "процедура дезориентации"
+        },
+        {
+          "en": "payload",
+          "ru": "полезная нагрузка (боевая нагрузка) вируса"
+        },
+        {
+          "en": "reproduction routine",
+          "ru": "процедура воспроизводства"
+        },
+        {
+          "en": "backdoor",
+          "ru": "лазейка; потайной ход; путь обхода системы защиты"
+        },
+        {
+          "en": "shareware",
+          "ru": "условно бесплатное ПО (испытательный срок)"
+        },
+        {
+          "en": "firewall",
+          "ru": "брандмауэр; корпоративный межсетевой экран"
+        },
+        {
+          "en": "salami shaving",
+          "ru": "\"бритьё салями\", \"с миру по нитке ... \""
+        },
+        {
+          "en": "hacker",
+          "ru": "злоумышленник, взломщик программ"
+        },
+        {
+          "en": "security measures",
+          "ru": "меры безопасности"
+        },
+        {
+          "en": "IP spoofing",
+          "ru": "спуфинг — подмена IP-адресов"
+        },
+        {
+          "en": "unauthorized access",
+          "ru": "неавторизованный доступ, несанкционированный доступ"
+        },
+        {
+          "en": "overwriting virus",
+          "ru": "вирус, замещающий программный код, перезаписывающий вирус"
+        },
+        {
+          "en": "to run an infected program",
+          "ru": "запускать заражённую программу"
+        },
+        {
+          "en": "keylogger",
+          "ru": "клавиатурный шпион, клавиатурный перехватчик"
+        },
+        {
+          "en": "host file",
+          "ru": "файл узла (содержит IP-адреса узлов и список соответствующих имён DNS)"
+        },
+        {
+          "en": "phishing",
+          "ru": "фишинг, интернет-мошенничество с целью хищения личных данных и паролей"
+        },
+        {
+          "en": "piggybacking",
+          "ru": "несанкционированное проникновение вслед за зарегистрированным пользователем (напр., проникновение в сеть)"
+        },
+        {
+          "en": "DDoS attack (Distributed Denial of Service)",
+          "ru": "распределённая атака типа «отказ в обслуживании»"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Security and privacy on the Internet",
+          "paragraphs": [
+            "There are many benefits from an open system like the Internet, but one of the risks is that we are often exposed to hackers, who break into computer systems.",
+            "To avoid risks, you should set all security alerts to high on your web browser. Mozilla Firefox displays a lock when the website is secure and allows you to disable or delete cookies - small files placed on your hard drive by web servers so that they can recognize your PC when you return to their site.",
+            "If you use online banking services, make sure they use digital certificates - files that are like digital identification cards and that identify users and web servers.",
+            "Private networks can be attacked by intruders who attempt to obtain information such as Social Security numbers, bank accounts or research and business reports. To protect crucial data, companies hire security consultants who analyze the risks and provide solutions. The most common methods of protection are passwords for access control, firewalls, and encryption and decryption systems. Encryption changes data into a secret code so that only someone with a key can read it. Decryption converts encrypted data back into its original form.",
+            "Malware (malicious software) are programs designed to infiltrate or damage your computer, for example viruses, worms, Trojans and spyware. A virus can enter a PC via an infected USB flash drive or via the Internet. A computer virus is a very small program routine that infects a computer system and uses its resources to reproduce itself. It often does this by patching the operating system to enable it to detect program files, such as COM or EXE files. It then copies itself into those files. This sometimes causes harm to the host computer system.",
+            "The virus remains dormant until the infected host file is activated. Only after the host file is activated, the virus can run, executing malicious code and replicating itself to infect other files on the computer.",
+            "When the user runs an infected program, it is loaded into memory carrying the virus. The virus uses a common programming technique to stay resident in memory.",
+            "When it infects a file, the virus replaces the first instruction in the host program with a command that changes the normal execution sequence. This type of command is known as a JUMP command and causes the virus instructions to be executed before the host program. The virus then returns control to the host program which then continues with its normal sequence of instructions and is executed in the normal way.",
+            "Any virus has four main parts. A misdirection routine that enables it to hide itself; a reproduction routine that allows it to copy itself to other programs; a trigger that causes the payload to be activated at a particular time or when a particular event takes place; and a payload that may be a fairly harmless joke or may be very destructive. A program that has a payload but does not have a reproduction routine is known as a Trojan.",
+            "The main difference between a virus and a worm is that viruses must be triggered by the activation of their host, whereas worms are standalone malicious programs that can self-replicate and propagate independently through email attachments. Once a worm has entered the system, it can run, self-replicate and propagate without a triggering event. A worm makes multiple copies of itself, which then spread across the network. These copies will infect any inadequately protected computers and servers that connect - via the network or internet - to the originally infected device.",
+            "A Trojan horse is disguised as a useful program; it may affect data security. Spyware collects information from your PC without your consent. Most spyware and adware (software that allows pop-ups - that is, advertisements that suddenly appear on your screen) is included with 'free' downloads.",
+            "If you want to protect your PC, don't open email attachments from strangers and take care when downloading files from the Web. Remember to update your anti-virus software as often as possible, since new viruses are being created all the time.",
+            "Viruses are often attached or concealed in downloaded files. When the host file is accepted by a system, the virus remains dormant until the infected host file is activated. Only after the host file is activated, the virus can run, executing malicious code and replicating itself to infect other files on the computer.",
+            "Figure 12.1. How a virus infects a program"
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read text A and translate",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the questions",
+          "body": [
+            "What is the role of a digital certificate?",
+            "What types of malware are mentioned in the text?",
+            "What is a worm?",
+            "What is a virus?",
+            "What are the most common ways to protect your PC?",
+            "What types of cybercrime can you name?",
+            "What are some common ways for malware to enter your computer?",
+            "What is the difference between viruses and worms?",
+            "What is the function of the jump instruction?",
+            "What are the main parts of the virus code?",
+            "What is the effect of a virus patching the operating system?",
+            "What kind of programs do viruses often attach to?",
+            "How does a Trojan differ from a virus?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Match each virus routine (1–4) to its function (a–d):",
+          "body": [
+            "routine | function",
+            "1) misdirection | a) does the damage",
+            "2) reproduction | b) attaches a copy of itself to another program",
+            "3) trigger | c) hides the presence of the code",
+            "4) payload | d) decides when and how to activate the payload"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the terms with their definitions:",
+          "body": [
+            "ransomware / a worm / salami shaving / a keylogger / hijacking / a DDoS attack / defacing / piggybacking / a Trojan horse / software piracy / virus / overwriting virus / resident virus / host",
+            "ransomware: a type of malicious software designed to block access to a computer system until a sum of money is paid.",
+            "a worm: self-propagating malicious code that can automatically distribute itself from one computer to another through network connections.",
+            "salami shaving: one of the tactics to steal money, which means the hacker steals the money in small amounts.",
+            "a keylogger: spyware used to monitor and record each keystroke on a specific keyboard. The information is gathered and sent to the attacker. This malware is most often used for stealing passwords.",
+            "hijacking: the illegal redirection of a user’s browser from a trusted domain’s page to a fake domain without the user’s consent.",
+            "a DDoS attack: swamping a server with large numbers of requests.",
+            "defacing: changing the information shown on another person’s website.",
+            "piggybacking: using another person’s identification code or using that person’s files before he or she has logged off.",
+            "a Trojan horse: adding concealed instructions to a computer program so that it will still work but will also perform prohibited duties.",
+            "software piracy: unauthorized copying of a program for sale or distribution to other users.",
+            "virus: a harmful program that infects a computer.",
+            "overwriting virus: a virus that erases information by replacing it.",
+            "resident virus: a virus that is dormant until activated.",
+            "host: a computer or program that carries a virus."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate from Russian into English",
+          "body": [
+            "Условно бесплатное и бесплатное программное обеспечение скачивается чаще всего.",
+            "У условно бесплатного ПО, как правило, есть пробный период.",
+            "Есть ряд мер, которые блокируют установку вирусов, червей, шпионских программ и другого вредоносного программного обеспечения.",
+            "Процедура дезориентации, процедура воспроизводства (самокопирования), активация и полезная нагрузка составляют основу любого вируса.",
+            "Пользователи могут видеть только последнюю стадию вируса — полезную нагрузку.",
+            "Существует несколько видов вредоносного программного обеспечения — вирус, червь и троян.",
+            "Пиратство — это нарушение авторских прав.",
+            "Фишинг — это незаконная попытка получения паролей и данных кредитных карт.",
+            "Червь может распространяться по сети без вмешательства человека."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Условно бесплатное и бесплатное программное обеспечение скачивается чаще всего.",
+        "У условно бесплатного ПО, как правило, есть пробный период.",
+        "Есть ряд мер, которые блокируют установку вирусов, червей, шпионских программ и другого вредоносного программного обеспечения.",
+        "Процедура дезориентации, процедура воспроизводства (самокопирования), активация и полезная нагрузка составляют основу любого вируса.",
+        "Пользователи могут видеть только последнюю стадию вируса — полезную нагрузку.",
+        "Существует несколько видов вредоносного программного обеспечения — вирус, червь и троян.",
+        "Пиратство — это нарушение авторских прав.",
+        "Фишинг — это незаконная попытка получения паролей и данных кредитных карт.",
+        "Червь может распространяться по сети без вмешательства человека."
+      ]
+    },
+    {
+      "id": 13,
+      "title_en": "Data Security",
+      "title_ru": "Безопасность данных",
+      "vocab": [
+        {
+          "en": "to archive",
+          "ru": "архивировать"
+        },
+        {
+          "en": "signature",
+          "ru": "сигнатура"
+        },
+        {
+          "en": "surge protector",
+          "ru": "сетевой фильтр"
+        },
+        {
+          "en": "vendor-supplied software",
+          "ru": "ПО от надёжного поставщика"
+        },
+        {
+          "en": "worm",
+          "ru": "червь"
+        },
+        {
+          "en": "to encrypt data",
+          "ru": "шифровать данные"
+        },
+        {
+          "en": "network security",
+          "ru": "безопасность в сети"
+        },
+        {
+          "en": "cybercrime",
+          "ru": "киберпреступность"
+        },
+        {
+          "en": "biometric security devices",
+          "ru": "биометрические средства защиты"
+        },
+        {
+          "en": "to update antivirus software",
+          "ru": "обновлять антивирусное ПО"
+        },
+        {
+          "en": "virus-free software",
+          "ru": "программное обеспечение без вирусов"
+        },
+        {
+          "en": "hacker",
+          "ru": "злоумышленник, взломщик программ"
+        },
+        {
+          "en": "firewall",
+          "ru": "брандмауэр; корпоративный межсетевой экран"
+        },
+        {
+          "en": "plaintext",
+          "ru": "открытый текст (незашифрованный)"
+        },
+        {
+          "en": "uninterruptible power supply (UPS)",
+          "ru": "источник бесперебойного питания"
+        },
+        {
+          "en": "host file",
+          "ru": "файл узла (содержит IP-адреса узлов и список соответствующих имён DNS)"
+        },
+        {
+          "en": "signature verification",
+          "ru": "верификация подписи, проверка подлинности подписи"
+        },
+        {
+          "en": "unauthorized access",
+          "ru": "неавторизованный доступ, несанкционированный доступ"
+        },
+        {
+          "en": "to prevent unauthorized access",
+          "ru": "предотвратить несанкционированный (неавторизованный) доступ"
+        },
+        {
+          "en": "phishing",
+          "ru": "фишинг, интернет-мошенничество с целью хищения личных данных и паролей"
+        },
+        {
+          "en": "incremental backup",
+          "ru": "добавочное резервное копирование (копируются только файлы, созданные или изменённые с момента последнего резервного копирования)"
+        },
+        {
+          "en": "piggybacking",
+          "ru": "несанкционированное проникновение вслед за зарегистрированным пользователем"
+        },
+        {
+          "en": "differential backup",
+          "ru": "разностное резервное копирование (копирует файлы, изменённые с момента последнего полного бэкапа)"
+        },
+        {
+          "en": "archive bit",
+          "ru": "бит архива / архивный бит (используется программами резервирования для отметки файлов при выполнении нормального или добавочного резервирования)"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Data security",
+          "paragraphs": [
+            "There are a variety of security measures that can be used to protect hardware and software including: Installing a firewall to protect networks from external and internal attacks.",
+            "There are several ways that firewalls work. Most use a combination of methods. One common method is packet filtering. Incoming data is broken down into small chunks, or packets. The firewall then inspects each packet using a set of filters. Based on settings determined by the user, the firewall decides whether to deny or permit access. For example, filters can block all access to and from specific domain names. If a network administrator notices a particular IP address is generating a lot of traffic to or from the network, he or she could create a filter to block that IP address. Filters can also look for certain words or phrases. For most users, the default settings of the program will provide enough protection. A user can always create an exception to allow an unauthorized program. This gives the program permission to communicate through the firewall, even if the program is normally blocked. The program accesses the Internet without lowering the settings for the whole firewall.",
+            "Backing up data and programs.",
+            "There are different types of backup including incremental backup which are copies all the selected files that have been created or changed since the last backup (full , differential or incremental). These files are identified by the fact that their archive bit would be on. The archive bit is a digital bit stored with a file indicating if the file has been backed up since it was edited. The archive bit is switched off when the file is backed up using a full or incremental backup. Differential backup which copies all the files created or modified since the last full backup. The archive bit is not set to “off” by a differential backup. Full backup which copies all the selected files on a system, whether or not they have been edited or backed up before.",
+            "Protecting against natural disasters by installing uninterruptible power supplies and surge protectors.",
+            "Password-protect programs and data with passwords which cannot easily be cracked.",
+            "Encrypting data",
+            "Data encryption converts data into a different form (code) that can only be accessed by people who have a secret key (formally known as a decryption key) or password. Data that has not been encrypted is referred to as plaintext, and data that has been encrypted is referred to as ciphertext. Encryption is one of the most widely used and successful data protection technologies in today’s corporate world.",
+            "Encryption is a critical tool for maintaining data integrity, and its importance cannot be overstated. Almost everything on the internet has been encrypted at some point.",
+            "Use signature verification or biometric security devices to ensure user authorization.",
+            "Protect against viruses by using antivirus programs. Use only vendor-supplied software or public domain (free software) or shareware products that are supplied by services that guarantee they are virus-free. Antivirus software is designed to detect, prevent and take action to disarm or remove malicious software from your computer such as viruses, worms and Trojan horses. Don't visit suspicious websites, hackers have much more nuanced ways of getting their viruses on your computers, which is why you need a robust antivirus to stay one step ahead of them. Some antivirus software will ask for your permission before \"cleaning\" a file to remove malicious code. If you prefer a hands-off approach, you can adjust the settings so the software automatically removes malicious files.",
+            "Every virus contains a signature, which is like its fingerprint. It’s the distinguishing feature that sets it apart from other programs running on your computer, and it also makes the virus recognizable, and therefore a potential target for antivirus software. Documents, programs and applications are generally scanned for viruses when they are being used. Once an executable file is downloaded, it is instantly scanned to check if it is infected with malware. As opposed to signature-based scanning, which matches signatures found in files with that of a database of known malware, heuristic scanning uses rules and algorithms to look for commands which may indicate malicious intent. This causes the antivirus programming to recognize new malware without having the exact match in the database. Most antivirus programs use both signature and heuristic-based methods in combination, in order to catch any malware that may try to evade detection."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the questions",
+          "body": [
+            "What are ways to protect a computer from crimes and disasters?",
+            "What is the main function of a firewall?",
+            "What types of backups can you name?",
+            "What is data encryption?",
+            "What does encryption guarantee?",
+            "What is biometric authentication?",
+            "Which software is designed to detect, prevent and take action to disarm or remove malicious software from your computer?",
+            "What is the difference between signature scanning and heuristic-based detection?",
+            "What security measures can be used to protect against natural disasters?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Translate the following terms into English:",
+          "body": [
+            "уклоняться от обнаружения / вредоносные намерения / проверяются на наличие вирусов / обнаружение сигнатурным способом / эвристическое сканирование / бесплатное ПО / открытый текст / обезвреживает и удаляет вредоносные программы / на основе выбранных вами настроек / настройки по умолчанию"
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the terms with their definitions:",
+          "body": [
+            "data encryption / biometric security devices / password / uninterruptible power supply / surge protector / antivirus program / shareware / backup set",
+            "data encryption: a method of preserving data confidentiality by transforming it into ciphertext, which can only be decoded using a unique decryption key produced at the time of the encryption or prior to it.",
+            "biometric security devices: security devices that measure some aspect of a living being, e.g. a fingerprint reader or an eye scanner.",
+            "password: a secret code used to control access to a network system.",
+            "uninterruptible power supply: a battery backup system that automatically provides power to a computer when the normal electricity source fails.",
+            "surge protector: an electronic device that protects equipment from damage due to a sudden surge in power supply.",
+            "antivirus program: a computer program or set of programs used to detect, identify and remove viruses from a computer system.",
+            "shareware: software that is free to try out but must be paid for if it is used after the trial period.",
+            "backup set: a series of incremental backups and a full backup, or the most recent differential backup and a full backup."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate the following terms into Russian:",
+          "body": [
+            "to back up / shareware / public domain software / differential backup / incremental backup | to deny access / encryption / firewall / default settings / signature verification"
+          ]
+        },
+        {
+          "num": 6,
+          "title": "Translate the sentences from Russian into English",
+          "body": [
+            "Некоторые антивирусные программы запрашивают разрешение перед тем, как удалить вредоносный код.",
+            "Если вы предпочитаете автоматический подход к удалению вредоносного ПО, вы можете настроить антивирус таким образом, чтобы он не спрашивал разрешение перед удалением вредоносных файлов.",
+            "Не заходите на подозрительные сайты и не скачивайте там информацию.",
+            "Пароли, состоящие только из цифр, не являются достаточно надёжными.",
+            "Скачивая бесплатное или условно бесплатное программное обеспечение, убедитесь в том, что вы взяли его у надёжного поставщика ПО.",
+            "Любые компании могут столкнуться с проблемами кибербезопасности.",
+            "Надёжное ПО является одним из самых эффективных способов защиты от киберугроз.",
+            "Ваши конфиденциальные данные могут быть взломаны злоумышленниками.",
+            "У каждого вредоносного ПО есть отличительная особенность — сигнатура."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Некоторые антивирусные программы запрашивают разрешение перед тем, как удалить вредоносный код.",
+        "Если вы предпочитаете автоматический подход к удалению вредоносного ПО, вы можете настроить антивирус таким образом, чтобы он не спрашивал разрешение перед удалением вредоносных файлов.",
+        "Не заходите на подозрительные сайты и не скачивайте там информацию.",
+        "Пароли, состоящие только из цифр, не являются достаточно надёжными.",
+        "Скачивая бесплатное или условно бесплатное программное обеспечение, убедитесь в том, что вы взяли его у надёжного поставщика ПО.",
+        "Любые компании могут столкнуться с проблемами кибербезопасности.",
+        "Надёжное ПО является одним из самых эффективных способов защиты от киберугроз.",
+        "Ваши конфиденциальные данные могут быть взломаны злоумышленниками.",
+        "У каждого вредоносного ПО есть отличительная особенность — сигнатура."
+      ]
+    },
+    {
+      "id": 14,
+      "title_en": "Future in IT",
+      "title_ru": "Будущее ИТ",
+      "vocab": [
+        {
+          "en": "neuron",
+          "ru": "нейрон"
+        },
+        {
+          "en": "weight",
+          "ru": "вес (веса)"
+        },
+        {
+          "en": "compatibility",
+          "ru": "совместимость"
+        },
+        {
+          "en": "hidden units",
+          "ru": "скрытые элементы"
+        },
+        {
+          "en": "clustering",
+          "ru": "кластеризация"
+        },
+        {
+          "en": "output units",
+          "ru": "выходные данные"
+        },
+        {
+          "en": "face recognition",
+          "ru": "распознавание лиц"
+        },
+        {
+          "en": "IoT (Internet of Things)",
+          "ru": "интернет вещей"
+        },
+        {
+          "en": "artificial intelligence",
+          "ru": "искусственный интеллект"
+        },
+        {
+          "en": "input units",
+          "ru": "входные (вводные) данные"
+        },
+        {
+          "en": "interconnected nodes",
+          "ru": "взаимосвязанные узлы"
+        },
+        {
+          "en": "augmented reality",
+          "ru": "дополненная реальность"
+        },
+        {
+          "en": "accomplish many tasks",
+          "ru": "решать множество задач"
+        },
+        {
+          "en": "machine learning",
+          "ru": "машинное обучение"
+        },
+        {
+          "en": "unique identifiers (UIDs)",
+          "ru": "уникальный идентификатор"
+        },
+        {
+          "en": "smart home",
+          "ru": "автоматизированный дом (умный дом)"
+        },
+        {
+          "en": "fully connected neural network",
+          "ru": "полносвязная нейронная сеть"
+        },
+        {
+          "en": "convolutional neural network",
+          "ru": "свёрточная нейронная сеть"
+        },
+        {
+          "en": "web-enabled devices",
+          "ru": "с выходом в интернет"
+        },
+        {
+          "en": "backpropagation",
+          "ru": "обратное распространение ошибки"
+        },
+        {
+          "en": "recurrent neural network (RNN)",
+          "ru": "рекуррентная нейронная сеть (нейронная сеть с обратной связью)"
+        },
+        {
+          "en": "sensitive data",
+          "ru": "конфиденциальные данные (совершенно секретные данные или представляющие коммерческую тайну)"
+        },
+        {
+          "en": "artificial neural network",
+          "ru": "искусственная нейронная сеть (нейросеть), ИНС"
+        },
+        {
+          "en": "CGI (Computer-Generated Image)",
+          "ru": "изображения, формируемые методами компьютерной графики; изображения, формируемые с помощью компьютера; интерфейс компьютерной графики"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "IT Trends. What to expect in the future?",
+          "paragraphs": [
+            "The rapidly changing technologies often surpass our ability to foresee its advancements. However, let’s have a look into the future of IT sphere. We will focus on two main IT trends - artificial neural networks and Internet of Things (IoT).",
+            "Artificial neural networks (ANN) are a type of Artificial Intelligence (AI) designed to mimic how the human brain processes information. ANN consists of interconnected nodes, or neurons, that process information similarly to the human brain. The artificial neurons receive input and then use the information to create the output or data. In between the input units and output units are one or more layers of hidden units, which, together, form the majority of the artificial brain. Most neural networks are fully connected, which means each unit in one layer is connected to every unit in another layer. The connections between one unit and another are represented by a number called a weight, which can be either positive or negative.",
+            "Convolutional neural networks (CNN) are one of the most popular models used today. This neural network computational model uses a variation of multilayer perceptrons and contains one or more convolutional layers that can be either entirely connected or pooled. These convolutional layers create feature maps that record a region of image which is ultimately broken into rectangles and sent out for nonlinear processing.",
+            "Recurrent neural networks (RNN) are more complex. They save the output of processing nodes and feed the result back into the model (they did not pass the information in one direction only). This is how the model is said to learn to predict the outcome of a layer. Each node in the RNN model acts as a memory cell, continuing the computation and implementation of operations. If the network’s prediction is incorrect, then the system self-learns and continues working towards the correct prediction during backpropagation.",
+            "Neural network can accomplish many tasks: from face recognition and making cars drive autonomously on the roads, to generating shockingly realistic CGI (Computer-Generated Image) faces, to machine translation, to fraud detection, clustering, pattern recognition and to predict outcomes. Neural networks are trained.",
+            "Neural networks learn things by a feedback process called backpropagation.",
+            "This involves comparing the output a network produces with the output it was meant to produce, and using the difference between them to modify the weights of the connections between the units in the network, working from the output units through the hidden units to the input units — going backward, in other words.",
+            "On a technical level, one of the main challenges is the amount of time it takes to train networks. Another big issue is that neural networks are ‘black boxes’, in which the user feeds in data and receives answers. We can fine-tune the answers, but we don’t have access to the exact decision-making process. This is the problem a number of researchers are working on today, but it will only become more important as artificial neural networks play a bigger and bigger role in our lives.",
+            "The Internet of Things, or IoT, is a system of interrelated physical objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT can also use artificial intelligence (AI) and machine learning to make data collecting processes easier and more dynamic.",
+            "IoT is essential to business. IoT enables companies to automate processes and reduce labor costs. It also cuts down on waste and improves service delivery, making it less expensive to manufacture and deliver goods.",
+            "IoT is developing and needs improvement. Among disadvantages are the risk that a hacker could steal confidential information also increases, IoT challenges to collect and manage the data from multiple devices, problems with bugs in a network, absence of international standard of compatibility for IoT. It can be compensated by its ability to access information from anywhere at any time on any device, transferring data packets over a connected network saving time and money, automating tasks helping to improve the quality of a business's services and reducing the need for human intervention."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "In what way is an artificial neural network similar to a biological brain?",
+            "What tasks can be accomplished by neural networks?",
+            "How are units arranged in a fully-connected neural network?",
+            "What is backpropagation?",
+            "Why are neural networks compared to ‘black boxes’?",
+            "What problems do professionals come across when working with artificial neural networks?",
+            "What is IoT?",
+            "What does the term UID mean?",
+            "How can IoT be useful for businesses?",
+            "What are advantages and disadvantages of IoT?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Fill in the gaps with a word chosen from the list below",
+          "body": [
+            "compatible / insights and predictions / sensitive data / data / vulnerable / networks / convolutional layers / the output",
+            "IoT devices from different manufacturers may not be ____ with each other, causing interoperability issues and hindering their adoption.",
+            "IoT devices collect data, while AI systems analyze data to provide ____.",
+            "AI systems can collect ____, raising concerns about privacy and data protection.",
+            "AI systems require large amounts of ____ to learn and improve, which can be a challenge in some industries.",
+            "IoT devices are ____ to cyber attacks, which can compromise sensitive data and cause damage to businesses.",
+            "Backpropagation is a widely used algorithm for training neural ____.",
+            "Convolutional neural network (CNN) is a computational model that uses a variation of multilayer perceptrons and contains one or more convolutional layers that can be either entirely connected or pooled.",
+            "Recurrent neural networks (RNN) are more complex. They save ____ of processing nodes and feed the result back into the model."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Translate into English according to the text above",
+          "body": [
+            "для изменения весов соединений / обнаружения мошенничества / входные и выходные данные / взаимодействует с каждым элементом в другом слое / большинство нейросетей — полносвязные / свёрточная нейронная сеть | обучение нейронных сетей / настроить (подобрать) ответы / автоматизировать процессы и уменьшить затраты на рабочих местах / скрытые элементы / нейросети — «чёрные ящики» / пользователи вносят данные и получают ответы / рекуррентная нейронная сеть"
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate the following sentences into English",
+          "body": [
+            "Нейронная сеть — это метод в искусственном интеллекте, который учит компьютеры обрабатывать данные таким же способом, как и человеческий мозг.",
+            "Нейросети способны выполнять целый набор сложных задач в разных сферах науки и бизнеса.",
+            "Искусственные нейронные сети состоят из нескольких слоев — входных, скрытых, выходных.",
+            "Примеры устройств интернета вещей включают умные мобильные телефоны, умные часы, фитнес-трекеры, а также виртуальные помощники, такие как Alexa и Google Home.",
+            "Интернет вещей (IoT) — способ обмена информацией между несколькими устройствами, подключенными к единой сети.",
+            "Интернет вещей (IoT) помогает собирать, анализировать, обрабатывать и передавать данные без участия человека — через ПО или приложения.",
+            "Свёрточная нейронная сеть — на сегодняшний день самая популярная нейросеть.",
+            "Рекуррентная нейронная сеть (нейронная сеть с обратной связью) — более сложный вариант нейросети."
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Нейронная сеть — это метод в искусственном интеллекте, который учит компьютеры обрабатывать данные таким же способом, как и человеческий мозг.",
+        "Нейросети способны выполнять целый набор сложных задач в разных сферах науки и бизнеса.",
+        "Искусственные нейронные сети состоят из нескольких слоев — входных, скрытых, выходных.",
+        "Примеры устройств интернета вещей включают умные мобильные телефоны, умные часы, фитнес-трекеры, а также виртуальные помощники, такие как Alexa и Google Home.",
+        "Интернет вещей (IoT) — способ обмена информацией между несколькими устройствами, подключенными к единой сети.",
+        "Интернет вещей (IoT) помогает собирать, анализировать, обрабатывать и передавать данные без участия человека — через ПО или приложения.",
+        "Свёрточная нейронная сеть — на сегодняшний день самая популярная нейросеть.",
+        "Рекуррентная нейронная сеть (нейронная сеть с обратной связью) — более сложный вариант нейросети."
+      ]
+    },
+    {
+      "id": 15,
+      "title_en": "Professions in IT",
+      "title_ru": "Профессии в ИТ",
+      "vocab": [
+        {
+          "en": "data scientist",
+          "ru": "аналитик данных"
+        },
+        {
+          "en": "tester",
+          "ru": "тестировщик"
+        },
+        {
+          "en": "backend developer",
+          "ru": "backend-разработчик"
+        },
+        {
+          "en": "database administrator",
+          "ru": "администратор базы данных"
+        },
+        {
+          "en": "software engineer",
+          "ru": "инженер программного обеспечения"
+        },
+        {
+          "en": "full-stack developer",
+          "ru": "full-stack-разработчик"
+        },
+        {
+          "en": "network engineer",
+          "ru": "сетевой инженер"
+        },
+        {
+          "en": "system administrator",
+          "ru": "системный администратор"
+        },
+        {
+          "en": "hardware engineer",
+          "ru": "инженер по аппаратному обеспечению"
+        },
+        {
+          "en": "cloud architect",
+          "ru": "архитектор облачных технологий"
+        },
+        {
+          "en": "security specialist",
+          "ru": "специалист по вопросам безопасности"
+        },
+        {
+          "en": "frontend developer",
+          "ru": "frontend-разработчик"
+        }
+      ],
+      "texts": [
+        {
+          "letter": "A",
+          "title": "Professions in IT",
+          "paragraphs": [
+            "Information Technology is a broad field that includes a lot of specialties. You can work in computer support, hardware and software engineering, cybersecurity, cloud computing or web development. Information technology professionals study, design, support, manage, implement computer-based information systems including both software applications and computer hardware. Let’s have a look at some of the IT professions.",
+            "Hardware engineers draw on computer engineering to develop, design and test various physical components related to computer systems. Their job also involves designing and creating prototypes as well as overseeing the manufacturing and installation process to ensure the hardware meets the existing standards and functions properly.",
+            "Software engineers research, design and write new software programs and computer operating systems. They apply engineering principles and knowledge of programming languages to build software solutions for end users.",
+            "A system administrator is responsible for maintaining an organization’s computer systems and providing a reliable work environment. They perform ongoing monitoring of all servers to make sure the systems function properly, install and upgrade computer components and software, troubleshoot technical issues.",
+            "Data scientists should be good at manipulating and analyzing large amounts of data to categorize it by patterns and trends.",
+            "An IT security specialist should have an in-depth understanding of a variety of cyber security threats that may affect the company they work in. They are responsible for implementing and overseeing an organization’s security systems.",
+            "Database administrators employ specialized software to organize and keep track of data. Responsibilities can vary according to a company’s needs but typically include: archiving data, implementing security measures, troubleshooting, keeping the database up to date, ensuring that the database is correctly backed up and can recovered in case of data loss.",
+            "A network engineer is responsible for designing, implementing, monitoring and managing the local and wide area networks, giving technical support to staff, fixing network faults.",
+            "Full-stack developers should be creative, graphically inclined, and have excellent attention to details. They are responsible for both front-end and back-end development.",
+            "IT directors ensure that department tasks correspond to the company's goals and development, implement IT policy, provide direction for IT team members, running regular checks on network and data security.",
+            "These professions play a vital role in our everyday life. Information technology is an appealing career field for young people. As technology continues to advance, IT specialists will be of high demand in the future."
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "num": 1,
+          "title": "Read and translate text A",
+          "body": []
+        },
+        {
+          "num": 2,
+          "title": "Answer the following questions",
+          "body": [
+            "Why is information technology considered a broad field?",
+            "What does the job of a hardware engineer involve?",
+            "Who deals with software development and applications?",
+            "What is a system administrator responsible for?",
+            "What should a data scientist be good at?",
+            "Why is the profession of an IT security specialist so important?",
+            "What are the main duties of a database administrator?",
+            "What is a network engineer responsible for?",
+            "How do we call a specialist who is good at both frontend and backend development?",
+            "Why will IT specialists be highly in demand in the future?"
+          ]
+        },
+        {
+          "num": 3,
+          "title": "Say whether the sentences are true or false. If they are false, correct them",
+          "body": [
+            "Testers have to monitor the system daily and respond immediately to any security and usability concerns.",
+            "Database administrators keep the database up to date, ensure that the database is correctly backed up and can be recovered in case of data loss.",
+            "The biggest difference between software and hardware engineers is their salary.",
+            "Data scientists make sure that software and hardware are maintained, allowing vital information to be easily stored, accessed and utilized.",
+            "A cloud architect builds software solutions for end users.",
+            "If you have skills in back-end development, you may work as a full-stack developer.",
+            "IT directors control what other staff members do."
+          ]
+        },
+        {
+          "num": 4,
+          "title": "Match the term with the right definition",
+          "body": [
+            "backend developer / tester / network engineer / database administrator / frontend developer / security specialist",
+            "He plans, develops, deploys, tests and optimizes network and system services.",
+            "He is involved in data storage, security and other server-side functions that you cannot see.",
+            "He develops, implements security measurements that protect computer networks and systems.",
+            "He is responsible for creating user interfaces, interacting with and upgrading applications.",
+            "He develops, executes software tests and reports defects.",
+            "He manages, monitors and maintains databases, ensures database security."
+          ]
+        },
+        {
+          "num": 5,
+          "title": "Translate the following sentences using active vocabulary",
+          "body": [
+            "Я уже 3 года работаю full-stack-разработчиком в этой компании.",
+            "Мой брат — сетевой инженер в крупной компании, поэтому я тоже решил выбрать IT-сферу.",
+            "Аналитик данных использует средства машинного обучения для анализа и обработки данных.",
+            "Чтобы работать инженером программного обеспечения, достаточно получить степень бакалавра.",
+            "Архитектор облачных технологий создаёт системы для управления, мониторинга и обслуживания облачных систем.",
+            "Облачные технологии — новая отрасль IT-сферы, которая очень востребована сегодня.",
+            "Сколько зарабатывает опытный инженер по аппаратному обеспечению?",
+            "Какими знаниями и умениями должен обладать специалист по информационной безопасности?"
+          ]
+        }
+      ],
+      "translation_sentences": [
+        "Я уже 3 года работаю full-stack-разработчиком в этой компании.",
+        "Мой брат — сетевой инженер в крупной компании, поэтому я тоже решил выбрать IT-сферу.",
+        "Аналитик данных использует средства машинного обучения для анализа и обработки данных.",
+        "Чтобы работать инженером программного обеспечения, достаточно получить степень бакалавра.",
+        "Архитектор облачных технологий создаёт системы для управления, мониторинга и обслуживания облачных систем.",
+        "Облачные технологии — новая отрасль IT-сферы, которая очень востребована сегодня.",
+        "Сколько зарабатывает опытный инженер по аппаратному обеспечению?",
+        "Какими знаниями и умениями должен обладать специалист по информационной безопасности?"
+      ]
+    }
+  ]
+}

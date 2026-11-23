@@ -1,0 +1,452 @@
+{
+  "1": [
+    {
+      "num": 1,
+      "question_en": "How many generations of computers are there? What is the difference between them? In what way have computers been changing over time?",
+      "question_ru": "Сколько существует поколений компьютеров? В чём разница между ними? Как компьютеры менялись со временем?",
+      "answer_en": "Five generations: the first used vacuum tubes, the second transistors, the third integrated circuits, the fourth VLSI microprocessors, and the fifth used AI and parallel processing. Computers became smaller, faster, more reliable and use less power.",
+      "answer_ru": "Пять поколений: 1) лампы, 2) транзисторы, 3) интегральные схемы, 4) микропроцессоры VLSI, 5) искусственный интеллект и параллельные вычисления. Компьютеры стали меньше, быстрее, надёжнее и экономичнее."
+    },
+    {
+      "num": 2,
+      "question_en": "Who is usually called “the father of the computer”?",
+      "question_ru": "Кого обычно называют «отцом компьютера»?",
+      "answer_en": "Charles Babbage is called the father of the computer. In the 1830s he designed the Analytical Engine. It had an ALU, a control unit, memory and an input/output system. He did not finish it, but his ideas were the basis for modern computers.",
+      "answer_ru": "Чарльза Бэббиджа называют отцом компьютера. В 1830-х он разработал аналитическую машину. В ней были АЛУ, устройство управления, память и ввод-вывод. Он не закончил машину, но его идеи стали основой современных компьютеров."
+    },
+    {
+      "num": 3,
+      "question_en": "Talk about the distinctive feature of the early computers and the people who contributed most to the development of computer technologies.",
+      "question_ru": "Расскажите об отличительной особенности ранних компьютеров и людях, которые внесли наибольший вклад в развитие компьютерных технологий.",
+      "answer_en": "Early computers were huge and used vacuum tubes. ENIAC was the first-generation computer. Blaise Pascal built the Pascaline, Charles Babbage designed the Analytical Engine, and Konrad Zuse built the Z1, the first programmable mechanical computer.",
+      "answer_ru": "Ранние компьютеры были огромными и работали на лампах. ENIAC — компьютер первого поколения. Паскаль создал «Паскалину», Бэббидж — аналитическую машину, Цузе — Z1, первый программируемый механический компьютер."
+    }
+  ],
+  "2": [
+    {
+      "num": 4,
+      "question_en": "What are the differences between the main types of computers (mainframes, supercomputers, desktop PCs, laptops, and tablets)?",
+      "question_ru": "В чём различия между основными типами компьютеров (мейнфреймами, суперкомпьютерами, настольными ПК, ноутбуками и планшетами)?",
+      "answer_en": "Mainframes process huge amounts of data for many users. Supercomputers are faster and usually do one complex task. Desktop PCs are for personal work. Laptops are portable. Tablets are smaller touchscreen PCs with less storage than laptops.",
+      "answer_ru": "Мейнфреймы обрабатывают большие данные для многих пользователей. Суперкомпьютеры быстрее и решают одну сложную задачу. Настольные ПК — для личной работы, ноутбуки — портативные, планшеты — сенсорные ПК с меньшим объёмом памяти."
+    },
+    {
+      "num": 5,
+      "question_en": "What are the similarities between smartphones and tablet PCs?",
+      "question_ru": "В чём сходство между смартфонами и планшетными компьютерами?",
+      "answer_en": "Both are portable touchscreen computers. A smartphone can browse the web, take photos, play videos and work as a phone. A tablet is a wireless touchscreen PC used for reading, films, photos, games and drawing. It has less storage than a PC.",
+      "answer_ru": "Оба устройства — портативные сенсорные компьютеры. Смартфон может выходить в интернет, делать фото, смотреть видео и звонить. Планшет — беспроводной сенсорный ПК для чтения, фильмов, фото, игр и рисования. У него меньше памяти, чем у обычного ПК."
+    }
+  ],
+  "3": [
+    {
+      "num": 6,
+      "question_en": "What is the difference between hardware and software?",
+      "question_ru": "В чём разница между аппаратным и программным обеспечением?",
+      "answer_en": "Hardware is any electronic or mechanical part you can see or touch. Software is a set of instructions, or a program, that tells the computer what to do. A computer system needs both.",
+      "answer_ru": "Аппаратное обеспечение — это любая электронная или механическая часть, которую можно увидеть и потрогать. Программное обеспечение — это набор инструкций, или программа, которая говорит компьютеру, что делать. Компьютеру нужно и то и другое."
+    },
+    {
+      "num": 7,
+      "question_en": "What are the most important hardware components in a computer system? Explain your choice. Talk about the function of each component you have named.",
+      "question_ru": "Какие аппаратные компоненты компьютерной системы наиболее важны? Объясните свой выбор и функцию каждого компонента.",
+      "answer_en": "The three basic hardware sections are the CPU, main memory and peripherals. The CPU executes instructions and coordinates the system. Main memory holds the data and programs being processed. Peripherals provide input, output and storage.",
+      "answer_ru": "Три основные аппаратные части — процессор, основная память и периферия. Процессор выполняет инструкции и координирует систему. Основная память хранит обрабатываемые данные и программы. Периферия обеспечивает ввод, вывод и хранение."
+    },
+    {
+      "num": 8,
+      "question_en": "What types of peripherals do you know? Talk about each of them.",
+      "question_ru": "Какие типы периферийных устройств вы знаете? Расскажите о каждом из них.",
+      "answer_en": "Peripherals include storage devices and input/output devices. Input devices are the keyboard and mouse. Output devices are the monitor and printer. Storage devices are hard drives, DVD drives and flash drives.",
+      "answer_ru": "Периферия включает устройства хранения и устройства ввода-вывода. Устройства ввода — клавиатура и мышь. Устройства вывода — монитор и принтер. Устройства хранения — жёсткие диски, DVD-приводы и флешки."
+    },
+    {
+      "num": 9,
+      "question_en": "What are the three main parts of the CPU? Talk about the functions of each of them.",
+      "question_ru": "Какие три основные части центрального процессора? Расскажите о функции каждой из них.",
+      "answer_en": "The CPU has three main parts. The control unit examines and interprets instructions and causes other parts to execute them. The ALU performs mathematical and logical operations. Registers are high-speed memory units that store and control data.",
+      "answer_ru": "В процессоре три части. Устройство управления проверяет и интерпретирует инструкции и заставляет другие части их выполнять. АЛУ выполняет математические и логические операции. Регистры — быстрые ячейки памяти для хранения данных и управления ими."
+    },
+    {
+      "num": 10,
+      "question_en": "What is the performance of the CPU affected by?",
+      "question_ru": "От чего зависит производительность процессора?",
+      "answer_en": "CPU performance depends on processor speed, measured by clock speed (GHz). It also depends on the number of cores and on software that uses parallelism. Bus width affects how much data can be transmitted.",
+      "answer_ru": "Производительность процессора зависит от его скорости, которую измеряют тактовой частотой (ГГц). Она также зависит от числа ядер и от программ, которые используют параллелизм. Разрядность шины влияет на объём передаваемых данных."
+    },
+    {
+      "num": 11,
+      "question_en": "What is cache memory? What is its function? What is ‘write-through’ cache and ‘write-back’ cache?",
+      "question_ru": "Что такое кэш-память? Какова её функция? Что такое сквозная (write-through) и обратная (write-back) запись в кэш?",
+      "answer_en": "Cache is a small fast memory between the CPU and main memory. It keeps copies of recently used data, so the CPU gets data faster. Write-through updates cache and main memory together. Write-back writes only to cache and updates main memory later.",
+      "answer_ru": "Кэш — небольшая быстрая память между процессором и основной памятью. Она хранит копии недавних данных, поэтому процессор получает их быстрее. Write-through обновляет кэш и память вместе, write-back пишет в кэш, а память обновляет позже."
+    },
+    {
+      "num": 12,
+      "question_en": "What is cache hit / cache miss?",
+      "question_ru": "Что такое попадание в кэш и промах кэша?",
+      "answer_en": "A cache hit happens when the needed data is in the cache; the CPU reads it quickly. A cache miss happens when the data is not there; the CPU reads main memory and copies the data into the cache.",
+      "answer_ru": "Попадание в кэш — это когда нужные данные есть в кэше; процессор быстро их читает. Промах — когда данных там нет; процессор читает основную память и копирует данные в кэш."
+    }
+  ],
+  "4": [
+    {
+      "num": 13,
+      "question_en": "Talk about RAM and ROM. Talk about different types of ROM.",
+      "question_ru": "Расскажите о RAM и ROM. Какие типы ROM бывают?",
+      "answer_en": "RAM is volatile and stores the data being processed; it loses data when power is off. ROM is non-volatile and stores BIOS instructions. RAM types are SRAM and DRAM. ROM types are MROM, PROM, EPROM and EEPROM.",
+      "answer_ru": "RAM энергозависима: она хранит обрабатываемые данные и теряет их при выключении. ROM энергонезависима и хранит инструкции BIOS. Типы RAM — SRAM и DRAM. Типы ROM — MROM, PROM, EPROM и EEPROM."
+    },
+    {
+      "num": 14,
+      "question_en": "What is the difference between primary memory and secondary storage devices? Give examples of primary memory and secondary storage media.",
+      "question_ru": "В чём разница между первичной памятью и вторичными устройствами хранения? Приведите примеры первичной памяти и вторичных носителей.",
+      "answer_en": "Primary storage is internal memory that the CPU can access directly and quickly. It can be volatile (RAM, cache) or non-volatile (ROM). Secondary storage is non-volatile, slower and larger; examples are HDDs, SSDs, optical discs and flash drives.",
+      "answer_ru": "Первичная память — внутренняя, процессор обращается к ней напрямую и быстро. Она бывает энергозависимой (RAM, кэш) и энергонезависимой (ROM). Вторичная память энергонезависима, медленнее и больше: HDD, SSD, оптические диски и флешки."
+    }
+  ],
+  "5": [
+    {
+      "num": 15,
+      "question_en": "Give at least two possible classifications of storage devices.",
+      "question_ru": "Приведите как минимум две возможные классификации устройств хранения.",
+      "answer_en": "Storage can be primary or secondary. Secondary storage can be magnetic (HDD, floppy disk, tape), optical (CD, DVD, Blu-ray) or flash (SSD, USB flash drive, memory card).",
+      "answer_ru": "Хранение бывает первичным и вторичным. Вторичное хранение бывает магнитным (HDD, дискета, лента), оптическим (CD, DVD, Blu-ray) или флеш-памятью (SSD, USB-флешка, карта памяти)."
+    },
+    {
+      "num": 16,
+      "question_en": "Talk about a hard disk drive. Describe its construction and formatting process.",
+      "question_ru": "Расскажите о жёстком диске. Опишите его конструкцию и процесс форматирования.",
+      "answer_en": "An HDD has platters in an air-sealed case. A magnetic head writes data on the spinning platters. Data is stored in tracks, spots and sectors; magnetized areas are 1 and demagnetized areas are 0. The textbook does not describe formatting.",
+      "answer_ru": "В HDD есть пластины в герметичном корпусе. Магнитная головка записывает данные на вращающиеся пластины. Данные хранятся в дорожках, участках и секторах; намагниченные участки — это 1, размагниченные — 0. Учебник не описывает форматирование."
+    },
+    {
+      "num": 17,
+      "question_en": "What are the differences between a CD and a DVD in terms of the internal structure?",
+      "question_ru": "В чём различия между CD и DVD с точки зрения внутренней структуры?",
+      "answer_en": "CDs and DVDs are optical discs. They store data as pits and are read by a laser. The textbook names CDs, DVDs and Blu-ray discs but does not describe differences in their internal structure.",
+      "answer_ru": "CD и DVD — оптические диски. Они хранят данные в виде питов, а лазер их читает. Учебник называет CD, DVD и Blu-ray, но не описывает различия их внутренней структуры."
+    },
+    {
+      "num": 18,
+      "question_en": "What are the advantages and disadvantages of optical discs over magnetic disks?",
+      "question_ru": "Каковы преимущества и недостатки оптических дисков по сравнению с магнитными?",
+      "answer_en": "Optical discs are durable and are read by a laser, so magnetic fields do not affect them. Their disadvantages are low speed and capacity. Magnetic hard drives usually offer greater capacity and a lower price.",
+      "answer_ru": "Оптические диски долговечны, их читает лазер, поэтому магнитные поля на них не влияют. Их недостатки — низкая скорость и ёмкость. Магнитные жёсткие диски обычно имеют большую ёмкость и меньшую цену."
+    },
+    {
+      "num": 19,
+      "question_en": "Compare an HDD and an SSD.",
+      "question_ru": "Сравните HDD и SSD.",
+      "answer_en": "An HDD stores data magnetically on spinning platters and has moving parts. It usually offers more capacity at a lower price, but it is sensitive to shocks. An SSD uses flash chips, has no moving parts and is less sensitive to shocks.",
+      "answer_ru": "HDD хранит данные магнитно на вращающихся пластинах и имеет движущиеся части. Обычно он даёт большую ёмкость по меньшей цене, но чувствителен к ударам. SSD использует флеш-чипы, не имеет движущихся частей и меньше боится ударов."
+    }
+  ],
+  "6": [
+    {
+      "num": 20,
+      "question_en": "What is the difference between system software and application software? Give examples of system software and application software.",
+      "question_ru": "В чём разница между системным и прикладным программным обеспечением? Приведите примеры.",
+      "answer_en": "System software operates the computer and includes operating systems, firmware and device drivers. Application software helps the user do specific tasks, such as word processors, databases, web browsers and spreadsheets. A computer needs both.",
+      "answer_ru": "Системное ПО управляет компьютером: операционные системы, прошивки и драйверы. Прикладное ПО помогает выполнять конкретные задачи: текстовые процессоры, базы данных, браузеры и таблицы. Компьютеру нужно и то и другое."
+    },
+    {
+      "num": 21,
+      "question_en": "What is an operating system? What are the main functions of an operating system?",
+      "question_ru": "Что такое операционная система? Каковы её основные функции?",
+      "answer_en": "An operating system is an intermediary between application programs and computer hardware. It manages resources such as the CPU and disk drives, provides a user interface, and executes and provides services for application software.",
+      "answer_ru": "Операционная система — посредник между прикладными программами и аппаратурой. Она управляет ресурсами, например процессором и дисками, создаёт интерфейс и выполняет прикладные программы, предоставляя им сервисы."
+    },
+    {
+      "num": 22,
+      "question_en": "How can operating systems be classified?",
+      "question_ru": "Как можно классифицировать операционные системы?",
+      "answer_en": "Operating systems can be single-tasking or multitasking. Multitasking can be preemptive or cooperative. They can be single-user, and they can be desktop or mobile operating systems.",
+      "answer_ru": "Операционные системы бывают однозадачными и многозадачными. Многозадачность бывает вытесняющей и кооперативной. Также ОС бывают однопользовательскими, настольными и мобильными."
+    },
+    {
+      "num": 23,
+      "question_en": "What is the difference between CLI and GUI?",
+      "question_ru": "В чём разница между CLI и GUI?",
+      "answer_en": "With a CLI, the user runs a program by typing a command. With a GUI, the user clicks icons and chooses commands from a menu. A GUI uses WIMP: windows, icons, menus and a pointer.",
+      "answer_ru": "В CLI пользователь запускает программу, вводя команду. В GUI он щёлкает по значкам и выбирает команды в меню. GUI использует WIMP: окна, значки, меню и указатель."
+    },
+    {
+      "num": 24,
+      "question_en": "What is an application program? What are the main types of application programs?",
+      "question_ru": "Что такое прикладная программа? Какие основные типы прикладных программ существуют?",
+      "answer_en": "An application program helps the user perform specific tasks. The main types in the textbook are word processors, database software, web browsers and spreadsheets. Examples are MS Word, Oracle, Google Chrome and Excel.",
+      "answer_ru": "Прикладная программа помогает пользователю выполнять конкретные задачи. Основные типы в учебнике — текстовые процессоры, базы данных, браузеры и электронные таблицы. Примеры: MS Word, Oracle, Google Chrome и Excel."
+    },
+    {
+      "num": 25,
+      "question_en": "Talk about the benefits of using open-source software.",
+      "question_ru": "Расскажите о преимуществах программного обеспечения с открытым исходным кодом.",
+      "answer_en": "Open-source software has source code that is visible publicly and can be edited. Users can change the code and add features themselves. The textbook does not list other benefits.",
+      "answer_ru": "У открытого ПО исходный код виден публично, и его можно редактировать. Пользователи могут изучать и менять код и сами добавлять функции. Других преимуществ учебник не перечисляет."
+    },
+    {
+      "num": 26,
+      "question_en": "Talk about the benefits of proprietary software.",
+      "question_ru": "Расскажите о преимуществах проприетарного программного обеспечения.",
+      "answer_en": "Proprietary software has protected source code. The vendor controls updates, and users cannot add features themselves. Its benefit is that one company manages the software and its updates.",
+      "answer_ru": "У проприетарного ПО исходный код защищён. Поставщик контролирует обновления, а пользователи не могут сами добавлять функции. Преимущество в том, что одна компания управляет программой и её обновлениями."
+    }
+  ],
+  "7": [
+    {
+      "num": 27,
+      "question_en": "How can networks be classified? Talk about different types of networks.",
+      "question_ru": "Как можно классифицировать сети? Расскажите о различных типах сетей.",
+      "answer_en": "By area: LAN (building), MAN (city), WAN (country or continent). By architecture: peer-to-peer or client-server. By topology: star, bus, ring, tree, mesh, hybrid. By medium: wired or wireless.",
+      "answer_ru": "По площади: LAN (здание), MAN (город), WAN (страна или континент). По архитектуре: одноранговая или клиент-сервер. По топологии: звезда, шина, кольцо, дерево, ячейка, гибрид. По среде: проводная или беспроводная."
+    },
+    {
+      "num": 28,
+      "question_en": "Talk about different networking hardware and specify their function.",
+      "question_ru": "Расскажите о различном сетевом оборудовании и укажите его функции.",
+      "answer_en": "A modem connects a computer to the Internet. A router forwards packets by IP address. A hub broadcasts data to every device. A switch sends data to the right device. A bridge joins network segments. A gateway translates between different protocols.",
+      "answer_ru": "Модем подключает компьютер к интернету. Маршрутизатор шлёт пакеты по IP-адресу. Концентратор передаёт данные всем. Коммутатор отправляет их нужному устройству. Мост соединяет сегменты сети. Шлюз переводит данные между разными протоколами."
+    },
+    {
+      "num": 29,
+      "question_en": "Talk about the difference between a hub, a switch, and a router.",
+      "question_ru": "В чём разница между концентратором, коммутатором и маршрутизатором?",
+      "answer_en": "A hub broadcasts data to every device. A switch checks addresses and sends data only to the right device. A router connects networks and forwards packets by IP address. A hub is Layer 1, a switch Layer 2, and a router Layer 3.",
+      "answer_ru": "Концентратор передаёт данные всем устройствам. Коммутатор проверяет адреса и отправляет данные только нужному устройству. Маршрутизатор соединяет сети и пересылает пакеты по IP-адресу. Концентратор — уровень 1, коммутатор — 2, маршрутизатор — 3."
+    },
+    {
+      "num": 30,
+      "question_en": "What types of network topology can you name? Describe each of them.",
+      "question_ru": "Какие типы сетевых топологий вы можете назвать? Опишите каждую из них.",
+      "answer_en": "Star: all nodes connect to a central node. Bus: all nodes share one backbone cable. Ring: each node connects to two neighbours. Tree: a combination of bus and star. Mesh: nodes connect to as many other nodes as possible. Hybrid: a mix of topologies.",
+      "answer_ru": "Звезда: все узлы подключены к центральному узлу. Шина: узлы используют один магистральный кабель. Кольцо: каждый узел соединён с двумя соседями. Дерево: сочетание шины и звезды. Ячейка: узлы соединены со многими другими. Гибрид: смесь топологий."
+    },
+    {
+      "num": 31,
+      "question_en": "What type of topology is considered the most / least robust? Why?",
+      "question_ru": "Какая топология считается самой надёжной и самой уязвимой? Почему?",
+      "answer_en": "The textbook does not rank topologies by robustness. It says mesh nodes connect to as many other nodes as possible, while all bus nodes share one backbone cable. So mesh has more alternative connections; bus depends on one cable.",
+      "answer_ru": "Учебник не сравнивает топологии по надёжности. В ячеистой сети узлы соединены со многими другими, а в шине все узлы используют один кабель. У ячейки больше альтернативных связей, а шина зависит от одного кабеля."
+    },
+    {
+      "num": 32,
+      "question_en": "Talk about the benefits and downsides of wired and wireless networks.",
+      "question_ru": "Расскажите о преимуществах и недостатках проводных и беспроводных сетей.",
+      "answer_en": "Wired networks use coaxial or twisted-pair cables; fiber-optic cables are fast over long distances. Wireless networks use radio waves and let devices connect without cables. The textbook does not list other advantages or disadvantages.",
+      "answer_ru": "Проводные сети используют коаксиальные или витые пары; оптоволокно быстро передаёт данные на большие расстояния. Беспроводные сети используют радиоволны и позволяют подключаться без кабелей. Других плюсов и минусов учебник не перечисляет."
+    },
+    {
+      "num": 33,
+      "question_en": "Talk about the seven layers of the OSI model. Name them and specify the function of each of them.",
+      "question_ru": "Расскажите о семи уровнях модели OSI. Назовите их и укажите функцию каждого.",
+      "answer_en": "OSI has seven layers: physical (raw bits), data link (frames, MAC), network (IP routing), transport (TCP/UDP, error control), session (connections and ports), presentation (data format and encryption) and application (FTP, HTTP, HTTPS).",
+      "answer_ru": "В OSI семь уровней: физический (биты), канальный (кадры, MAC), сетевой (IP-маршрутизация), транспортный (TCP/UDP, контроль ошибок), сеансовый (соединения и порты), представления (формат данных и шифрование), прикладной (FTP, HTTP, HTTPS)."
+    },
+    {
+      "num": 34,
+      "question_en": "Talk about the major protocols used at each layer of the OSI model.",
+      "question_ru": "Расскажите об основных протоколах, используемых на каждом уровне модели OSI.",
+      "answer_en": "The textbook names FTP, HTTP and HTTPS at the application layer; TCP and UDP at the transport layer; IP at the network layer; and MAC at the data link layer. It does not list protocols for the other layers.",
+      "answer_ru": "Учебник называет FTP, HTTP и HTTPS на прикладном уровне; TCP и UDP на транспортном; IP на сетевом; MAC на канальном. Протоколы для остальных уровней он не перечисляет."
+    }
+  ],
+  "8": [
+    {
+      "num": 35,
+      "question_en": "What types of wired Internet connection do you know? Talk about each of them.",
+      "question_ru": "Какие типы проводного подключения к Интернету вы знаете? Расскажите о каждом.",
+      "answer_en": "DSL uses telephone lines and works together with the phone. Cable Internet uses cable TV coaxial cables. Fiber-optic Internet uses light and is very fast. Dial-up is an old connection that used a phone call and blocked the phone line.",
+      "answer_ru": "DSL использует телефонные линии и работает вместе с телефоном. Кабельный интернет использует коаксиальные кабели ТВ. Оптоволокно использует свет и работает очень быстро. Dial-up — старый доступ через звонок, который занимал линию."
+    },
+    {
+      "num": 36,
+      "question_en": "What is the difference between DSL and dial-up connection? Talk about the types of DSL.",
+      "question_ru": "В чём разница между DSL и коммутируемым соединением? Расскажите о типах DSL.",
+      "answer_en": "DSL uses higher frequencies, so the phone and Internet work together. Dial-up used a phone call and blocked the line. ADSL is asymmetric: download is faster than upload. The textbook also names SDSL and VDSL but does not describe them.",
+      "answer_ru": "DSL использует более высокие частоты, поэтому телефон и интернет работают вместе. Dial-up занимал линию и не позволял звонить. ADSL асимметричен: скачивание быстрее загрузки. Учебник также называет SDSL и VDSL, но не описывает их."
+    },
+    {
+      "num": 37,
+      "question_en": "What types of wireless Internet connection do you know? Talk about each of them.",
+      "question_ru": "Какие типы беспроводного подключения к Интернету вы знаете? Расскажите о каждом.",
+      "answer_en": "Wi-Fi uses radio waves for local networking. Cellular networks use cells and base stations for mobile voice and data. Satellite Internet uses a geostationary satellite; signals travel far, so there may be a delay.",
+      "answer_ru": "Wi-Fi использует радиоволны для локальной сети. Сотовая связь использует соты и базовые станции для голоса и данных. Спутниковый интернет использует геостационарный спутник; сигнал идёт далеко, поэтому возможна задержка."
+    },
+    {
+      "num": 38,
+      "question_en": "What is the difference between the Internet and WWW?",
+      "question_ru": "В чём разница между Интернетом и WWW?",
+      "answer_en": "The Internet is the largest WAN: it connects millions of computers worldwide. The WWW is a collection of web pages and documents on the Internet. We find them by URL and follow hyperlinks. Tim Berners-Lee created the WWW at CERN in 1989.",
+      "answer_ru": "Интернет — крупнейшая WAN: он соединяет миллионы компьютеров по всему миру. WWW — это набор веб-страниц и документов в интернете. Их находят по URL и соединяют гиперссылками. Тим Бернерс-Ли создал WWW в ЦЕРНе в 1989 году."
+    },
+    {
+      "num": 39,
+      "question_en": "Compare the OSI model and the TCP/IP model.",
+      "question_ru": "Сравните модель OSI и модель TCP/IP.",
+      "answer_en": "OSI has seven layers. TCP/IP is a shorter model with four layers; sometimes five are counted. In the four-layer version, physical and data link are one network interface layer. TCP/IP was developed by the US Department of Defense in the 1960s.",
+      "answer_ru": "В OSI семь уровней. TCP/IP — более короткая модель из четырёх уровней; иногда считают пять. В версии из четырёх уровней физический и канальный объединены в сетевой интерфейс. TCP/IP был разработан Министерством обороны США в 1960-х."
+    }
+  ],
+  "9": [
+    {
+      "num": 40,
+      "question_en": "Talk about the difference between crawler-based search engines, human-powered directories, and meta-search engines.",
+      "question_ru": "В чём разница между поисковыми системами на основе краулеров, каталогами, созданными людьми, и метапоисковиками?",
+      "answer_en": "Crawler-based engines compile listings automatically with bots. Human-powered directories use editors who review submitted sites. Meta-search engines have no index of their own; they send queries to several engines and combine the top results.",
+      "answer_ru": "Поисковики на краулерах собирают список автоматически ботами. Каталоги составляют редакторы, которые проверяют присланные сайты. Метапоисковики не имеют своего индекса: они отправляют запрос нескольким системам и объединяют лучшие результаты."
+    },
+    {
+      "num": 41,
+      "question_en": "Talk about the three steps that every crawler-based search engine takes before displaying search results.",
+      "question_ru": "Расскажите о трёх шагах, которые выполняет любая поисковая система на основе краулера перед показом результатов.",
+      "answer_en": "Crawling: a bot or spider visits web pages. Indexing: the engine finds the words and expressions that describe each page and stores them as keywords. Ranking: for a query, it searches the index and orders results by relevance.",
+      "answer_ru": "Обход: бот или паук посещает веб-страницы. Индексация: система находит слова и выражения, описывающие страницу, и сохраняет их как ключевые слова. Ранжирование: по запросу она ищет в индексе и упорядочивает результаты по релевантности."
+    }
+  ],
+  "10": [
+    {
+      "num": 42,
+      "question_en": "What is the difference between low-level and high-level programming languages? Talk about the function of an assembler, a compiler, and an interpreter.",
+      "question_ru": "В чём разница между языками низкого и высокого уровня? Расскажите о функциях ассемблера, компилятора и интерпретатора.",
+      "answer_en": "Low-level languages (machine code, assembly) are close to hardware. High-level languages are close to English and easier to write. An assembler turns assembly into machine code. A compiler translates all code; an interpreter works line by line.",
+      "answer_ru": "Языки низкого уровня, машинный код и ассемблер близки к аппаратуре. Языки высокого уровня ближе к английскому и проще для написания. Ассемблер переводит код ассемблера в машинный. Компилятор переводит всю программу, интерпретатор — строку за строкой."
+    },
+    {
+      "num": 43,
+      "question_en": "What is OOP? Talk about the key features of OOP.",
+      "question_ru": "Что такое ООП? Расскажите о ключевых особенностях ООП.",
+      "answer_en": "The textbook does not list OOP features. It says Java popularized object-oriented programming, which makes code more intuitive and reusable and shortens development time.",
+      "answer_ru": "Учебник не перечисляет особенности ООП. Он говорит, что Java популяризировала объектно-ориентированное программирование, которое делает код более понятным и переиспользуемым и сокращает время разработки."
+    },
+    {
+      "num": 44,
+      "question_en": "What high-level languages do you know? Talk about their main features and application areas.",
+      "question_ru": "Какие языки высокого уровня вы знаете? Расскажите об их основных особенностях и областях применения.",
+      "answer_en": "FORTRAN was designed in the mid-1950s for scientific and engineering work. C was used for system software, graphics and commercial programs. Java was designed for the Web and popularized OOP. Python is used for web development, data analysis and AI.",
+      "answer_ru": "FORTRAN создан в середине 1950-х для научных и инженерных расчётов. C использовали для системного ПО, графики и коммерческих программ. Java создана для веба и популяризировала ООП. Python применяют для веба, анализа данных и ИИ."
+    }
+  ],
+  "11": [
+    {
+      "num": 45,
+      "question_en": "What tools are used to build a website? Talk about the features of a good website.",
+      "question_ru": "Какие инструменты используются для создания веб-сайта? Расскажите о признаках хорошего сайта.",
+      "answer_en": "HTML describes the structure of a page, CSS controls its appearance and layout, and JavaScript makes it interactive. FTP uploads the page. Text is the most important element of a website; pages also use graphics and hyperlinks.",
+      "answer_ru": "HTML описывает структуру страницы, CSS управляет её видом и вёрсткой, JavaScript делает её интерактивной. FTP загружает страницу. Текст — самый важный элемент сайта; страницы также используют графику и гиперссылки."
+    },
+    {
+      "num": 46,
+      "question_en": "What is SEO? What types of SEO can you name?",
+      "question_ru": "Что такое SEO? Какие типы SEO вы можете назвать?",
+      "answer_en": "The textbook does not describe SEO or its types. It explains that crawler-based search engines crawl, index and rank pages, and that websites use HTML, CSS and JavaScript.",
+      "answer_ru": "Учебник не описывает SEO и его типы. Он объясняет, как поисковики обходят, индексируют и ранжируют страницы, а сайты создаются с помощью HTML, CSS и JavaScript."
+    }
+  ],
+  "12": [
+    {
+      "num": 47,
+      "question_en": "What types of malware do you know? Talk about each of them.",
+      "question_ru": "Какие типы вредоносных программ вы знаете? Расскажите о каждом.",
+      "answer_en": "Malware includes viruses, worms, Trojans, spyware and adware. A virus infects files and needs a host. A worm is standalone and spreads via networks. A Trojan looks useful but is harmful. Spyware collects data without consent; adware shows pop-ups.",
+      "answer_ru": "Вредоносное ПО: вирусы, черви, трояны, шпионские, рекламные программы. Вирус заражает файлы и живёт в них. Червь сам распространяется по сети. Троян полезен на вид, но вредит. Шпион собирает данные без согласия, реклама показывает всплывающие окна."
+    },
+    {
+      "num": 48,
+      "question_en": "What are the four parts of a virus?",
+      "question_ru": "Какие четыре части есть у вируса?",
+      "answer_en": "A virus has four parts: misdirection hides it, reproduction copies it to other programs, a trigger activates the payload at a certain time or event, and the payload performs the action. A program with a payload but no reproduction is a Trojan.",
+      "answer_ru": "У вируса четыре части: маскировка скрывает его, размножение копирует в другие программы, триггер запускает нагрузку в определённое время или при событии, а нагрузка выполняет действие. Программа с нагрузкой, но без размножения — это троян."
+    },
+    {
+      "num": 49,
+      "question_en": "What types of cybercrime do you know? Talk about each of them.",
+      "question_ru": "Какие виды киберпреступлений вы знаете? Расскажите о каждом.",
+      "answer_en": "Hacking is breaking into systems. Phishing steals passwords or card data. Ransomware blocks data until money is paid. A DDoS attack swamps a server with requests. Software piracy is illegal copying. The textbook also names keyloggers and defacing.",
+      "answer_ru": "Хакерство — это взлом систем. Фишинг крадёт пароли или данные карт. Ransomware блокирует данные до оплаты. DDoS-атака перегружает сервер запросами. Пиратство — незаконное копирование. Учебник также называет кейлоггеры и дефейсинг."
+    }
+  ],
+  "13": [
+    {
+      "num": 50,
+      "question_en": "How can one protect a computer from malware and cybercrime? Talk about anti-virus software, firewall, encryption / decryption.",
+      "question_ru": "Как можно защитить компьютер от вредоносных программ и киберпреступлений? Расскажите об антивирусе, межсетевом экране, шифровании и дешифровании.",
+      "answer_en": "Use antivirus, a firewall, strong passwords, backups and encryption. Antivirus finds and removes malware. A firewall filters packets by rules. Encryption turns data into a secret code; decryption restores it. Do not open strange attachments.",
+      "answer_ru": "Используйте антивирус, брандмауэр, надёжные пароли, резервные копии и шифрование. Антивирус находит и удаляет вирусы. Брандмауэр фильтрует пакеты по правилам. Шифрование превращает данные в код, дешифрование возвращает их. Не открывайте чужие файлы."
+    }
+  ],
+  "14": [
+    {
+      "num": 51,
+      "question_en": "How do you think the field of IT will develop in the future?",
+      "question_ru": "Как, по вашему мнению, будет развиваться сфера IT в будущем?",
+      "answer_en": "The textbook names two main trends: artificial neural networks and the Internet of Things. ANN will do more tasks, such as face recognition and translation. IoT will automate work and reduce costs, but security and compatibility will remain problems.",
+      "answer_ru": "Учебник называет два направления: искусственные нейронные сети и Интернет вещей. ИНС будут выполнять больше задач, например распознавание лиц и перевод. IoT автоматизирует работу и снизит затраты, но останутся проблемы безопасности и совместимости."
+    },
+    {
+      "num": 52,
+      "question_en": "Talk about the Turing Test. What does the procedure of the Turing Test involve?",
+      "question_ru": "Расскажите о тесте Тьюринга. В чём заключается процедура теста?",
+      "answer_en": "The textbook does not describe the Turing Test or its procedure. It only says that artificial neural networks are a type of AI designed to mimic how the human brain processes information.",
+      "answer_ru": "Учебник не описывает тест Тьюринга и его процедуру. Он только говорит, что искусственные нейронные сети — это вид ИИ, который имитирует обработку информации человеческим мозгом."
+    },
+    {
+      "num": 53,
+      "question_en": "What is HLAI? What are the risks of using HLAI?",
+      "question_ru": "Что такое HLAI? Какие риски связаны с использованием HLAI?",
+      "answer_en": "The textbook does not define HLAI. It describes AI as artificial neural networks that mimic the human brain. It mentions the 'black box' problem and the risk that hackers may steal IoT data.",
+      "answer_ru": "Учебник не определяет HLAI. Он описывает ИИ как искусственные нейронные сети, имитирующие человеческий мозг. Он упоминает проблему «чёрного ящика» и риск кражи данных IoT хакерами."
+    },
+    {
+      "num": 54,
+      "question_en": "Describe the construction of an artificial neural network. What tasks can be accomplished by a neural network?",
+      "question_ru": "Опишите строение искусственной нейронной сети. Какие задачи она может выполнять?",
+      "answer_en": "An ANN has an input layer, one or more hidden layers and an output layer. Units are connected by weights. It learns by backpropagation. It can do face recognition, autonomous driving, machine translation, fraud detection, clustering and prediction.",
+      "answer_ru": "ИНС имеет входной слой, один или несколько скрытых слоёв и выходной слой. Единицы соединены весами. Она учится с помощью обратного распространения. Она может распознавать лица, переводить, находить мошенничество, кластеризовать и прогнозировать."
+    },
+    {
+      "num": 55,
+      "question_en": "In what way is an artificial neural network similar to a biological brain?",
+      "question_ru": "В чём сходство искусственной нейронной сети с биологическим мозгом?",
+      "answer_en": "ANN are designed to mimic how the human brain processes information. Both have interconnected nodes that receive input and produce output. In an ANN, connections have weights. The textbook does not give more biological details.",
+      "answer_ru": "ИНС созданы, чтобы имитировать обработку информации человеческим мозгом. У обеих систем есть соединённые узлы, которые получают вход и создают выход. В ИНС связи имеют веса. Больше биологических деталей учебник не даёт."
+    },
+    {
+      "num": 56,
+      "question_en": "How are units arranged in a fully connected neural network?",
+      "question_ru": "Как расположены нейроны в полносвязной нейронной сети?",
+      "answer_en": "In a fully connected network, each unit in one layer is connected to every unit in another layer. The input units receive data, hidden units process it, and output units produce the result. The connections have weights.",
+      "answer_ru": "В полносвязной сети каждый элемент одного слоя соединён с каждым элементом другого слоя. Входные элементы получают данные, скрытые обрабатывают их, а выходные выдают результат. Связи имеют веса."
+    },
+    {
+      "num": 57,
+      "question_en": "What is backpropagation?",
+      "question_ru": "Что такое обратное распространение ошибки?",
+      "answer_en": "Backpropagation is a feedback process that trains a neural network. It compares the network's output with the correct output. The difference is used to change the weights, working backward from output through hidden units to input.",
+      "answer_ru": "Обратное распространение — это процесс обратной связи для обучения нейросети. Он сравнивает выход сети с правильным выходом. Разница используется для изменения весов: от выходных элементов через скрытые к входным."
+    },
+    {
+      "num": 58,
+      "question_en": "What problems do professionals come across when working with artificial neural networks?",
+      "question_ru": "С какими проблемами сталкиваются специалисты при работе с искусственными нейронными сетями?",
+      "answer_en": "Training a neural network can take a lot of time. Another problem is that neural networks are 'black boxes': users give data and get answers, but they cannot see the exact decision-making process.",
+      "answer_ru": "Обучение нейросети может занимать много времени. Ещё одна проблема — «чёрный ящик»: пользователи дают данные и получают ответы, но не видят точный процесс принятия решения."
+    },
+    {
+      "num": 59,
+      "question_en": "What is IoT? How can hardware be classified in the context of IoT devices? Give examples.",
+      "question_ru": "Что такое IoT? Как можно классифицировать аппаратное обеспечение в контексте устройств IoT? Приведите примеры.",
+      "answer_en": "IoT is a system of objects with unique identifiers that transfer data over a network without human interaction. The textbook does not classify IoT hardware. It gives examples: smart phones, smart watches, fitness trackers and virtual assistants.",
+      "answer_ru": "IoT — это система физических объектов с уникальными идентификаторами, которые передают данные по сети без участия человека. Учебник не классифицирует аппаратуру IoT. Он приводит примеры: смартфоны, умные часы, фитнес-трекеры и виртуальные помощники."
+    }
+  ],
+  "15": [
+    {
+      "num": 60,
+      "question_en": "What jobs in the IT field do you know? Talk about each of them. Which field would you like to work in?",
+      "question_ru": "Какие профессии в сфере IT вы знаете? Расскажите о каждой. В какой сфере вы хотели бы работать?",
+      "answer_en": "IT jobs include hardware and software engineers, system administrators, data scientists, security specialists, database administrators, network engineers and IT directors. I would like to be a software engineer because I want to design programs.",
+      "answer_ru": "В IT есть инженеры по аппаратуре и ПО, сисадмины, аналитики данных, специалисты по безопасности, администраторы баз данных, сетевые инженеры и IT-директора. Я хочу стать инженером-программистом: проектировать и писать программы."
+    }
+  ]
+}

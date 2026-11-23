@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="IT English Lab">
+  <rect width="512" height="512" rx="112" fill="#c6f56b"/>
+  <rect x="132" y="132" width="36" height="248" rx="8" fill="#0b0f0e"/>
+  <rect x="204" y="132" width="176" height="36" rx="8" fill="#0b0f0e"/>
+  <rect x="274" y="132" width="36" height="248" rx="8" fill="#0b0f0e"/>
+  <rect x="132" y="404" width="248" height="16" rx="8" fill="#0b0f0e" opacity=".55"/>
+</svg>

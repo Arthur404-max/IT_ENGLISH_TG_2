@@ -1,0 +1,3236 @@
+{
+  "meta": {
+    "title": "IT English Lab — экзаменационные материалы",
+    "source": "Course study materials",
+    "level": "B1",
+    "exam1_units": [
+      1,
+      8
+    ],
+    "exam2_terms": 20,
+    "exam2_questions": 10,
+    "bank_version": 2,
+    "bank_tags": [
+      "unit",
+      "vocab",
+      "term",
+      "abbr",
+      "question",
+      "reading",
+      "text",
+      "audio"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "unit_id": 1,
+      "question": "How many generations of computers are there? What is the difference between them? In what way have computers been changing over time?",
+      "answer": "There are five generations of computers. The first generation used vacuum tubes, the second used transistors, the third used integrated circuits, the fourth used microprocessors and VLSI circuits, and the fifth is based on artificial intelligence, high computing power and parallel processing. Over time computers have become smaller, faster, more reliable and less expensive, and they consume less energy.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "text",
+      "tags": [
+        "unit-1",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 2,
+      "unit_id": 1,
+      "question": "Who is usually called “the father of the computer”?",
+      "answer": "Charles Babbage is usually called the father of the computer. In the 1830s he designed the Analytical Engine, which contained an arithmetic logic unit, a control unit, memory and an input/output system. These are the essential parts of a modern computer.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "text",
+      "tags": [
+        "unit-1",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 3,
+      "unit_id": 1,
+      "question": "Talk about the distinctive feature of the early computers and the people who contributed most to the development of computer technologies.",
+      "answer": "The first counting tools were sticks and stones, and the abacus was invented in China around 1300 BC. Blaise Pascal built the Pascaline, a mechanical adding machine, between 1642 and 1644. Charles Babbage designed the Analytical Engine, and Konrad Zuse created the Z1, the first programmable mechanical computing device, in 1936. These inventions led to the first fully functioning programmable electromechanical computer.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "text",
+      "tags": [
+        "unit-1",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 4,
+      "unit_id": 2,
+      "question": "What are the differences between the main types of computers (mainframes, supercomputers, desktop PCs, laptops, and tablets)?",
+      "answer": "Mainframes handle huge amounts of data and many users at the same time. Supercomputers are the most powerful computers and are used for one very complex task, for example complex calculations or simulations. Desktop PCs are general-purpose computers for individual use. Laptops are portable personal computers with a screen, keyboard and touchpad. Tablets are wireless touchscreen devices that are smaller and lighter than laptops.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "text",
+      "tags": [
+        "unit-2",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 5,
+      "unit_id": 2,
+      "question": "What are the similarities between smartphones and tablet PCs?",
+      "answer": "Both smartphones and tablets are portable wireless devices with touchscreens. They use mobile operating systems, run applications, connect to the Internet and are used for communication, reading, watching videos, taking photos and playing games. They are smaller and less powerful than desktop computers.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "text",
+      "tags": [
+        "unit-2",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 6,
+      "unit_id": 3,
+      "question": "What is the difference between hardware and software?",
+      "answer": "Hardware is any electronic or mechanical part of a computer that you can see and touch, such as the CPU, memory and peripherals. Software is a set of instructions, rules or programs that tell the computer what to do. Hardware is the physical equipment, while software is the logical part of the system.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 7,
+      "unit_id": 3,
+      "question": "What are the most important hardware components in a computer system? Explain your choice. Talk about the function of each of the component you have named.",
+      "answer": "The most important components are the CPU, main memory and input/output devices. The CPU executes program instructions and coordinates the system; it contains the control unit, ALU and registers. Main memory, or RAM, stores the data and instructions that are being processed. Input devices send data into the computer, and output devices show the results. Storage devices keep data permanently.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 8,
+      "unit_id": 3,
+      "question": "What types of peripherals do you know? Talk about each of them.",
+      "answer": "Peripherals are physical units attached to the computer. They include storage devices, such as hard drives, DVD drives and flash drives, input devices, such as the keyboard and mouse, and output devices, such as the monitor and printer. Storage devices provide permanent storage of data and programs.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 9,
+      "unit_id": 3,
+      "question": "What are the three main parts of the CPU? Talk about the functions of each of them.",
+      "answer": "The CPU consists of the control unit, the arithmetic logic unit and registers. The control unit interprets instructions and causes other components to execute them. The ALU performs mathematical calculations and logical operations. Registers are high-speed memory units inside the CPU: the program counter keeps track of the next instruction, and the instruction register holds the instruction being executed.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 10,
+      "unit_id": 3,
+      "question": "What is the performance of the CPU affected by?",
+      "answer": "CPU performance is partly determined by clock speed, which is measured in gigahertz. It also depends on the number of cores and the ability to process multiple tasks at the same time, as well as on cache size and the speed of memory access.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 11,
+      "unit_id": 4,
+      "question": "What is cache memory? What is its function? What is ‘write-through’ cache and ‘write-back’ cache?",
+      "answer": "Cache memory is a small, fast memory between the CPU and main memory. It stores copies of recently used data and increases the speed of access. In a write-through cache, data is updated in both the cache and main memory at the same time. In a write-back cache, changes are written only to the cache first, and main memory is updated when the cache block is replaced.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-4",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 12,
+      "unit_id": 4,
+      "question": "What is cache hit/ cache miss?",
+      "answer": "A cache hit occurs when the processor finds the needed memory location in the cache, so the data is read from the cache. A cache miss occurs when the data is not in the cache; then the processor accesses main memory and copies the data into the cache.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-4",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 13,
+      "unit_id": 4,
+      "question": "Talk about RAM and ROM. Talk about different types of ROM.",
+      "answer": "RAM is volatile memory that stores the data and instructions currently being processed; its contents are lost when the computer is turned off. ROM is non-volatile memory that contains instructions for basic operations, such as the BIOS. ROM types include MROM, PROM, EPROM, EEPROM and flash ROM.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-4",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 14,
+      "unit_id": 4,
+      "question": "What is the difference between primary memory and secondary storage devices? Give examples of primary memory and secondary storage media.",
+      "answer": "Primary storage is internal memory that the CPU can access directly with minimum or no delay. It includes RAM, ROM and cache. Secondary storage is non-volatile, slower and has a larger capacity; examples are hard disk drives, SSDs, optical discs and flash drives.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-4",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 15,
+      "unit_id": 5,
+      "question": "Give at least two possible classifications of storage devices.",
+      "answer": "Storage devices can be classified by technology into magnetic, optical and flash memory devices. They can also be classified into primary and secondary storage. Another classification is by access method: direct access and sequential access.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-5",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 16,
+      "unit_id": 5,
+      "question": "Talk about a hard disk drive. Describe its construction and formatting process.",
+      "answer": "A hard disk drive contains one or more platters inside an air-sealed casing. Data is written and read by a magnetic head that moves over the spinning platters. During formatting the disk is divided into tracks, sectors and clusters, so the operating system can store and find files. Seek time is the average time needed to find data, and transfer rate is the speed of transmitting data.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-5",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 17,
+      "unit_id": 5,
+      "question": "What are the differences between a CD and a DVD in terms of the internal structure?",
+      "answer": "CDs and DVDs are optical discs that store data as pits read by a laser. A DVD has smaller pits and a narrower track pitch than a CD, so it can store much more data. DVDs can also use multiple layers and sides, while a standard CD usually has one layer and one side.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-5",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 18,
+      "unit_id": 5,
+      "question": "What are the advantages and disadvantages of optical discs over magnetic disks?",
+      "answer": "Optical discs are durable, portable and not affected by magnetic fields. Their disadvantages are lower speed and smaller capacity compared with modern hard drives. Magnetic disks offer greater capacity and a lower price, but they have moving parts and are more sensitive to shocks and magnetic fields.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-5",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 19,
+      "unit_id": 5,
+      "question": "Compare an HDD and an SSD.",
+      "answer": "An HDD stores data magnetically on spinning platters and has moving parts. An SSD uses flash memory chips, has no moving parts, is faster, quieter and more resistant to shocks, but it is usually more expensive. Both are non-volatile secondary storage devices.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "text",
+      "tags": [
+        "unit-5",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 20,
+      "unit_id": 6,
+      "question": "What is the difference between system software and application software? Give examples of system software and application software.",
+      "answer": "System software operates and manages the computer system; examples are operating systems, firmware and device drivers. Application software helps the user perform specific tasks; examples are word processors, spreadsheets, web browsers and database software.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 21,
+      "unit_id": 6,
+      "question": "What is an operating system? What are the main functions of an operating system?",
+      "answer": "An operating system is software that acts as an intermediary between application programs and computer hardware. Its main functions are to manage computer resources such as the CPU and disk drives, establish a user interface, and execute and provide services for application software.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 22,
+      "unit_id": 6,
+      "question": "How can operating systems be classified?",
+      "answer": "Operating systems can be classified by the number of users into single-user and multi-user systems, by the number of tasks into single-tasking and multitasking systems, and by purpose into desktop, mobile and real-time operating systems. Multitasking systems can be preemptive or cooperative.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 23,
+      "unit_id": 6,
+      "question": "What is the difference between CLI and GUI?",
+      "answer": "A CLI, or command line interface, requires the user to type commands to run programs. A GUI, or graphical user interface, lets the user click icons and choose commands from menus. A GUI uses the WIMP environment: windows, icons, menus and a pointer.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 24,
+      "unit_id": 6,
+      "question": "What is an application program? What are the main types of application programs?",
+      "answer": "An application program is software designed to help the user perform specific tasks. The main types are word processors, spreadsheets, database software, web browsers, presentation software and graphics programs.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 25,
+      "unit_id": 6,
+      "question": "Talk about the benefits of using open-source software.",
+      "answer": "Open-source software has publicly visible and editable source code. Users can study, modify and improve it, it is often free, and it can be adapted to specific needs. It also encourages collaboration and reduces dependence on one vendor.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 26,
+      "unit_id": 6,
+      "question": "Talk about the benefits of proprietary software.",
+      "answer": "Proprietary software is owned by a vendor who controls updates and support. It often provides professional support, tested updates, security and a complete package of features. Users do not need to modify the code themselves.",
+      "source": "Unit 06 · Software",
+      "source_tab": "text",
+      "tags": [
+        "unit-6",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 27,
+      "unit_id": 7,
+      "question": "How can networks be classified? Talk about different types of networks.",
+      "answer": "Networks can be classified by geographical area into LAN, MAN and WAN. They can also be classified by architecture into client-server and peer-to-peer networks, and by physical medium into wired and wireless networks.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 28,
+      "unit_id": 7,
+      "question": "Talk about different networking hardware and specify their function.",
+      "answer": "Network devices include modems, routers, hubs, switches, bridges and gateways. A modem converts signals for transmission over a line; a router forwards packets between networks; a hub broadcasts data to all devices; a switch sends data to the correct device; a bridge connects network segments; a gateway connects networks with different protocols.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 29,
+      "unit_id": 7,
+      "question": "Talk about the difference between a hub, a switch, and a router.",
+      "answer": "A hub broadcasts data to every connected device and works at Layer 1. A switch inspects packets and sends them only to the destination device; it works at Layer 2. A router connects different networks and forwards packets to their IP addresses; it works at Layer 3.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 30,
+      "unit_id": 7,
+      "question": "What types of network topology can you name? Describe each of them.",
+      "answer": "The main topologies are star, bus, ring, tree, mesh and hybrid. In a star network all nodes connect to a central node. In a bus network all nodes share one backbone cable. In a ring network each device connects to its neighbours. Tree topology combines bus and star. Mesh topology connects nodes directly to many other nodes. Hybrid topology combines several topologies.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 31,
+      "unit_id": 7,
+      "question": "What type of topology is considered the most/ least robust? Why?",
+      "answer": "Mesh topology is considered the most robust because nodes have multiple paths to each other, so the network continues working if one connection fails. A bus topology is the least robust because a failure of the main cable can stop the whole network.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 32,
+      "unit_id": 7,
+      "question": "Talk about the benefits and downsides of wired and wireless networks.",
+      "answer": "Wired networks provide a stable, fast and secure connection, but they require cables and are less convenient to move. Wireless networks are convenient, flexible and easy to install, but their signal can be affected by distance, walls and interference, and they may be less secure.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 33,
+      "unit_id": 7,
+      "question": "Talk about the seven layers of the OSI model. Name them and specify the function of each of them.",
+      "answer": "The OSI model has seven layers: physical, data link, network, transport, session, presentation and application. The physical layer transmits raw bits; the data link layer manages frames and MAC addresses; the network layer routes packets using IP addresses; the transport layer provides data transfer using TCP or UDP; the session layer controls sessions; the presentation layer formats and encrypts data; the application layer supports user applications such as HTTP, FTP and email.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 34,
+      "unit_id": 7,
+      "question": "Talk about the major protocols used at each layer of the OSI model.",
+      "answer": "At the application layer, protocols include HTTP, HTTPS, FTP and email protocols. The presentation and session layers use format and session services. The transport layer uses TCP and UDP. The network layer uses IP. The data link layer uses Ethernet and MAC addressing, and the physical layer defines the transmission media and signals.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 35,
+      "unit_id": 8,
+      "question": "What types of wired Internet connection do you know? Talk about each of them.",
+      "answer": "Wired Internet connections include DSL, cable Internet and fiber-optic Internet. DSL uses telephone lines, cable Internet uses cable TV networks, and fiber-optic Internet uses light signals in fiber-optic cables. Fiber-optic connections are the fastest.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "text",
+      "tags": [
+        "unit-8",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 36,
+      "unit_id": 8,
+      "question": "What is the difference between DSL and dial-up connection? Talk about the types of DSL.",
+      "answer": "DSL uses the higher frequency bands of a telephone line for data, so the phone and the Internet can work at the same time. Dial-up uses a phone call to establish a connection and blocks the telephone line while connected. ADSL is the most common DSL type; it is asymmetric because download speed is higher than upload speed.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "text",
+      "tags": [
+        "unit-8",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 37,
+      "unit_id": 8,
+      "question": "What types of wireless Internet connection do you know? Talk about each of them.",
+      "answer": "The main wireless Internet technologies are Wi-Fi, cellular and satellite Internet. Wi-Fi uses radio waves for local networking; cellular networks use cell towers; satellite Internet uses a geostationary satellite and a satellite dish.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "text",
+      "tags": [
+        "unit-8",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 38,
+      "unit_id": 8,
+      "question": "What is the difference between the Internet and WWW?",
+      "answer": "The Internet is a global network of interconnected computer networks. The World Wide Web is a system of web pages and documents accessible through the Internet using URLs and browsers. The Web is a service that runs on the Internet, not the Internet itself.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "text",
+      "tags": [
+        "unit-8",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 39,
+      "unit_id": 8,
+      "question": "Compare the OSI model and the TCP/IP model.",
+      "answer": "The OSI model has seven layers and is a reference model for how data travels over a network. The TCP/IP model is a more concise practical model with four or five layers. TCP/IP was developed for the Internet and is based on standard protocols such as TCP, IP and UDP.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "text",
+      "tags": [
+        "unit-8",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 40,
+      "unit_id": 9,
+      "question": "Talk about the difference between crawler-based search engines, human-powered directories, and meta-search engines.",
+      "answer": "Crawler-based search engines, such as Google, compile their listings automatically using crawlers, indexing and ranking. Human-powered directories, such as Yahoo! Directory, use human editors to review and categorize websites. Meta-search engines, such as MetaCrawler, do not have their own index; they combine results from several search engines.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "text",
+      "tags": [
+        "unit-9",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 41,
+      "unit_id": 9,
+      "question": "Talk about the three steps that every crawler-based search engine takes before displaying search results.",
+      "answer": "The three steps are crawling, indexing and ranking. A crawler or spider fetches web pages, indexing identifies the keywords that describe each page, and ranking decides which results are most relevant to the user's query.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "text",
+      "tags": [
+        "unit-9",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 42,
+      "unit_id": 10,
+      "question": "What is the difference between low-level and high-level programming languages? Talk about the function of an assembler, a compiler, and an interpreter.",
+      "answer": "Low-level languages, such as machine code and assembly language, are close to the hardware and difficult to write. High-level languages are closer to English and easier to use. An assembler translates assembly language into machine code; a compiler translates the whole source program into object code; an interpreter translates the source code line by line while the program runs.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "text",
+      "tags": [
+        "unit-10",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 43,
+      "unit_id": 10,
+      "question": "What is OOP? Talk about the key features of OOP.",
+      "answer": "OOP, or object-oriented programming, is a programming style based on objects that combine data and methods. Its key features are encapsulation, inheritance, polymorphism and abstraction. OOP makes code more intuitive, reusable and easier to maintain, and it shortens program-development time.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "text",
+      "tags": [
+        "unit-10",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 44,
+      "unit_id": 10,
+      "question": "What high-level languages do you know? Talk about their main features and application areas.",
+      "answer": "Examples of high-level languages are FORTRAN, C, Java and Python. FORTRAN was designed for scientific and engineering computations. C is used for system software, graphics and commercial programs. Java is used for web applications and popularized OOP. Python is used for web development, data analysis and artificial intelligence.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "text",
+      "tags": [
+        "unit-10",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 45,
+      "unit_id": 11,
+      "question": "What tools are used to build a website? Talk about the features of a good website.",
+      "answer": "Websites are built with HTML for structure, CSS for styling and layout, and JavaScript for interactivity. A good website is well-structured, easy to navigate, readable, visually attractive, responsive and fast. It should also provide useful content and work correctly in different browsers.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "text",
+      "tags": [
+        "unit-11",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 46,
+      "unit_id": 11,
+      "question": "What is SEO? What types of SEO can you name?",
+      "answer": "SEO, or search engine optimization, is the process of improving a website so that it ranks higher in search engine results. The main types are on-page SEO, off-page SEO and technical SEO. On-page SEO works with content, keywords and structure; off-page SEO builds links and reputation; technical SEO improves speed, indexing and mobile usability.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "text",
+      "tags": [
+        "unit-11",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 47,
+      "unit_id": 12,
+      "question": "What types of malware do you know? Talk about each of them.",
+      "answer": "Malware is malicious software designed to infiltrate or damage a computer. Types include viruses, worms, Trojans, spyware and adware. A virus needs a host file to activate; a worm self-replicates and spreads through the network; a Trojan is disguised as a useful program; spyware collects information without consent; adware displays unwanted advertisements.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "text",
+      "tags": [
+        "unit-12",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 48,
+      "unit_id": 12,
+      "question": "What are the four parts of a virus?",
+      "answer": "A virus has four main parts: a misdirection routine that helps it hide, a reproduction routine that copies it to other programs, a trigger that activates the payload, and a payload that may be harmless or destructive.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "text",
+      "tags": [
+        "unit-12",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 49,
+      "unit_id": 12,
+      "question": "What types of cybercrime do you know? Talk about each of them.",
+      "answer": "Cybercrime includes hacking, identity theft, phishing, malware attacks, DDoS attacks and financial fraud. Criminals may steal personal data, bank details or business information, or damage computer systems.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "text",
+      "tags": [
+        "unit-12",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 50,
+      "unit_id": 13,
+      "question": "How can one protect a computer from malware and cybercrime? Talk about anti-virus software, firewall, encryption/ decryption.",
+      "answer": "To protect a computer, use antivirus software, a firewall, strong passwords, encryption and regular backups. Do not open attachments from strangers or download files from suspicious websites. Encryption converts data into a secret code, and decryption converts it back with a key. A firewall filters incoming and outgoing packets and blocks unauthorized access.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "text",
+      "tags": [
+        "unit-13",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 51,
+      "unit_id": 14,
+      "question": "How do you think the field of IT will develop in the future?",
+      "answer": "IT will continue to develop rapidly. Artificial intelligence, neural networks, the Internet of Things, cloud computing and cybersecurity will become more important. Computers will be more powerful, connected and integrated into everyday life, but issues such as security, privacy and the reliability of AI will also grow.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 52,
+      "unit_id": 14,
+      "question": "Talk about the Turing Test. What does the procedure of the Turing Test involve?",
+      "answer": "The Turing Test was proposed by Alan Turing to check whether a machine can show intelligent behaviour. In the procedure, a human judge communicates with a machine and a human without seeing them. If the judge cannot reliably tell which one is the machine, the machine is considered to have passed the test.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "note": "Вопрос опирается на видеоматериал курса; ответ дан на уровне B1 по общепринятому определению.",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 53,
+      "unit_id": 14,
+      "question": "What is HLAI? What are the risks of using HLAI?",
+      "answer": "HLAI, or human-level artificial intelligence, is AI that performs intellectual tasks at the level of a human. The risks include loss of control, unpredictable behaviour, dependence on AI systems, job displacement, privacy problems and the difficulty of understanding how the AI makes decisions.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "note": "Вопрос опирается на видеоматериал курса; ответ дан на уровне B1 по общепринятому определению.",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 54,
+      "unit_id": 14,
+      "question": "Describe the construction of an artificial neural network. What tasks can be accomplished by a neural network?",
+      "answer": "An artificial neural network consists of interconnected nodes, or neurons, arranged in input, hidden and output layers. The connections have weights, and the network learns by adjusting them during backpropagation. Neural networks can perform face recognition, autonomous driving, machine translation, fraud detection, clustering, pattern recognition and prediction.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 55,
+      "unit_id": 14,
+      "question": "In what way is an artificial neural network similar to a biological brain?",
+      "answer": "An artificial neural network is similar to a biological brain because it consists of many interconnected neurons that process information in parallel. It receives input, processes it through hidden layers and produces output. It can learn from examples by changing the weights of connections, which resembles learning in the brain.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 56,
+      "unit_id": 14,
+      "question": "How are units arranged in a fully connected neural network?",
+      "answer": "In a fully connected neural network, each unit in one layer is connected to every unit in the next layer. The network usually has an input layer, one or more hidden layers and an output layer. The connections are represented by weights that can be positive or negative.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 57,
+      "unit_id": 14,
+      "question": "What is backpropagation?",
+      "answer": "Backpropagation is the feedback process by which neural networks learn. The network compares its output with the correct output, calculates the difference and uses it to modify the weights of connections, working backward from the output layer through the hidden layers to the input layer.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 58,
+      "unit_id": 14,
+      "question": "What problems do professionals come across when working with artificial neural networks?",
+      "answer": "One problem is the long time needed to train large networks. Another problem is that neural networks are “black boxes”: users receive answers but cannot see the exact decision-making process. There are also issues with data quality, overfitting and the need for large computing resources.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 59,
+      "unit_id": 14,
+      "question": "What is IoT? How can hardware be classified in the context of IoT devices? Give examples.",
+      "answer": "IoT, or the Internet of Things, is a system of physical objects that have unique identifiers and can transfer data over a network without human interaction. IoT hardware can be classified into sensors, actuators, communication devices, gateways and embedded controllers. Examples are smart watches, smart home sensors, industrial sensors and connected cars.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "exam",
+        "question"
+      ]
+    },
+    {
+      "id": 60,
+      "unit_id": 15,
+      "question": "What jobs in the IT field do you know? Talk about each of them. Which field would you like to work in?",
+      "answer": "IT offers many jobs, including hardware engineer, software engineer, system administrator, data scientist, IT security specialist, database administrator, network engineer, full-stack developer and IT director. I would like to work as a software engineer because this profession involves designing and writing new software and requires creativity and constant learning.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "text",
+      "tags": [
+        "unit-15",
+        "exam",
+        "question"
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "unit_id": 1,
+      "en": "abacus",
+      "ru": "абак, счёты",
+      "definition": "An early counting tool with beads on wires or rods, used for basic arithmetic.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-abacus",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "vacuum tube",
+      "ru": "электронная лампа",
+      "definition": "An early electronic component that controlled current in a vacuum and was used in first-generation computers.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-vacuum-tube",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "transistor",
+      "ru": "транзистор",
+      "definition": "A semiconductor device that amplifies or switches electronic signals and replaced vacuum tubes.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-transistor",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "integrated circuit",
+      "ru": "интегральная схема",
+      "definition": "A small chip containing many electronic components and connections.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-integrated-circuit",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "microprocessor",
+      "ru": "микропроцессор",
+      "definition": "A single chip that contains the central processing unit of a computer.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-microprocessor",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "semiconductor",
+      "ru": "полупроводник",
+      "definition": "A material that conducts electricity only under certain conditions and is used in chips.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-semiconductor",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "artificial intelligence",
+      "ru": "искусственный интеллект",
+      "definition": "A field of computer science that creates systems able to perform tasks that normally require human intelligence.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-artificial-intelligence",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "en": "punched card",
+      "ru": "перфокарта",
+      "definition": "A card with holes used to store data and instructions for early computers.",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-punched-card",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "mainframe",
+      "ru": "мейнфрейм",
+      "definition": "A large, powerful computer that supports many users and processes huge amounts of data.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-mainframe",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "supercomputer",
+      "ru": "суперкомпьютер",
+      "definition": "The fastest and most powerful computer, used for complex calculations and simulations.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-supercomputer",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "desktop PC",
+      "ru": "настольный компьютер",
+      "definition": "A personal computer designed to stay on a desk and used for general tasks.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-desktop-pc",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "laptop",
+      "ru": "ноутбук",
+      "definition": "A portable personal computer with a screen, keyboard and touchpad.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-laptop",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "tablet",
+      "ru": "планшет",
+      "definition": "A portable wireless device with a touchscreen, smaller than a laptop.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-tablet",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "server",
+      "ru": "сервер",
+      "definition": "A computer that provides services and resources to other computers in a network.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-server",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "en": "wearable computer",
+      "ru": "носимый компьютер",
+      "definition": "A small computer worn on the body, such as a smart watch.",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-wearable-computer",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "central processing unit",
+      "ru": "центральный процессор",
+      "definition": "The main processor that executes instructions and controls the computer.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-central-processing-unit",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "arithmetic logic unit",
+      "ru": "арифметико-логическое устройство",
+      "definition": "The part of the CPU that performs arithmetic and logical operations.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-arithmetic-logic-unit",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "control unit",
+      "ru": "устройство управления",
+      "definition": "The CPU part that decodes instructions and coordinates other components.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-control-unit",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "register",
+      "ru": "регистр",
+      "definition": "A small, very fast storage location inside the CPU.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-register",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "motherboard",
+      "ru": "материнская плата",
+      "definition": "The main circuit board that connects all computer components.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-motherboard",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "bus",
+      "ru": "шина",
+      "definition": "A set of wires or paths that carries data and control signals between components.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-bus",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "peripheral",
+      "ru": "периферийное устройство",
+      "definition": "A device connected to a computer to provide input, output or storage.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-peripheral",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "clock speed",
+      "ru": "тактовая частота",
+      "definition": "The speed at which a CPU performs cycles, measured in gigahertz.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-clock-speed",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "en": "cache memory",
+      "ru": "кэш-память",
+      "definition": "A small, fast memory between the CPU and main memory that stores recently used data.",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-cache-memory",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "random access memory",
+      "ru": "оперативная память",
+      "definition": "Volatile main memory that stores data and instructions currently in use.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-random-access-memory",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "read-only memory",
+      "ru": "постоянное запоминающее устройство",
+      "definition": "Non-volatile memory that stores permanent instructions such as the BIOS.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-read-only-memory",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "basic input/output system",
+      "ru": "базовая система ввода-вывода",
+      "definition": "Firmware that starts the computer and checks its hardware before loading the operating system.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-basic-input-output-system",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "cache hit",
+      "ru": "попадание в кэш",
+      "definition": "A situation when the needed data is found in the cache.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-cache-hit",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "cache miss",
+      "ru": "промах кэша",
+      "definition": "A situation when the needed data is not in the cache and must be loaded from main memory.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-cache-miss",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "static random access memory",
+      "ru": "статическая оперативная память",
+      "definition": "A fast type of RAM that stores each bit in a flip-flop and does not need refreshing.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-static-random-access-memory",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "dynamic random access memory",
+      "ru": "динамическая оперативная память",
+      "definition": "A type of RAM that stores data in capacitors and must be refreshed regularly.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-dynamic-random-access-memory",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "en": "flash memory",
+      "ru": "флеш-память",
+      "definition": "Non-volatile electronic memory that can be erased and rewritten.",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-flash-memory",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "hard disk drive",
+      "ru": "жёсткий диск",
+      "definition": "A magnetic storage device with spinning platters and read/write heads.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-hard-disk-drive",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "solid-state drive",
+      "ru": "твердотельный накопитель",
+      "definition": "A storage device that uses flash memory and has no moving parts.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-solid-state-drive",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "optical disc",
+      "ru": "оптический диск",
+      "definition": "A storage medium that stores data as pits and lands read by a laser.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-optical-disc",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "magnetic tape",
+      "ru": "магнитная лента",
+      "definition": "A sequential storage medium coated with magnetic material.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-magnetic-tape",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "seek time",
+      "ru": "время доступа",
+      "definition": "The average time a hard drive needs to move its head to the requested data.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-seek-time",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "transfer rate",
+      "ru": "скорость передачи",
+      "definition": "The speed at which data is transmitted or read from a storage device.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-transfer-rate",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "formatting",
+      "ru": "форматирование",
+      "definition": "The process of preparing a storage medium by creating tracks, sectors and a file system.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-formatting",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "en": "partition",
+      "ru": "раздел",
+      "definition": "A logical section of a storage device that can be formatted and used separately.",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-partition",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "operating system",
+      "ru": "операционная система",
+      "definition": "System software that manages hardware resources and provides services for applications.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-operating-system",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "system software",
+      "ru": "системное программное обеспечение",
+      "definition": "Software that controls the computer and provides a platform for application programs.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-system-software",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "application software",
+      "ru": "прикладное программное обеспечение",
+      "definition": "Software designed to help users perform specific tasks.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-application-software",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "compiler",
+      "ru": "компилятор",
+      "definition": "A program that translates the whole source code into machine or object code.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-compiler",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "interpreter",
+      "ru": "интерпретатор",
+      "definition": "A program that translates and executes source code line by line.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-interpreter",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "command line interface",
+      "ru": "интерфейс командной строки",
+      "definition": "A user interface in which commands are typed as text.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-command-line-interface",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "graphical user interface",
+      "ru": "графический интерфейс",
+      "definition": "A user interface with windows, icons, menus and a pointer.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-graphical-user-interface",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "open-source software",
+      "ru": "программное обеспечение с открытым исходным кодом",
+      "definition": "Software whose source code is publicly available and can be modified.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-open-source-software",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "proprietary software",
+      "ru": "проприетарное программное обеспечение",
+      "definition": "Software owned by a company that controls its use, distribution and source code.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-proprietary-software",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "device driver",
+      "ru": "драйвер устройства",
+      "definition": "Software that allows the operating system to communicate with a hardware device.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-device-driver",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 6,
+      "en": "firmware",
+      "ru": "прошивка",
+      "definition": "Software permanently stored in a hardware device, such as the BIOS.",
+      "source": "Unit 06 · Software",
+      "source_tab": "vocab",
+      "id": "u06-firmware",
+      "tags": [
+        "unit-6",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "local area network",
+      "ru": "локальная сеть",
+      "definition": "A network that connects computers in a small area such as an office or school.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-local-area-network",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "wide area network",
+      "ru": "глобальная сеть",
+      "definition": "A network that covers a large geographical area and connects LANs.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-wide-area-network",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "router",
+      "ru": "маршрутизатор",
+      "definition": "A device that connects networks and forwards packets by IP address.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-router",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "switch",
+      "ru": "коммутатор",
+      "definition": "A network device that sends frames only to the destination device in a LAN.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-switch",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "hub",
+      "ru": "концентратор",
+      "definition": "A network device that broadcasts incoming data to all connected devices.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-hub",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "gateway",
+      "ru": "шлюз",
+      "definition": "A device that connects networks using different protocols.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-gateway",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "network topology",
+      "ru": "топология сети",
+      "definition": "The physical or logical arrangement of devices and connections in a network.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-network-topology",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "mesh topology",
+      "ru": "ячеистая топология",
+      "definition": "A topology in which many nodes are connected to each other, providing multiple paths.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-mesh-topology",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "en": "OSI model",
+      "ru": "модель OSI",
+      "definition": "A seven-layer reference model that describes how data travels over a network.",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-osi-model",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "digital subscriber line",
+      "ru": "цифровая абонентская линия",
+      "definition": "A high-speed Internet connection that uses ordinary telephone lines.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-digital-subscriber-line",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "asymmetric digital subscriber line",
+      "ru": "асимметричная цифровая абонентская линия",
+      "definition": "A DSL connection with faster download than upload speed.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-asymmetric-digital-subscriber-line",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "dial-up connection",
+      "ru": "коммутируемое соединение",
+      "definition": "An Internet connection established by dialing a phone number, which blocks the phone line.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-dial-up-connection",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "fiber-optic cable",
+      "ru": "оптоволоконный кабель",
+      "definition": "A cable that transmits data as pulses of light through thin glass or plastic fibers.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-fiber-optic-cable",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "Wi-Fi",
+      "ru": "беспроводная локальная сеть",
+      "definition": "A wireless technology that connects devices to a network using radio waves.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-wi-fi",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "satellite Internet",
+      "ru": "спутниковый интернет",
+      "definition": "Internet access provided through a satellite dish and a geostationary satellite.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-satellite-internet",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "en": "Internet service provider",
+      "ru": "интернет-провайдер",
+      "definition": "A company that provides Internet access to users.",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-internet-service-provider",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "en": "search engine",
+      "ru": "поисковая система",
+      "definition": "A software program that finds web pages and provides results for a user query.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-search-engine",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "en": "crawler",
+      "ru": "поисковый робот",
+      "definition": "A program that automatically visits web pages and collects information for a search engine.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-crawler",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "en": "indexing",
+      "ru": "индексирование",
+      "definition": "The process of identifying and storing keywords from web pages in a search index.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-indexing",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "en": "ranking",
+      "ru": "ранжирование",
+      "definition": "The process of ordering search results by their relevance to a query.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-ranking",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "en": "meta-search engine",
+      "ru": "метапоисковая система",
+      "definition": "A search tool that combines results from several search engines instead of using its own index.",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-meta-search-engine",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "programming language",
+      "ru": "язык программирования",
+      "definition": "A formal language used to write instructions for a computer.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-programming-language",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "machine code",
+      "ru": "машинный код",
+      "definition": "Binary instructions that a processor can execute directly.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-machine-code",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "assembly language",
+      "ru": "язык ассемблера",
+      "definition": "A low-level language that uses symbolic instructions instead of binary code.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-assembly-language",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "high-level language",
+      "ru": "язык высокого уровня",
+      "definition": "A programming language that is easier for humans to read and write than machine code.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-high-level-language",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "source code",
+      "ru": "исходный код",
+      "definition": "The original program text written by a programmer.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-source-code",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "object code",
+      "ru": "объектный код",
+      "definition": "The machine-language output produced by a compiler before linking.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-object-code",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "object-oriented programming",
+      "ru": "объектно-ориентированное программирование",
+      "definition": "A programming style based on objects that combine data and methods.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-object-oriented-programming",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "encapsulation",
+      "ru": "инкапсуляция",
+      "definition": "The OOP feature of hiding data inside an object and providing controlled access.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-encapsulation",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "inheritance",
+      "ru": "наследование",
+      "definition": "The OOP feature that allows a class to reuse and extend another class.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-inheritance",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "en": "polymorphism",
+      "ru": "полиморфизм",
+      "definition": "The OOP feature that lets different objects respond to the same method in different ways.",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-polymorphism",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "web design",
+      "ru": "веб-дизайн",
+      "definition": "The process of planning the structure, layout and appearance of a website.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-web-design",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "hypertext markup language",
+      "ru": "язык разметки гипертекста",
+      "definition": "The markup language used to structure content on web pages.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-hypertext-markup-language",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "cascading style sheets",
+      "ru": "каскадные таблицы стилей",
+      "definition": "A language used to describe the style and layout of web pages.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-cascading-style-sheets",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "JavaScript",
+      "ru": "JavaScript",
+      "definition": "A programming language used to add interactivity to web pages.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-javascript",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "uniform resource locator",
+      "ru": "универсальный указатель ресурса",
+      "definition": "The address of a resource on the Internet.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-uniform-resource-locator",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "hyperlink",
+      "ru": "гиперссылка",
+      "definition": "A clickable element that opens another web page or resource.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-hyperlink",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "en": "search engine optimization",
+      "ru": "поисковая оптимизация",
+      "definition": "The process of improving a website's position in search engine results.",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-search-engine-optimization",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "malware",
+      "ru": "вредоносное программное обеспечение",
+      "definition": "Software designed to damage, steal data or gain unauthorized access.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-malware",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "virus",
+      "ru": "вирус",
+      "definition": "Malicious code that attaches to a host file and reproduces when the file is run.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-virus",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "worm",
+      "ru": "червь",
+      "definition": "Self-replicating malware that spreads across networks without a host file.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-worm",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "Trojan",
+      "ru": "троянский конь",
+      "definition": "Malware disguised as a useful program that performs a harmful action.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-trojan",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "spyware",
+      "ru": "шпионское программное обеспечение",
+      "definition": "Malware that secretly collects user information.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-spyware",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "adware",
+      "ru": "рекламное программное обеспечение",
+      "definition": "Software that displays unwanted advertisements.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-adware",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "firewall",
+      "ru": "межсетевой экран",
+      "definition": "Software or hardware that filters network traffic and blocks unauthorized access.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-firewall",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "encryption",
+      "ru": "шифрование",
+      "definition": "The process of converting plaintext into ciphertext to protect data.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-encryption",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "en": "decryption",
+      "ru": "дешифрование",
+      "definition": "The process of converting ciphertext back into readable plaintext using a key.",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-decryption",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "backup",
+      "ru": "резервное копирование",
+      "definition": "A copy of data created so it can be restored after loss or damage.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-backup",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "full backup",
+      "ru": "полное резервное копирование",
+      "definition": "A backup that copies all selected files and folders.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-full-backup",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "incremental backup",
+      "ru": "инкрементальное резервное копирование",
+      "definition": "A backup that copies only files changed since the last backup.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-incremental-backup",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "differential backup",
+      "ru": "дифференциальное резервное копирование",
+      "definition": "A backup that copies files changed since the last full backup.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-differential-backup",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "archive bit",
+      "ru": "архивный бит",
+      "definition": "A file attribute that shows whether a file has changed since the last backup.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-archive-bit",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "plaintext",
+      "ru": "открытый текст",
+      "definition": "Data in its original, readable form before encryption.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-plaintext",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "ciphertext",
+      "ru": "шифротекст",
+      "definition": "Data that has been transformed by encryption and is unreadable without a key.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-ciphertext",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "biometric security",
+      "ru": "биометрическая защита",
+      "definition": "Security that uses physical characteristics such as fingerprints or faces for identification.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-biometric-security",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "en": "heuristic scanning",
+      "ru": "эвристическое сканирование",
+      "definition": "A method that detects new malware by analysing suspicious behaviour rather than known signatures.",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-heuristic-scanning",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "artificial neural network",
+      "ru": "искусственная нейронная сеть",
+      "definition": "A computing model made of interconnected nodes that learns from examples.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-artificial-neural-network",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "neuron",
+      "ru": "нейрон",
+      "definition": "A node in an artificial neural network that receives, processes and passes information.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-neuron",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "weight",
+      "ru": "вес",
+      "definition": "A number that shows the strength of a connection between two neurons.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-weight",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "backpropagation",
+      "ru": "обратное распространение ошибки",
+      "definition": "A learning method that adjusts weights by working backward from the output to the input.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-backpropagation",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "convolutional neural network",
+      "ru": "свёрточная нейронная сеть",
+      "definition": "A neural network with convolutional layers, often used for image recognition.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-convolutional-neural-network",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "recurrent neural network",
+      "ru": "рекуррентная нейронная сеть",
+      "definition": "A neural network that uses feedback and memory to process sequences.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-recurrent-neural-network",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "Internet of Things",
+      "ru": "интернет вещей",
+      "definition": "A system of connected physical devices that exchange data over a network without human interaction.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-internet-of-things",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "human-level artificial intelligence",
+      "ru": "искусственный интеллект человеческого уровня",
+      "definition": "AI that can perform intellectual tasks at the level of a human being.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-human-level-artificial-intelligence",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "en": "Turing Test",
+      "ru": "тест Тьюринга",
+      "definition": "A test of machine intelligence in which a judge tries to distinguish a machine from a human.",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-turing-test",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "hardware engineer",
+      "ru": "инженер по аппаратному обеспечению",
+      "definition": "An IT specialist who designs, builds and tests computer hardware.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-hardware-engineer",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "software engineer",
+      "ru": "программист",
+      "definition": "An IT specialist who designs, develops and tests software.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-software-engineer",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "system administrator",
+      "ru": "системный администратор",
+      "definition": "A specialist who maintains computer systems, servers and networks.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-system-administrator",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "data scientist",
+      "ru": "специалист по данным",
+      "definition": "A specialist who analyses large data sets and builds models to extract useful information.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-data-scientist",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "IT security specialist",
+      "ru": "специалист по информационной безопасности",
+      "definition": "A specialist who protects systems and data from cyber threats.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-it-security-specialist",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "database administrator",
+      "ru": "администратор баз данных",
+      "definition": "A specialist who manages and maintains databases.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-database-administrator",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "network engineer",
+      "ru": "сетевой инженер",
+      "definition": "A specialist who designs, installs and maintains computer networks.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-network-engineer",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "full-stack developer",
+      "ru": "full-stack разработчик",
+      "definition": "A developer who works on both front-end and back-end parts of web applications.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-full-stack-developer",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    },
+    {
+      "unit_id": 15,
+      "en": "IT director",
+      "ru": "ИТ-директор",
+      "definition": "A manager who plans and controls the IT strategy and infrastructure of an organization.",
+      "source": "Unit 15 · Professions in IT",
+      "source_tab": "vocab",
+      "id": "u15-it-director",
+      "tags": [
+        "unit-15",
+        "vocab",
+        "term"
+      ]
+    }
+  ],
+  "abbreviations": [
+    {
+      "unit_id": 1,
+      "abbr": "AI",
+      "full": "artificial intelligence",
+      "ru": "искусственный интеллект",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "id": "u01-ai",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 1,
+      "abbr": "VLSI",
+      "full": "very large scale integration",
+      "ru": "сверхбольшая интегральная схема",
+      "source": "Unit 01 · The History of Computers",
+      "source_tab": "vocab",
+      "accept": [
+        "very large scale integrated circuits"
+      ],
+      "id": "u01-vlsi",
+      "tags": [
+        "unit-1",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 2,
+      "abbr": "USB",
+      "full": "universal serial bus",
+      "ru": "универсальная последовательная шина",
+      "source": "Unit 02 · Types of Computers",
+      "source_tab": "vocab",
+      "id": "u02-usb",
+      "tags": [
+        "unit-2",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "abbr": "CPU",
+      "full": "central processing unit",
+      "ru": "центральный процессор",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-cpu",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 3,
+      "abbr": "ALU",
+      "full": "arithmetic logic unit",
+      "ru": "арифметико-логическое устройство",
+      "source": "Unit 03 · Computer Hardware",
+      "source_tab": "vocab",
+      "id": "u03-alu",
+      "tags": [
+        "unit-3",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "RAM",
+      "full": "random access memory",
+      "ru": "оперативная память",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-ram",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "ROM",
+      "full": "read-only memory",
+      "ru": "постоянное запоминающее устройство",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-rom",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "BIOS",
+      "full": "basic input/output system",
+      "ru": "базовая система ввода-вывода",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-bios",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "SRAM",
+      "full": "static random access memory",
+      "ru": "статическая оперативная память",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-sram",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "DRAM",
+      "full": "dynamic random access memory",
+      "ru": "динамическая оперативная память",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-dram",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "PROM",
+      "full": "programmable read-only memory",
+      "ru": "программируемое постоянное запоминающее устройство",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-prom",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "EPROM",
+      "full": "erasable programmable read-only memory",
+      "ru": "стираемое программируемое постоянное запоминающее устройство",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-eprom",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 4,
+      "abbr": "EEPROM",
+      "full": "electrically erasable programmable read-only memory",
+      "ru": "электрически стираемое программируемое постоянное запоминающее устройство",
+      "source": "Unit 04 · Primary Storage",
+      "source_tab": "vocab",
+      "id": "u04-eeprom",
+      "tags": [
+        "unit-4",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "abbr": "HDD",
+      "full": "hard disk drive",
+      "ru": "жёсткий диск",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-hdd",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "abbr": "SSD",
+      "full": "solid-state drive",
+      "ru": "твердотельный накопитель",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-ssd",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "abbr": "CD",
+      "full": "compact disc",
+      "ru": "компакт-диск",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "id": "u05-cd",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 5,
+      "abbr": "DVD",
+      "full": "digital versatile disc",
+      "ru": "цифровой универсальный диск",
+      "source": "Unit 05 · Secondary Storage",
+      "source_tab": "vocab",
+      "accept": [
+        "digital video disc"
+      ],
+      "id": "u05-dvd",
+      "tags": [
+        "unit-5",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "LAN",
+      "full": "local area network",
+      "ru": "локальная сеть",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-lan",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "MAN",
+      "full": "metropolitan area network",
+      "ru": "городская сеть",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-man",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "WAN",
+      "full": "wide area network",
+      "ru": "глобальная сеть",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-wan",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "WLAN",
+      "full": "wireless local area network",
+      "ru": "беспроводная локальная сеть",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-wlan",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "OSI",
+      "full": "open systems interconnection",
+      "ru": "модель взаимодействия открытых систем",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-osi",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "TCP",
+      "full": "transmission control protocol",
+      "ru": "протокол управления передачей",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-tcp",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "IP",
+      "full": "internet protocol",
+      "ru": "межсетевой протокол",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-ip",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 7,
+      "abbr": "UDP",
+      "full": "user datagram protocol",
+      "ru": "протокол пользовательских дейтаграмм",
+      "source": "Unit 07 · Networks",
+      "source_tab": "vocab",
+      "id": "u07-udp",
+      "tags": [
+        "unit-7",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "abbr": "DSL",
+      "full": "digital subscriber line",
+      "ru": "цифровая абонентская линия",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-dsl",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "abbr": "ADSL",
+      "full": "asymmetric digital subscriber line",
+      "ru": "асимметричная цифровая абонентская линия",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-adsl",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 8,
+      "abbr": "ISP",
+      "full": "internet service provider",
+      "ru": "интернет-провайдер",
+      "source": "Unit 08 · The Internet",
+      "source_tab": "vocab",
+      "id": "u08-isp",
+      "tags": [
+        "unit-8",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 9,
+      "abbr": "SEO",
+      "full": "search engine optimization",
+      "ru": "поисковая оптимизация",
+      "source": "Unit 09 · Search Engines",
+      "source_tab": "vocab",
+      "id": "u09-seo",
+      "tags": [
+        "unit-9",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 10,
+      "abbr": "OOP",
+      "full": "object-oriented programming",
+      "ru": "объектно-ориентированное программирование",
+      "source": "Unit 10 · Programming Languages",
+      "source_tab": "vocab",
+      "id": "u10-oop",
+      "tags": [
+        "unit-10",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "abbr": "HTML",
+      "full": "hypertext markup language",
+      "ru": "язык разметки гипертекста",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-html",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "abbr": "CSS",
+      "full": "cascading style sheets",
+      "ru": "каскадные таблицы стилей",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-css",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "abbr": "URL",
+      "full": "uniform resource locator",
+      "ru": "универсальный указатель ресурса",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-url",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 11,
+      "abbr": "FTP",
+      "full": "file transfer protocol",
+      "ru": "протокол передачи файлов",
+      "source": "Unit 11 · Web Design",
+      "source_tab": "vocab",
+      "id": "u11-ftp",
+      "tags": [
+        "unit-11",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 12,
+      "abbr": "DDoS",
+      "full": "distributed denial of service",
+      "ru": "распределённая атака на отказ в обслуживании",
+      "source": "Unit 12 · Malware and Cybercrime",
+      "source_tab": "vocab",
+      "id": "u12-ddos",
+      "tags": [
+        "unit-12",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "abbr": "MFA",
+      "full": "multi-factor authentication",
+      "ru": "многофакторная аутентификация",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-mfa",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 13,
+      "abbr": "SSL",
+      "full": "secure sockets layer",
+      "ru": "протокол защищённых соединений",
+      "source": "Unit 13 · Data Security",
+      "source_tab": "vocab",
+      "id": "u13-ssl",
+      "tags": [
+        "unit-13",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "abbr": "ANN",
+      "full": "artificial neural network",
+      "ru": "искусственная нейронная сеть",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-ann",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "abbr": "CNN",
+      "full": "convolutional neural network",
+      "ru": "свёрточная нейронная сеть",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-cnn",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "abbr": "RNN",
+      "full": "recurrent neural network",
+      "ru": "рекуррентная нейронная сеть",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-rnn",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "abbr": "IoT",
+      "full": "internet of things",
+      "ru": "интернет вещей",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "id": "u14-iot",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "abbr"
+      ]
+    },
+    {
+      "unit_id": 14,
+      "abbr": "HLAI",
+      "full": "human-level artificial intelligence",
+      "ru": "искусственный интеллект человеческого уровня",
+      "source": "Unit 14 · Future in IT",
+      "source_tab": "vocab",
+      "accept": [
+        "human-like artificial intelligence"
+      ],
+      "id": "u14-hlai",
+      "tags": [
+        "unit-14",
+        "vocab",
+        "abbr"
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "id": 1,
+      "unit_id": 3,
+      "title": "Multicore processors",
+      "en": "A multicore processor is a single computing component with two or more independent actual processors called cores. The heart of each processor is the execution engine, also known as the core. The core is designed to process instructions and data in accordance with the instructions of programs in the computer memory. Over the years designers have found that every new processor design has its limits. A multicore processor is an integrated circuit with two or more cores connected to improve performance and reduce power consumption. Such processors also make it possible to process several tasks at the same time more efficiently, for example in parallel processing and multithreading. Multicore processors work on any modern hardware platform. Almost all modern PCs and laptops have some model of a multicore processor. However, the true power and advantage of these processors depend on programs designed to emphasize parallelism and increase clock speed.",
+      "ru": "Многоядерный процессор — это единый вычислительный компонент с двумя или более независимыми реальными процессорами, которые называются ядрами. Сердцем каждого процессора является исполнительный механизм, также известный как ядро. Ядро предназначено для обработки инструкций и данных в соответствии с указаниями программ в памяти компьютера. С годами разработчики обнаружили, что у каждого нового проекта процессора есть свои пределы. Многоядерный процессор — это интегральная схема с двумя или более ядрами, соединёнными для повышения производительности и снижения энергопотребления. Такие процессоры также позволяют более эффективно обрабатывать несколько задач одновременно, например при параллельной обработке и многопоточности. Многоядерные процессоры работают на любой современной аппаратной платформе. Почти все современные ПК и ноутбуки имеют ту или иную модель многоядерного процессора. Однако истинная мощность и преимущество этих процессоров зависят от программ, созданных так, чтобы подчёркивать параллелизм и повышать тактовую частоту.",
+      "source": "Unit 03 · Computer Hardware · Text B · «Multicore processors»",
+      "source_tab": "text",
+      "tags": [
+        "unit-3",
+        "reading",
+        "text",
+        "audio"
+      ]
+    },
+    {
+      "id": 2,
+      "unit_id": 7,
+      "title": "The OSI model",
+      "en": "OSI (Open System Interconnection), adopted in 1984 by the International Organization for Standardization, is a reference model that gives an idea of how data is transmitted over networks. It is used by IT networking professionals as a guideline to describe how traffic moves from one part of the network to another and for troubleshooting if a network problem occurs. The OSI model consists of seven layers, and at each layer there is a set of protocols, which may be very different depending on the kind of traffic going over a network.",
+      "ru": "Модель OSI (взаимодействие открытых систем), принятая в 1984 году Международной организацией по стандартизации, — это эталонная модель, которая даёт представление о том, как данные передаются по сетям. Специалисты по сетям используют её как руководство, чтобы описать, как трафик перемещается из одной части сети в другую, а также для поиска неисправностей при возникновении сетевой проблемы. Модель OSI состоит из семи уровней, и на каждом уровне есть набор протоколов, которые могут сильно различаться в зависимости от типа трафика, передаваемого по сети.",
+      "source": "Unit 07 · Networks · Text B · «The OSI model»",
+      "source_tab": "text",
+      "tags": [
+        "unit-7",
+        "reading",
+        "text",
+        "audio"
+      ]
+    },
+    {
+      "id": 3,
+      "unit_id": 9,
+      "title": "How search engines work",
+      "en": "A search engine is a software program that provides information according to the user query. It finds various websites or web pages that are available on the Internet and gives related results according to the search. Today there are many different search engines available on the Internet, each with its own abilities and features. Search engines can be classified into the following three categories: crawler-based search engines, human-powered directories and meta-search engines. Crawler-based search engines such as Google and Yahoo compile their listings automatically. There are three basic steps that every crawler-based search engine follows before displaying search results: crawling, indexing and ranking.",
+      "ru": "Поисковая система — это программное обеспечение, которое предоставляет информацию в соответствии с запросом пользователя. Она находит различные веб-сайты или веб-страницы, доступные в Интернете, и выдаёт связанные с запросом результаты. Сегодня в Интернете доступно множество различных поисковых систем, каждая со своими возможностями и особенностями. Поисковые системы можно разделить на три категории: автоматические поисковые системы на основе поисковых роботов, веб-каталоги, создаваемые людьми, и метапоисковые системы. Автоматические поисковые системы, такие как Google и Yahoo, составляют свои списки автоматически. Существуют три основных шага, которые выполняет каждая автоматическая поисковая система перед показом результатов поиска: сканирование, индексирование и ранжирование.",
+      "source": "Unit 09 · Search Engines · «How search engines work»",
+      "source_tab": "text",
+      "tags": [
+        "unit-9",
+        "reading",
+        "text",
+        "audio"
+      ]
+    },
+    {
+      "id": 4,
+      "unit_id": 12,
+      "title": "The parts of a virus",
+      "en": "Any virus has four main parts: a misdirection routine that enables it to hide itself; a reproduction routine that allows it to copy itself to other programs; a trigger that causes the payload to be activated at a particular time or when a particular event takes place; and a payload that may be a fairly harmless joke or may be very destructive. A program that has a payload but does not have a reproduction routine is known as a Trojan.",
+      "ru": "У любого вируса есть четыре основные части: процедура дезориентации, которая позволяет ему скрываться; процедура размножения, которая позволяет ему копировать себя в другие программы; триггер, который вызывает активацию полезной нагрузки в определённое время или при определённом событии; и полезная нагрузка, которая может быть довольно безобидной шуткой, а может быть очень разрушительной. Программа, у которой есть полезная нагрузка, но нет процедуры размножения, называется троянским конём.",
+      "source": "Unit 12 · Malware and Cybercrime · «The parts of a virus»",
+      "source_tab": "text",
+      "tags": [
+        "unit-12",
+        "reading",
+        "text",
+        "audio"
+      ]
+    },
+    {
+      "id": 5,
+      "unit_id": 14,
+      "title": "Artificial neural networks",
+      "en": "Artificial neural networks (ANN) are a type of Artificial Intelligence (AI) designed to mimic how the human brain processes information. ANN consists of interconnected nodes, or neurons, that process information similarly to the human brain. The artificial neurons receive input and then use the information to create the output or data. In between the input units and output units are one or more layers of hidden units, which, together, form the majority of the artificial brain. Most neural networks are fully connected, which means each unit in one layer is connected to every unit in another layer. The connections between one unit and another are represented by a number called a weight, which can be either positive or negative.",
+      "ru": "Искусственные нейронные сети (ИНС) — это тип искусственного интеллекта (ИИ), предназначенный для имитации того, как человеческий мозг обрабатывает информацию. ИНС состоит из взаимосвязанных узлов, или нейронов, которые обрабатывают информацию подобно человеческому мозгу. Искусственные нейроны получают входные данные и затем используют информацию для создания выходных данных. Между входными и выходными элементами находятся один или несколько слоёв скрытых элементов, которые вместе образуют большую часть искусственного мозга. Большинство нейронных сетей являются полносвязными, что означает, что каждый элемент одного слоя соединён с каждым элементом другого слоя. Связи между одним элементом и другим представлены числом, называемым весом, который может быть положительным или отрицательным.",
+      "source": "Unit 14 · Future in IT · «Artificial neural networks»",
+      "source_tab": "text",
+      "tags": [
+        "unit-14",
+        "reading",
+        "text",
+        "audio"
+      ]
+    }
+  ]
+}

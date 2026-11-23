@@ -1,0 +1,9 @@
+/target
+/dist
+/node_modules
+__pycache__/
+*.pyc
+*.log
+build_test.exe
+hello_rust.exe
+hello_rust.rs

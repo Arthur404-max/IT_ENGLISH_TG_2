@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "generated_by": "tools/build_audio_data.js",
+  "note": "Local Windows SAPI recordings. Browser speech synthesis remains a fallback for other texts.",
+  "items": [
+    {
+      "id": "multicore",
+      "unit_id": 3,
+      "title": "Multicore processors",
+      "title_ru": "Многоядерные процессоры",
+      "level": "B1",
+      "summary_ru": "Что такое ядро, зачем процессору несколько ядер и какие ограничения есть у одного быстрого ядра.",
+      "file": "unit03-multicore.wav",
+      "source": "Unit 03 · Multicore processors",
+      "duration_sec": 61,
+      "transcript": "A multicore processor is a single computing component with two or more independent actual processors called cores. The heart of each processor is the execution engine, also known as the core. The core is designed to process instructions and data in accordance with the instructions of programs in the computer memory. Over the years designers have found that every new processor design has its limits. A multicore processor is an integrated circuit with two or more cores connected to improve performance and reduce power consumption. Such processors also make it possible to process several tasks at the same time more efficiently, for example in parallel processing and multithreading. Multicore processors work on any modern hardware platform. Almost all modern PCs and laptops have some model of a multicore processor. However, the true power and advantage of these processors depend on programs designed to emphasize parallelism and increase clock speed.",
+      "tasks": [
+        {
+          "question": "What is a core?",
+          "answer": "An independent processor inside a multicore component.",
+          "hint": "The text calls it the execution engine."
+        },
+        {
+          "question": "What advantage do multicore processors provide?",
+          "answer": "They improve performance, reduce power consumption and process several tasks at the same time.",
+          "hint": "Look for the sentence with performance and power consumption."
+        }
+      ]
+    },
+    {
+      "id": "osi-model",
+      "unit_id": 7,
+      "title": "The OSI model",
+      "title_ru": "Модель OSI",
+      "level": "B1",
+      "summary_ru": "Зачем нужна модель OSI, из скольких уровней она состоит и как помогает сетевым инженерам.",
+      "file": "unit07-osi.wav",
+      "source": "Unit 07 · The OSI model",
+      "duration_sec": 33.9,
+      "transcript": "OSI (Open System Interconnection), adopted in 1984 by the International Organization for Standardization, is a reference model that gives an idea of how data is transmitted over networks. It is used by IT networking professionals as a guideline to describe how traffic moves from one part of the network to another and for troubleshooting if a network problem occurs. The OSI model consists of seven layers, and at each layer there is a set of protocols, which may be very different depending on the kind of traffic going over a network.",
+      "tasks": [
+        {
+          "question": "How many layers does the OSI model have?",
+          "answer": "Seven.",
+          "hint": "The number is in the second sentence."
+        },
+        {
+          "question": "What is the OSI model used for?",
+          "answer": "As a guideline to describe how traffic moves over networks and to troubleshoot network problems.",
+          "hint": "Think about describing traffic and troubleshooting."
+        }
+      ]
+    },
+    {
+      "id": "search-engines",
+      "unit_id": 9,
+      "title": "How search engines work",
+      "title_ru": "Как работают поисковые системы",
+      "level": "B1",
+      "summary_ru": "Три категории поисковиков и базовые шаги crawler-based поиска: crawling, indexing и ranking.",
+      "file": "unit09-search.wav",
+      "source": "Unit 09 · How search engines work",
+      "duration_sec": 43.6,
+      "transcript": "A search engine is a software program that provides information according to the user query. It finds various websites or web pages that are available on the Internet and gives related results according to the search. Today there are many different search engines available on the Internet, each with its own abilities and features. Search engines can be classified into the following three categories: crawler-based search engines, human-powered directories and meta-search engines. Crawler-based search engines such as Google and Yahoo compile their listings automatically. There are three basic steps that every crawler-based search engine follows before displaying search results: crawling, indexing and ranking.",
+      "tasks": [
+        {
+          "question": "What are the three basic steps of a crawler-based search engine?",
+          "answer": "Crawling, indexing and ranking.",
+          "hint": "They are listed at the end of the text."
+        },
+        {
+          "question": "What types of search engines are mentioned?",
+          "answer": "Crawler-based search engines, human-powered directories and meta-search engines.",
+          "hint": "There are exactly three categories."
+        }
+      ]
+    },
+    {
+      "id": "virus-parts",
+      "unit_id": 12,
+      "title": "The parts of a virus",
+      "title_ru": "Части компьютерного вируса",
+      "level": "B1",
+      "summary_ru": "Четыре части вируса и отличие трояна от вируса.",
+      "file": "unit12-virus.wav",
+      "source": "Unit 12 · The parts of a virus",
+      "duration_sec": 26.2,
+      "transcript": "Any virus has four main parts: a misdirection routine that enables it to hide itself; a reproduction routine that allows it to copy itself to other programs; a trigger that causes the payload to be activated at a particular time or when a particular event takes place; and a payload that may be a fairly harmless joke or may be very destructive. A program that has a payload but does not have a reproduction routine is known as a Trojan.",
+      "tasks": [
+        {
+          "question": "What are the four main parts of a virus?",
+          "answer": "A misdirection routine, a reproduction routine, a trigger and a payload.",
+          "hint": "The text lists them one by one."
+        },
+        {
+          "question": "What is a Trojan?",
+          "answer": "A program that has a payload but does not have a reproduction routine.",
+          "hint": "It is the last sentence."
+        }
+      ]
+    },
+    {
+      "id": "neural-networks",
+      "unit_id": 14,
+      "title": "Artificial neural networks",
+      "title_ru": "Искусственные нейронные сети",
+      "level": "B1",
+      "summary_ru": "Нейроны, скрытые слои, связи и веса в искусственной нейронной сети.",
+      "file": "unit14-neural.wav",
+      "source": "Unit 14 · Artificial neural networks",
+      "duration_sec": 47.7,
+      "transcript": "Artificial neural networks (ANN) are a type of Artificial Intelligence (AI) designed to mimic how the human brain processes information. ANN consists of interconnected nodes, or neurons, that process information similarly to the human brain. The artificial neurons receive input and then use the information to create the output or data. In between the input units and output units are one or more layers of hidden units, which, together, form the majority of the artificial brain. Most neural networks are fully connected, which means each unit in one layer is connected to every unit in another layer. The connections between one unit and another are represented by a number called a weight, which can be either positive or negative.",
+      "tasks": [
+        {
+          "question": "What are the connections between artificial neurons represented by?",
+          "answer": "A number called a weight.",
+          "hint": "The last sentence mentions positive or negative numbers."
+        },
+        {
+          "question": "What do hidden layers do?",
+          "answer": "They form the majority of the artificial brain and process information between input and output units.",
+          "hint": "Look between the input and output units."
+        }
+      ]
+    }
+  ]
+}

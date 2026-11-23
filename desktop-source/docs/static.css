@@ -1,0 +1,224 @@
+/* IT English Lab — static/offline presentation.
+ *
+ * The original app was designed for a local server with an optional AI
+ * connection. This build keeps the same visual language but removes every
+ * AI entry point. Nothing here depends on a build step.
+ */
+
+/* AI-only navigation and controls */
+.static-mode [data-nav="tutor"],
+.static-mode [data-action="ask-ai"],
+.static-mode [data-action="explain"],
+.static-mode [data-action="exam-explain"],
+.static-mode [data-action="check-translation"],
+.static-mode [data-action="test-ai"],
+.static-mode [data-action="clear-key"],
+.static-mode [data-action="apply-preset"],
+.static-mode [data-action="apply-model"],
+.static-mode [data-action="refresh-models"],
+.static-mode [data-action="refresh-embedded"],
+.static-mode [data-action="load-model"],
+.static-mode [data-action="unload-model"],
+.static-mode [data-action="download-model"],
+.static-mode [data-action="copy-lan-url"] {
+  display: none !important;
+}
+
+/* A quiet status line instead of an AI call-to-action. */
+.static-mode .ai-pill {
+  color: var(--muted-2);
+  background: rgba(255, 255, 255, .018);
+}
+.static-mode .ai-pill .dot {
+  background: var(--muted-2);
+  box-shadow: none;
+}
+
+.static-mode .sidebar-note {
+  color: var(--muted-2);
+}
+
+/* Shared pieces for the static settings page. */
+.static-intro {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+  margin-bottom: 16px;
+  background:
+    radial-gradient(520px 240px at 92% 0%, rgba(200, 247, 109, .11), transparent 70%),
+    radial-gradient(420px 220px at 0% 100%, rgba(119, 226, 200, .07), transparent 70%),
+    rgba(255, 255, 255, .018);
+}
+.static-intro h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(34px, 4.4vw, 52px);
+  letter-spacing: -.035em;
+  line-height: 1.04;
+  margin-top: 12px;
+}
+.static-intro p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  max-width: 690px;
+  margin-top: 11px;
+}
+.static-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 17px;
+}
+.static-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: var(--text-2);
+  background: rgba(255, 255, 255, .025);
+  font-family: var(--mono);
+  font-size: 9.5px;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+.static-badge i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px rgba(200, 247, 109, .5);
+}
+.static-badge.teal i { background: var(--accent-2); box-shadow: 0 0 8px rgba(119, 226, 200, .45); }
+.static-badge.muted i { background: var(--muted-2); box-shadow: none; }
+
+.static-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.static-card {
+  border: 1px solid var(--line-soft);
+  border-radius: 13px;
+  padding: 14px;
+  background: rgba(255, 255, 255, .016);
+}
+.static-card .static-card-label {
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.static-card b {
+  display: block;
+  margin-top: 7px;
+  font-size: 15px;
+  font-weight: 650;
+  color: var(--text);
+}
+.static-card span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.5;
+}
+.static-note {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  padding: 11px 12px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, .014);
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+.static-note svg {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+  color: var(--accent-2);
+  margin-top: 1px;
+}
+.static-note.warn svg { color: var(--warn); }
+.static-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+.static-actions .btn { text-align: center; }
+.static-copy {
+  color: var(--muted-2);
+  font-size: 10.5px;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+.static-copy .mono { color: var(--text-2); }
+
+.static-backup-list {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+}
+.static-backup-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--line-soft);
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: var(--text-2);
+  font-family: var(--mono);
+  font-size: 9.5px;
+}
+.static-backup-row span:first-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.static-backup-row .static-backup-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+.static-backup-row em {
+  font-style: normal;
+  color: var(--muted-2);
+  font-family: var(--sans);
+  font-size: 9px;
+}
+.static-backup-row .text-btn { font-size: 9.5px; white-space: nowrap; }
+.static-empty {
+  border: 1px dashed var(--line);
+  border-radius: 9px;
+  padding: 11px;
+  margin-top: 9px;
+  color: var(--muted-2);
+  font-size: 10.5px;
+  line-height: 1.55;
+}
+.static-danger {
+  border-color: rgba(255, 137, 137, .18);
+}
+.static-danger .settings-section-head {
+  border-color: rgba(255, 137, 137, .12);
+}
+
+@media (max-width: 760px) {
+  .static-grid { grid-template-columns: 1fr; }
+  .static-intro { padding: 20px; }
+  .static-backup-row { flex-direction: column; align-items: flex-start; gap: 5px; }
+  .static-backup-row .static-backup-actions { width: 100%; justify-content: space-between; }
+}
