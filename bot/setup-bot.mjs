@@ -27,6 +27,7 @@ await call("setMyCommands", {
   commands: [
     { command: "start", description: "Открыть IT English Lab" },
     { command: "open", description: "Запустить мини-приложение" },
+    { command: "buy", description: "Купить доступ за Telegram Star" },
   ],
 });
 

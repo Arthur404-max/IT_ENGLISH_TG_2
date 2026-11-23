@@ -55,3 +55,69 @@
   padding-top: calc(var(--tg-safe-top) + 4px);
   height: calc(58px + var(--tg-safe-top) + 4px);
 }
+
+.tg-paywall {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(7, 10, 8, .94);
+  backdrop-filter: blur(18px);
+}
+
+.tg-paywall[hidden] {
+  display: none;
+}
+
+.tg-paywall-card {
+  width: min(360px, 100%);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 28px 22px 22px;
+  text-align: center;
+  background: var(--panel, #101512);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .35);
+}
+
+.tg-paywall-mark {
+  width: 54px;
+  height: 54px;
+  margin: 0 auto 14px;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  color: #10150f;
+  background: #c8f76d;
+  font-family: var(--mono);
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+
+.tg-paywall h1 {
+  margin: 0;
+  font-size: 27px;
+}
+
+.tg-paywall p {
+  margin: 10px 0 18px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.tg-paywall button {
+  width: 100%;
+  min-height: 48px;
+  border: 0;
+  border-radius: 12px;
+  color: var(--tg-button-text, #10150f);
+  background: var(--tg-button, #c8f76d);
+  font: 700 15px var(--sans);
+  cursor: pointer;
+}
+
+.tg-paywall button:disabled {
+  opacity: .7;
+  cursor: wait;
+}

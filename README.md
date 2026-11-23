@@ -33,4 +33,19 @@ Workflow `.github/workflows/pages.yml` публикует корень репо�
 
 Telegram SDK применяет тему приложения, расширяет окно и включает системную кнопку «Назад». Прогресс остаётся локальным для каждого устройства/аккаунта браузера и не отправляется в Telegram.
 
+## Оплата Telegram Stars
+
+`bot/server.mjs` принимает успешные платежи в Telegram Stars и выдаёт доступ одному Telegram-пользователю навсегда. Доступ стоит 1 Star.
+
+```powershell
+$env:TELEGRAM_BOT_TOKEN = "токен бота"
+$env:TELEGRAM_WEBAPP_URL = "https://arthur404-max.github.io/IT_ENGLISH_TG_2/"
+$env:PORT = "8788"
+node bot/server.mjs
+```
+
+Сервер проверяет криптографическую подпись `initData` Telegram Mini App. Бэкенд должен быть доступен по публичному HTTPS и его URL нужно указать в `<meta name="telegram-backend-url" content="https://...">` в `index.html`.
+
+Команды бота: `/start`, `/open`, `/buy`.
+
 Удаление данных сайта в браузере удалит локальный прогресс. Для переноса на другое устройство используйте экспорт JSON в разделе «Настройки».

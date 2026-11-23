@@ -1,0 +1,9 @@
+{
+  "name": "it-english-telegram-stars",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bot": "node bot/server.mjs",
+    "bot:setup": "node bot/setup-bot.mjs"
+  }
+}
