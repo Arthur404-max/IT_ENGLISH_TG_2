@@ -10,24 +10,21 @@ const webAppUrl = process.env.TELEGRAM_WEBAPP_URL;
 const port = Number(process.env.PORT || 8788);
 const purchasesFile = path.join(__dirname, "data", "purchases.json");
 const gameSessions = new Map();
+const unitsFile = path.join(__dirname, "..", "data", "units.json");
 
-const vocabQuestions = [
-  { en: "array", ru: "массив" },
-  { en: "variable", ru: "переменная" },
-  { en: "function", ru: "функция" },
-  { en: "server", ru: "сервер" },
-  { en: "database", ru: "база данных" },
-  { en: "network", ru: "сеть" },
-  { en: "password", ru: "пароль" },
-  { en: "source code", ru: "исходный код" },
-  { en: "keyboard", ru: "клавиатура" },
-  { en: "memory", ru: "память" },
-  { en: "file", ru: "файл" },
-  { en: "browser", ru: "браузер" },
-  { en: "debug", ru: "отладка" },
-  { en: "compiler", ru: "компилятор" },
-  { en: "algorithm", ru: "алгоритм" },
-];
+let vocabQuestions = [];
+try {
+  const unitsDocument = JSON.parse(fs.readFileSync(unitsFile, "utf8"));
+  vocabQuestions = (unitsDocument.units || []).flatMap((unit) =>
+    (unit.vocab || []).map((item) => ({
+      en: String(item.en || "").trim(),
+      ru: String(item.ru || "").split(",")[0].trim(),
+      unitId: Number(unit.id),
+    })),
+  ).filter((item) => item.en && item.ru);
+} catch (error) {
+  console.error("Unable to load vocabulary:", error.message);
+}
 
 if (!token) throw new Error("TELEGRAM_BOT_TOKEN is required");
 if (!webAppUrl || !/^https:\/\//i.test(webAppUrl)) {
@@ -116,6 +113,44 @@ function buildGameOptions(answer) {
   return shuffled([answer, ...distractors]);
 }
 
+function personalizedQuestions(progressSnapshot) {
+  const words = progressSnapshot && typeof progressSnapshot.words === "object"
+    ? progressSnapshot.words
+    : {};
+  const ranked = [];
+
+  for (const [wordKey, record] of Object.entries(words).slice(0, 500)) {
+    const match = /^(\d+)\|(.+)$/u.exec(wordKey);
+    if (!match) continue;
+    const unitId = Number(match[1]);
+    const en = match[2].trim();
+    const vocabulary = vocabQuestions.find((item) =>
+      item.unitId === unitId && item.en.toLowerCase() === en.toLowerCase());
+    if (!vocabulary) continue;
+
+    const lapses = Math.max(0, Number(record?.lapses || 0));
+    const leech = Boolean(record?.leech);
+    const wrong = Math.max(0, Number(record?.wrong || 0));
+    const correct = Math.max(0, Number(record?.correct || 0));
+    const dueAt = Number(record?.due_at || 0);
+    const overdue = dueAt > 0 && dueAt < Math.floor(Date.now() / 1000);
+    const accuracy = (wrong + correct) > 0 ? wrong / (wrong + correct) : 0;
+    const score = lapses * 100 + (leech ? 80 : 0) + (overdue ? 40 : 0) +
+      wrong * 8 + accuracy * 30;
+    ranked.push({ item: vocabulary, score });
+  }
+
+  if (ranked.length) {
+    return shuffled(ranked
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 60)
+      .map((entry) => entry.item))
+      .slice(0, 10);
+  }
+
+  return shuffled(vocabQuestions).slice(0, 10);
+}
+
 async function sendPaymentInvoice(chatId, userId) {
   await telegram("sendInvoice", {
     chat_id: chatId,
@@ -175,7 +210,8 @@ const server = http.createServer(async (request, response) => {
         return;
       }
       const nonce = crypto.randomBytes(16).toString("hex");
-      const questions = shuffled(vocabQuestions).slice(0, 10).map((item) => ({
+      const selectedQuestions = personalizedQuestions(body.progress);
+      const questions = selectedQuestions.map((item) => ({
         en: item.en,
         options: buildGameOptions(item.ru),
       }));
@@ -183,9 +219,13 @@ const server = http.createServer(async (request, response) => {
         userId: String(user.id),
         expiresAt: Date.now() + 5 * 60_000,
         answers: questions.map((item) => {
-          const source = vocabQuestions.find((entry) => entry.en === item.en);
+          const source = selectedQuestions.find((entry) => entry.en === item.en);
           return source.ru;
         }),
+        items: selectedQuestions.map((item) => ({
+          unitId: item.unitId,
+          en: item.en,
+        })),
       });
       response.writeHead(200, headers);
       response.end(JSON.stringify({ nonce, questions }));
@@ -231,6 +271,10 @@ const server = http.createServer(async (request, response) => {
         correct,
         total: session.answers.length,
         freeUntil: passed ? loadPurchases()[String(user.id)].free_until : null,
+        review: session.items.map((item, index) => ({
+          ...item,
+          correct: submitted[index] === session.answers[index],
+        })),
       }));
       return;
     }

@@ -71,7 +71,7 @@
     card.innerHTML = `
       <div class="tg-paywall-mark">IT</div>
       <h1>IT Vocabulary Sprint</h1>
-      <p>Вопрос ${gameIndex + 1} из ${gameQuestions.length}</p>
+    <p>Повторение слабых слов · вопрос ${gameIndex + 1} из ${gameQuestions.length}</p>
       <div class="tg-game-progress"><i style="width:${progress}%"></i></div>
       <p><strong>${escapeHtml(question.en)}</strong></p>
       <div class="tg-game-options">
@@ -109,6 +109,24 @@
       });
       if (!response.ok) throw new Error("game submit failed");
       const result = await response.json();
+      if (Array.isArray(result.review) && window.IT && window.IT.api) {
+        await Promise.all(result.review.map((item) =>
+          window.IT.api("/api/answer", {
+            method: "POST",
+            body: {
+              unit_id: item.unitId,
+              en: item.en,
+              correct: item.correct,
+              rating: item.correct ? 3 : 1,
+              response_ms: 5000,
+            },
+          }),
+        ));
+        await window.IT.api("/api/session", {
+          method: "POST",
+          body: { correct: result.correct, total: result.total },
+        });
+      }
       if (card) {
         card.innerHTML = `
           <div class="tg-paywall-mark">IT</div>
@@ -135,11 +153,16 @@
     if (!backendUrl) return;
     const card = overlay?.querySelector(".tg-paywall-card");
     if (card) card.innerHTML = '<div class="tg-paywall-mark">IT</div><h1>Готовим вопросы…</h1>';
+    let progressSnapshot = null;
+    try {
+      const snapshot = window.IT && window.IT.staticDebug && window.IT.staticDebug.snapshot;
+      progressSnapshot = snapshot ? snapshot().progress : null;
+    } catch (_) {}
     try {
       const response = await fetch(`${backendUrl}/api/access/game/start`, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ initData: tg.initData }),
+        body: JSON.stringify({ initData: tg.initData, progress: progressSnapshot }),
       });
       if (!response.ok) throw new Error("game start failed");
       const result = await response.json();
