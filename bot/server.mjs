@@ -290,6 +290,72 @@ const server = http.createServer(async (request, response) => {
       return;
     }
 
+    if (request.method === "POST" && request.url === "/api/account/level") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const result = profileStore.setCefrLevel(user.id, String(body.level || "").toUpperCase());
+      if (!result.ok) {
+        response.writeHead(400, headers);
+        response.end(JSON.stringify({ error: result.reason }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify(result));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/voice/result") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const voice = profileStore.recordVoiceResult(user.id, body.score);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ voice }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/diagnosis/weekly") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const diagnosis = profileStore.generateDiagnosis(
+        user.id,
+        body.weak_units,
+        body.weak_words,
+        body.score,
+      );
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ diagnosis }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/certificate") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const certificate = profileStore.generateCertificate(user.id, body.title);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ certificate }));
+      return;
+    }
+
     if (request.method === "POST" && request.url === "/api/blitz/start") {
       const body = await readJson(request);
       const user = validateInitData(body.initData);

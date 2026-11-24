@@ -299,10 +299,54 @@
     tools.className = "tg-product-tools";
     tools.innerHTML = `
       <button type="button" id="tg-start-blitz">Блиц 5 минут</button>
-      <button type="button" id="tg-leaderboard">Рейтинг</button>`;
+      <button type="button" id="tg-leaderboard">Рейтинг</button>
+      <button type="button" id="tg-level">Уровень B1</button>
+      <button type="button" id="tg-certificate">Сертификат</button>
+      <button type="button" id="tg-voice">Голос</button>`;
     document.body.appendChild(tools);
     tools.querySelector("#tg-start-blitz").addEventListener("click", startBlitz);
     tools.querySelector("#tg-leaderboard").addEventListener("click", showLeaderboard);
+    tools.querySelector("#tg-level").addEventListener("click", async () => {
+      await fetch(`${backendUrl}/api/account/level`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ initData: tg.initData, level: "B1" }),
+      });
+      IT.toast && IT.toast("Уровень установлен: B1");
+    });
+    tools.querySelector("#tg-certificate").addEventListener("click", async () => {
+      const response = await fetch(`${backendUrl}/api/certificate`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ initData: tg.initData, title: "IT English — course result" }),
+      });
+      if (response.ok) {
+        const result = await response.json();
+        IT.toast && IT.toast(`Сертификат: ${result.certificate.id}`);
+      }
+    });
+    tools.querySelector("#tg-voice").addEventListener("click", async () => {
+      if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
+        IT.toast && IT.toast("Запись голоса недоступна в этом браузере", "error");
+        return;
+      }
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        const recorder = new MediaRecorder(stream);
+        const chunks = [];
+        recorder.addEventListener("dataavailable", (event) => {
+          if (event.data.size) chunks.push(event.data);
+        });
+        recorder.addEventListener("stop", () => {
+          stream.getTracks().forEach((track) => track.stop());
+          IT.toast && IT.toast("Запись завершена. Speech score model будет подключена отдельно.");
+        });
+        recorder.start();
+        setTimeout(() => recorder.state !== "inactive" && recorder.stop(), 4000);
+      } catch (_) {
+        IT.toast && IT.toast("Разрешите доступ к микрофону", "error");
+      }
+    });
   };
 
   const setOverlay = (visible) => {

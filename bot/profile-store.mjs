@@ -42,6 +42,10 @@ export class ProfileStore {
         analytics: { sessions: 0, games: 0, stars: 0 },
         blitz: { sessions: [], best_score: 0, best_accuracy: 0 },
         subscription: { plan: "free", expires_at: 0 },
+        cefr_level: "A2",
+        voice: { attempts: 0, average_score: 0, last_score: 0 },
+        diagnosis: { week: "", weak_units: [], weak_words: [], score: 0 },
+        certificates: [],
       };
       this.write(profiles);
     }
@@ -55,6 +59,10 @@ export class ProfileStore {
     profile.analytics ||= { sessions: 0, games: 0, stars: 0 };
     profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     profile.subscription ||= { plan: "free", expires_at: 0 };
+    profile.cefr_level ||= "A2";
+    profile.voice ||= { attempts: 0, average_score: 0, last_score: 0 };
+    profile.diagnosis ||= { week: "", weak_units: [], weak_words: [], score: 0 };
+    profile.certificates ||= [];
     profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     return profile;
   }
@@ -108,6 +116,10 @@ export class ProfileStore {
     profiles[key].analytics ||= { sessions: 0, games: 0, stars: 0 };
     profiles[key].blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     profiles[key].subscription ||= { plan: "free", expires_at: 0 };
+    profiles[key].cefr_level ||= "A2";
+    profiles[key].voice ||= { attempts: 0, average_score: 0, last_score: 0 };
+    profiles[key].diagnosis ||= { week: "", weak_units: [], weak_words: [], score: 0 };
+    profiles[key].certificates ||= [];
     return profiles[key];
   }
 
@@ -173,6 +185,62 @@ export class ProfileStore {
     };
     this.write(profiles);
     return profile.subscription;
+  }
+
+  setCefrLevel(userId, level) {
+    if (!["A2", "B1", "B2"].includes(level)) return { ok: false, reason: "invalid_level" };
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    profile.cefr_level = level;
+    this.write(profiles);
+    return { ok: true, level };
+  }
+
+  recordVoiceResult(userId, score) {
+    const safeScore = Math.max(0, Math.min(100, Number(score || 0)));
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    const attempts = Number(profile.voice.attempts || 0) + 1;
+    const previousTotal = Number(profile.voice.average_score || 0) *
+      Number(profile.voice.attempts || 0);
+    profile.voice = {
+      attempts,
+      average_score: Math.round((previousTotal + safeScore) / attempts),
+      last_score: safeScore,
+      updated_at: Date.now(),
+    };
+    this.write(profiles);
+    return profile.voice;
+  }
+
+  generateDiagnosis(userId, weakUnits, weakWords, score) {
+    const week = new Date().toISOString().slice(0, 10);
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    profile.diagnosis = {
+      week,
+      weak_units: Array.isArray(weakUnits) ? weakUnits.slice(0, 10) : [],
+      weak_words: Array.isArray(weakWords) ? weakWords.slice(0, 20) : [],
+      score: Math.max(0, Math.min(100, Number(score || 0))),
+      generated_at: Date.now(),
+    };
+    this.write(profiles);
+    return profile.diagnosis;
+  }
+
+  generateCertificate(userId, title) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    const certificate = {
+      id: crypto.randomBytes(8).toString("hex"),
+      title: String(title || "IT English Course"),
+      level: profile.cefr_level,
+      issued_at: Date.now(),
+    };
+    profile.certificates.push(certificate);
+    profile.certificates = profile.certificates.slice(-20);
+    this.write(profiles);
+    return certificate;
   }
 
   recordLearningDay(userId, now = Date.now()) {

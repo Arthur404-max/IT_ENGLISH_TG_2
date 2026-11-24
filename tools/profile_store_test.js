@@ -50,6 +50,11 @@ assert.ok(leaderboard.length >= 1);
 assert.equal(store.setNotifications(123, true).enabled, true);
 const subscription = store.grantSubscription(123, 7, "week", now);
 assert.equal(subscription.plan, "week");
+assert.equal(store.setCefrLevel(123, "B1").ok, true);
+assert.equal(store.recordVoiceResult(123, 80).attempts, 1);
+assert.equal(store.recordVoiceResult(123, 100).average_score, 90);
+assert.equal(store.generateDiagnosis(123, ["Unit 1"], ["array"], 75).score, 75);
+assert.ok(store.generateCertificate(123, "IT English").id);
 
 fs.rmSync(dir, { recursive: true, force: true });
 console.log("PASS: profile sync, daily game limit, hourly submission limit, referral");

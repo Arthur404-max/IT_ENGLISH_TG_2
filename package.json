@@ -5,7 +5,10 @@
   "scripts": {
     "bot": "node bot/server.mjs",
     "bot:setup": "node bot/setup-bot.mjs",
-    "test:access": "node tools/access_gate_test.js"
+    "test:access": "node tools/access_gate_test.js",
+    "test:profile": "node tools/profile_store_test.js",
+    "backup": "node bot/backup.mjs",
+    "webhook": "node bot/webhook.mjs"
   },
   "devDependencies": {
     "playwright": "^1.65.1"
