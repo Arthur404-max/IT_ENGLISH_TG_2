@@ -118,7 +118,191 @@
         const result = await referralResponse.json();
         root.dataset.referralCode = String(result.code || "");
       }
+      createProductTools();
     } catch (_) {}
+  };
+
+  let blitzSessionId = "";
+  let blitzTimer = null;
+  let blitzQuestions = [];
+  let blitzAnswers = [];
+  let blitzIndex = 0;
+  let blitzCorrect = 0;
+
+  const finishBlitz = async () => {
+    try {
+      await fetch(`${backendUrl}/api/blitz/submit`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          initData: tg.initData,
+          session_id: blitzSessionId,
+          correct: blitzCorrect,
+          total: blitzQuestions.length,
+        }),
+      });
+      const card = overlay?.querySelector(".tg-paywall-card");
+      if (card) {
+        card.innerHTML = `
+          <div class="tg-paywall-mark">IT</div>
+          <h1>Блиц завершён</h1>
+          <p>Результат: ${blitzCorrect} из ${blitzQuestions.length}</p>
+          <button type="button" id="tg-blitz-close">Закрыть</button>`;
+        card.querySelector("#tg-blitz-close")?.addEventListener("click", () => {
+          setOverlay(false);
+        });
+      }
+    } catch (_) {
+      IT.toast && IT.toast("Не удалось сохранить блиц", "error");
+    }
+  };
+
+  const renderBlitzQuestion = () => {
+    if (blitzIndex >= blitzQuestions.length) {
+      finishBlitz();
+      return;
+    }
+    const card = overlay?.querySelector(".tg-paywall-card");
+    if (!card) return;
+    const question = blitzQuestions[blitzIndex];
+    card.innerHTML = `
+      <div class="tg-paywall-mark">IT</div>
+      <h1>Блиц · ${blitzIndex + 1}/${blitzQuestions.length}</h1>
+      <p><strong>${escapeHtml(question.en)}</strong></p>
+      <div class="tg-game-options">
+        ${question.options.map((option) =>
+          `<button type="button" data-blitz-answer="${escapeHtml(option)}">${escapeHtml(option)}</button>`
+        ).join("")}
+      </div>`;
+    card.querySelectorAll("[data-blitz-answer]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const answer = button.dataset.blitzAnswer;
+        blitzAnswers.push(answer);
+        if (answer === question.answer) blitzCorrect++;
+        blitzIndex++;
+        renderBlitzQuestion();
+      });
+    });
+  };
+
+  const startBlitzRound = async () => {
+    try {
+      const units = await window.IT.api("/api/units");
+      const unitsDetail = await Promise.all((units.units || []).slice(0, 15).map((unit) =>
+        window.IT.api(`/api/units/${unit.id}`)));
+      const vocabulary = unitsDetail.flatMap((unit) =>
+        (unit.vocab || []).map((item) => ({
+          en: String(item.en || ""),
+          ru: String(item.ru || "").split(",")[0].trim(),
+        })));
+      const pool = vocabulary.filter((item) => item.en && item.ru);
+      blitzQuestions = [...pool]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 20)
+        .map((item) => {
+          const options = [...new Set([
+            item.ru,
+            ...[...pool].sort(() => Math.random() - 0.5)
+              .map((entry) => entry.ru)
+              .filter((value) => value !== item.ru),
+          ])].slice(0, 4);
+          while (options.length < 4) options.push(item.ru);
+          return {
+            en: item.en,
+            answer: item.ru,
+            options: options.sort(() => Math.random() - 0.5),
+          };
+        });
+      blitzAnswers = [];
+      blitzIndex = 0;
+      blitzCorrect = 0;
+      renderBlitzQuestion();
+    } catch (_) {
+      IT.toast && IT.toast("Не удалось загрузить блиц", "error");
+    }
+  };
+
+  const showLeaderboard = async () => {
+    const card = overlay?.querySelector(".tg-paywall-card");
+    if (!card) {
+      const tools = document.querySelector(".tg-product-tools");
+      tools?.remove();
+      const modal = document.createElement("div");
+      modal.className = "tg-paywall";
+      modal.innerHTML = '<div class="tg-paywall-card"><div class="tg-paywall-mark">IT</div><h1>Рейтинг</h1><p>Загрузка…</p></div>';
+      document.body.appendChild(modal);
+    }
+    try {
+      const response = await fetch(`${backendUrl}/api/leaderboard`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ initData: tg.initData, limit: 10 }),
+      });
+      if (!response.ok) throw new Error("leaderboard unavailable");
+      const result = await response.json();
+      const target = overlay?.querySelector(".tg-paywall-card") ||
+        document.querySelector(".tg-paywall-card");
+      if (!target) return;
+      target.innerHTML = `
+        <div class="tg-paywall-mark">IT</div>
+        <h1>Рейтинг блица</h1>
+        ${result.entries.length
+          ? result.entries.map((entry) =>
+              `<p>${entry.rank}. ${entry.accuracy >= 0 ? "Игрок " : ""}${escapeHtml(entry.user_id)} — ${entry.score} очков</p>`).join("")
+          : "<p>Пока нет результатов.</p>"}`;
+    } catch (_) {
+      const target = overlay?.querySelector(".tg-paywall-card") ||
+        document.querySelector(".tg-paywall-card");
+      if (target) target.innerHTML = '<div class="tg-paywall-mark">IT</div><h1>Рейтинг недоступен</h1>';
+    }
+  };
+
+  const startBlitz = async () => {
+    try {
+      const response = await fetch(`${backendUrl}/api/blitz/start`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ initData: tg.initData }),
+      });
+      if (!response.ok) throw new Error("blitz unavailable");
+      const result = await response.json();
+      blitzSessionId = result.session_id;
+      const remaining = Math.max(0, result.expires_at - Date.now());
+      const card = overlay?.querySelector(".tg-paywall-card");
+      if (card) {
+        card.innerHTML = `
+          <div class="tg-paywall-mark">IT</div>
+          <h1>Блиц 5 минут</h1>
+          <p>Сессия готова. Вопросов в блице: 20.</p>
+          <p id="tg-blitz-timer">${Math.ceil(remaining / 1000)} сек.</p>
+          <button type="button" id="tg-blitz-start-round">Начать</button>`;
+        card.querySelector("#tg-blitz-start-round")?.addEventListener("click", startBlitzRound);
+      }
+      if (remaining > 0) {
+        clearInterval(blitzTimer);
+        blitzTimer = setInterval(() => {
+          const timer = document.getElementById("tg-blitz-timer");
+          if (!timer) return;
+          const left = Math.max(0, Math.ceil((result.expires_at - Date.now()) / 1000));
+          timer.textContent = `${left} сек.`;
+          if (left <= 0) clearInterval(blitzTimer);
+        }, 1000);
+      }
+    } catch (_) {
+      IT.toast && IT.toast("Не удалось запустить блиц", "error");
+    }
+  };
+
+  const createProductTools = () => {
+    if (document.querySelector(".tg-product-tools")) return;
+    const tools = document.createElement("div");
+    tools.className = "tg-product-tools";
+    tools.innerHTML = `
+      <button type="button" id="tg-start-blitz">Блиц 5 минут</button>
+      <button type="button" id="tg-leaderboard">Рейтинг</button>`;
+    document.body.appendChild(tools);
+    tools.querySelector("#tg-start-blitz").addEventListener("click", startBlitz);
+    tools.querySelector("#tg-leaderboard").addEventListener("click", showLeaderboard);
   };
 
   const setOverlay = (visible) => {
