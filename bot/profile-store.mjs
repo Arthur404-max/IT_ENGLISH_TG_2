@@ -41,6 +41,7 @@ export class ProfileStore {
         notifications: { enabled: false },
         analytics: { sessions: 0, games: 0, stars: 0 },
         blitz: { sessions: [], best_score: 0, best_accuracy: 0 },
+        subscription: { plan: "free", expires_at: 0 },
       };
       this.write(profiles);
     }
@@ -53,6 +54,7 @@ export class ProfileStore {
     };
     profile.analytics ||= { sessions: 0, games: 0, stars: 0 };
     profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
+    profile.subscription ||= { plan: "free", expires_at: 0 };
     profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     return profile;
   }
@@ -105,6 +107,7 @@ export class ProfileStore {
     };
     profiles[key].analytics ||= { sessions: 0, games: 0, stars: 0 };
     profiles[key].blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
+    profiles[key].subscription ||= { plan: "free", expires_at: 0 };
     return profiles[key];
   }
 
@@ -146,6 +149,30 @@ export class ProfileStore {
     profile.access_free_until = Math.max(Number(profile.access_free_until || 0), until);
     this.write(profiles);
     return profile.access_free_until;
+  }
+
+  setNotifications(userId, enabled) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    profile.notifications = {
+      enabled: Boolean(enabled),
+      updated_at: Date.now(),
+    };
+    this.write(profiles);
+    return profile.notifications;
+  }
+
+  grantSubscription(userId, days, plan = "week", now = Date.now()) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    const expiresAt = now + Math.max(1, Number(days || 7)) * 24 * 60 * 60 * 1000;
+    profile.subscription = {
+      plan: String(plan),
+      expires_at: Math.max(Number(profile.subscription?.expires_at || 0), expiresAt),
+      updated_at: now,
+    };
+    this.write(profiles);
+    return profile.subscription;
   }
 
   recordLearningDay(userId, now = Date.now()) {

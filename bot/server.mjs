@@ -215,6 +215,54 @@ const server = http.createServer(async (request, response) => {
       return;
     }
 
+    if (request.method === "POST" && request.url === "/api/account/notifications") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const notifications = profileStore.setNotifications(user.id, body.enabled);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ notifications }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/account/subscription") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const profile = profileStore.getProfile(user.id);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ subscription: profile.subscription }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/admin/purchases") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const admins = String(process.env.TELEGRAM_ADMIN_IDS || "")
+        .split(",").map((value) => value.trim()).filter(Boolean);
+      if (!admins.includes(String(user.id))) {
+        response.writeHead(403, headers);
+        response.end(JSON.stringify({ error: "admin access required" }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ purchases: loadPurchases() }));
+      return;
+    }
+
     if (request.method === "POST" && request.url === "/api/streak/status") {
       const body = await readJson(request);
       const user = validateInitData(body.initData);

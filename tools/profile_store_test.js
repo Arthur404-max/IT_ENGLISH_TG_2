@@ -47,5 +47,9 @@ assert.equal(store.submitBlitz(123, blitz.session_id, 18, 20, now + 60_000).ok, 
 const leaderboard = store.getLeaderboard(5);
 assert.ok(leaderboard.length >= 1);
 
+assert.equal(store.setNotifications(123, true).enabled, true);
+const subscription = store.grantSubscription(123, 7, "week", now);
+assert.equal(subscription.plan, "week");
+
 fs.rmSync(dir, { recursive: true, force: true });
 console.log("PASS: profile sync, daily game limit, hourly submission limit, referral");
