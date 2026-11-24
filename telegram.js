@@ -95,6 +95,32 @@
     } catch (_) {}
   };
 
+  const loadServerAccount = async () => {
+    if (!backendUrl || !tg.initData) return;
+    try {
+      const [streakResponse, referralResponse] = await Promise.all([
+        fetch(`${backendUrl}/api/streak/status`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ initData: tg.initData }),
+        }),
+        fetch(`${backendUrl}/api/referral/status`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ initData: tg.initData }),
+        }),
+      ]);
+      if (streakResponse.ok) {
+        const result = await streakResponse.json();
+        root.dataset.streak = String(result.streak?.current || 0);
+      }
+      if (referralResponse.ok) {
+        const result = await referralResponse.json();
+        root.dataset.referralCode = String(result.code || "");
+      }
+    } catch (_) {}
+  };
+
   const setOverlay = (visible) => {
     if (!overlay) return;
     overlay.hidden = !visible;
@@ -250,6 +276,7 @@
         root.classList.remove("tg-paywall-active");
         await restoreServerProgress();
         await syncProgressToServer();
+        await loadServerAccount();
       }
       if (paid && statusTimer) {
         clearInterval(statusTimer);
