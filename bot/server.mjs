@@ -1,14 +1,16 @@
-import crypto from "node:crypto";
+﻿import crypto from "node:crypto";
 import fs from "node:fs";
 import http from "node:http";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { ProfileStore } from "./profile-store.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const webAppUrl = process.env.TELEGRAM_WEBAPP_URL;
 const port = Number(process.env.PORT || 8788);
 const purchasesFile = path.join(__dirname, "data", "purchases.json");
+const profileStore = new ProfileStore(path.join(__dirname, "data", "profiles.json"));
 const gameSessions = new Map();
 const unitsFile = path.join(__dirname, "..", "data", "units.json");
 
@@ -181,6 +183,38 @@ const server = http.createServer(async (request, response) => {
   }
 
   try {
+    if (request.method === "POST" && request.url === "/api/profile/progress/sync") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      if (!body.progress || typeof body.progress !== "object") {
+        response.writeHead(400, headers);
+        response.end(JSON.stringify({ error: "progress required" }));
+        return;
+      }
+      const progress = profileStore.syncProgress(user.id, body.progress);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ ok: true, updated_at: progress.updated_at }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/profile/progress") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ progress: profileStore.getProgress(user.id) }));
+      return;
+    }
+
     if (request.method === "POST" && request.url === "/api/access/status") {
       const body = await readJson(request);
       const user = validateInitData(body.initData);
@@ -215,6 +249,12 @@ const server = http.createServer(async (request, response) => {
       if (record?.free_until > Date.now()) {
         response.writeHead(200, headers);
         response.end(JSON.stringify({ alreadyUnlocked: true }));
+        return;
+      }
+      const startLimit = profileStore.checkGameStart(user.id);
+      if (!startLimit.allowed) {
+        response.writeHead(429, headers);
+        response.end(JSON.stringify({ error: "free game daily limit" }));
         return;
       }
       const nonce = crypto.randomBytes(16).toString("hex");
@@ -259,6 +299,12 @@ const server = http.createServer(async (request, response) => {
       }
       gameSessions.delete(String(body.nonce || ""));
       const submitted = Array.isArray(body.answers) ? body.answers : [];
+      const submissionLimit = profileStore.checkGameSubmission(user.id);
+      if (!submissionLimit.allowed) {
+        response.writeHead(429, headers);
+        response.end(JSON.stringify({ error: "free game hourly limit" }));
+        return;
+      }
       const correct = session.answers.reduce(
         (count, answer, index) => count + (submitted[index] === answer ? 1 : 0),
         0,

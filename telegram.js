@@ -55,6 +55,46 @@
   let gameAnswers = [];
   let gameIndex = 0;
 
+  const syncProgressToServer = async () => {
+    if (!backendUrl || !tg.initData) return;
+    try {
+      const snapshot = window.IT && window.IT.staticDebug && window.IT.staticDebug.snapshot;
+      if (!snapshot) return;
+      await fetch(`${backendUrl}/api/profile/progress/sync`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          initData: tg.initData,
+          progress: snapshot().progress,
+        }),
+      });
+    } catch (_) {}
+  };
+
+  const restoreServerProgress = async () => {
+    if (!backendUrl || !tg.initData) return;
+    try {
+      const response = await fetch(`${backendUrl}/api/profile/progress`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ initData: tg.initData }),
+      });
+      if (!response.ok) return;
+      const result = await response.json();
+      if (!result.progress) return;
+      const staticDebug = window.IT && window.IT.staticDebug;
+      if (staticDebug && typeof window.localStorage === "object") {
+        try {
+          localStorage.setItem(
+            "itelab-static-state-v1",
+            JSON.stringify({ progress: result.progress, backups: [] })
+          );
+          location.reload();
+        } catch (_) {}
+      }
+    } catch (_) {}
+  };
+
   const setOverlay = (visible) => {
     if (!overlay) return;
     overlay.hidden = !visible;
@@ -208,6 +248,8 @@
       if (paid) {
         root.classList.remove("tg-gated");
         root.classList.remove("tg-paywall-active");
+        await restoreServerProgress();
+        await syncProgressToServer();
       }
       if (paid && statusTimer) {
         clearInterval(statusTimer);
