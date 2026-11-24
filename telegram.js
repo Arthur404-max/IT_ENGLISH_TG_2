@@ -7,6 +7,7 @@
   const root = document.documentElement;
   root.classList.add("telegram-mini-app");
   root.classList.add("tg-paywall-active");
+  root.classList.add("tg-gated");
   tg.ready();
   tg.expand();
 
@@ -58,6 +59,7 @@
     if (!overlay) return;
     overlay.hidden = !visible;
     root.classList.toggle("tg-paywall-active", visible);
+    root.classList.toggle("tg-gated", visible);
   };
 
   const escapeHtml = (value) => String(value)
@@ -210,23 +212,21 @@
   };
 
   const createOverlay = () => {
-    overlay = document.createElement("div");
-    overlay.className = "tg-paywall";
-    overlay.innerHTML = `
-      <div class="tg-paywall-card" role="dialog" aria-modal="true" aria-label="Доступ к IT English">
-        <div class="tg-paywall-mark">IT</div>
-        <h1>Полный доступ</h1>
-        <p id="tg-paywall-copy">Оплатите разово 1 Telegram Star для разблокировки материалов на этом аккаунте.</p>
-        <button type="button" id="tg-buy-access">${backendUrl ? "Купить за ⭐ 1" : "Сервис оплаты настраивается"}</button>
-        ${backendUrl ? '<button type="button" id="tg-play-game" class="tg-game-button">Пройти игру и получить доступ на 24 часа</button>' : ""}
-      </div>`;
-    document.body.appendChild(overlay);
+    overlay = document.getElementById("tg-access-gate");
+    if (!overlay) return;
+    const buy = overlay.querySelector("#tg-buy-access");
+    const game = overlay.querySelector("#tg-play-game");
+    const copy = overlay.querySelector("#tg-paywall-copy");
+    if (copy) copy.textContent = "Оплатите разово 1 Telegram Star или пройдите бесплатную игру.";
+    if (buy) buy.disabled = !backendUrl;
+    if (buy) buy.textContent = backendUrl ? "Купить за ⭐ 1" : "Сервис оплаты настраивается";
+    if (game) game.disabled = !backendUrl;
     if (!backendUrl) {
       overlay.querySelector("#tg-buy-access").disabled = true;
       return;
     }
-    overlay.querySelector("#tg-play-game").addEventListener("click", startGame);
-    overlay.querySelector("#tg-buy-access").addEventListener("click", async (event) => {
+    overlay.querySelector("#tg-play-game")?.addEventListener("click", startGame);
+    overlay.querySelector("#tg-buy-access")?.addEventListener("click", async (event) => {
       const button = event.currentTarget;
       button.disabled = true;
       button.textContent = "Открываем оплату…";
