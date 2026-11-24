@@ -251,4 +251,7 @@
 
   createOverlay();
   checkAccess();
+  if (new URLSearchParams(location.search).get("free_game") === "1") {
+    setTimeout(startGame, 50);
+  }
 })();

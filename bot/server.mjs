@@ -395,7 +395,7 @@ async function pollUpdates() {
           text: "Откройте Mini App, нажмите «Пройти игру» и наберите минимум 8 из 10.",
           reply_markup: {
             inline_keyboard: [
-              [{ text: "Играть бесплатно", web_app: { url: webAppUrl } }],
+              [{ text: "Играть бесплатно", web_app: { url: `${webAppUrl}?free_game=1#/home` } }],
             ],
           },
         });
