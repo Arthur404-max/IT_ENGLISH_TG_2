@@ -8,7 +8,7 @@
 (() => {
   "use strict";
 
-  const CACHE = "itenglishlab-pwa-v2";
+  const CACHE = "itenglishlab-pwa-v3";
   const BASE = new URL("./", self.location.href);
   const INDEX = new URL("./", BASE).href;
   const INDEX_FILE = new URL("index.html", BASE).href;
@@ -33,6 +33,8 @@
     "exam.js",
     "analytics.js",
     "pwa.js",
+    "telegram.js",
+    "telegram.css",
     "manifest.webmanifest",
     "icon.svg",
     "icon-192.png",

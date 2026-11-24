@@ -6,6 +6,7 @@
 
   const root = document.documentElement;
   root.classList.add("telegram-mini-app");
+  root.classList.add("tg-paywall-active");
   tg.ready();
   tg.expand();
 
@@ -56,6 +57,7 @@
   const setOverlay = (visible) => {
     if (!overlay) return;
     overlay.hidden = !visible;
+    root.classList.toggle("tg-paywall-active", visible);
   };
 
   const escapeHtml = (value) => String(value)

@@ -71,6 +71,13 @@
   display: none;
 }
 
+.telegram-mini-app.tg-paywall-active .app-shell,
+.telegram-mini-app.tg-paywall-active .mobile-bottom-nav,
+.telegram-mini-app.tg-paywall-active .toast {
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .tg-paywall-card {
   width: min(360px, 100%);
   border: 1px solid var(--line);
