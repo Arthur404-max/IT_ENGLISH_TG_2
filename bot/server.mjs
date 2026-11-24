@@ -215,6 +215,33 @@ const server = http.createServer(async (request, response) => {
       return;
     }
 
+    if (request.method === "POST" && request.url === "/api/streak/status") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ streak: profileStore.getStreak(user.id) }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/streak/complete") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const streak = profileStore.recordLearningDay(user.id);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ streak }));
+      return;
+    }
+
     if (request.method === "POST" && request.url === "/api/access/status") {
       const body = await readJson(request);
       const user = validateInitData(body.initData);

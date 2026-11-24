@@ -143,6 +143,31 @@ export class ProfileStore {
     return profile.access_free_until;
   }
 
+  recordLearningDay(userId, now = Date.now()) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    const dayKey = new Date(now).toISOString().slice(0, 10);
+    if (profile.streak.last_day === dayKey) {
+      this.write(profiles);
+      return profile.streak;
+    }
+    const yesterday = new Date(now - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    profile.streak.current = profile.streak.last_day === yesterday
+      ? Number(profile.streak.current || 0) + 1
+      : 1;
+    profile.streak.longest = Math.max(
+      Number(profile.streak.longest || 0),
+      profile.streak.current,
+    );
+    profile.streak.last_day = dayKey;
+    this.write(profiles);
+    return profile.streak;
+  }
+
+  getStreak(userId) {
+    return this.getProfile(userId).streak;
+  }
+
   claimReferral(userId, code, now = Date.now()) {
     const profiles = this.read();
     const profile = this.ensureInObject(profiles, userId);

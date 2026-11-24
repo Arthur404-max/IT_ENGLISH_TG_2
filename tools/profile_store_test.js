@@ -36,5 +36,10 @@ assert.equal(store.claimReferral(456, inviter.referral.code, now).reason, "alrea
 const freeUntil = store.grantFreeAccess(123, 24, now);
 assert.ok(freeUntil > now);
 
+const dayOne = new Date("2026-11-24T10:00:00.000Z").getTime();
+const dayTwo = new Date("2026-11-25T10:00:00.000Z").getTime();
+assert.equal(store.recordLearningDay(789, dayOne).current, 1);
+assert.equal(store.recordLearningDay(789, dayTwo).current, 2);
+
 fs.rmSync(dir, { recursive: true, force: true });
 console.log("PASS: profile sync, daily game limit, hourly submission limit, referral");
