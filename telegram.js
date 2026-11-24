@@ -60,6 +60,10 @@
     overlay.hidden = !visible;
     root.classList.toggle("tg-paywall-active", visible);
     root.classList.toggle("tg-gated", visible);
+    if (!visible) {
+      root.classList.remove("tg-gated");
+      root.classList.remove("tg-paywall-active");
+    }
   };
 
   const escapeHtml = (value) => String(value)
@@ -201,6 +205,10 @@
       const result = await response.json();
       paid = Boolean(result.paid || result.free);
       setOverlay(!paid);
+      if (paid) {
+        root.classList.remove("tg-gated");
+        root.classList.remove("tg-paywall-active");
+      }
       if (paid && statusTimer) {
         clearInterval(statusTimer);
         statusTimer = null;
@@ -252,8 +260,11 @@
   };
 
   createOverlay();
-  checkAccess();
-  if (new URLSearchParams(location.search).get("free_game") === "1") {
-    setTimeout(startGame, 50);
-  }
+  (async () => {
+    const hasAccess = await checkAccess();
+    if (hasAccess) return;
+    if (new URLSearchParams(location.search).get("free_game") === "1") {
+      startGame();
+    }
+  })();
 })();

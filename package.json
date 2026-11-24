@@ -4,6 +4,10 @@
   "type": "module",
   "scripts": {
     "bot": "node bot/server.mjs",
-    "bot:setup": "node bot/setup-bot.mjs"
+    "bot:setup": "node bot/setup-bot.mjs",
+    "test:access": "node tools/access_gate_test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.1"
   }
 }
