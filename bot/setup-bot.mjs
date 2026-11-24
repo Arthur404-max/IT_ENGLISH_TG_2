@@ -33,9 +33,8 @@ await call("setMyCommands", {
 
 await call("setChatMenuButton", {
   menu_button: {
-    type: "web_app",
-    text: "Открыть IT English",
-    web_app: { url: webAppUrl },
+    type: "commands",
+    text: "Меню",
   },
 });
 

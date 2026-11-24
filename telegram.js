@@ -184,6 +184,10 @@
 
   const checkAccess = async () => {
     try {
+      if (!tg.initData) {
+        setOverlay(true);
+        return false;
+      }
       const response = await fetch(`${backendUrl}/api/access/status`, {
         method: "POST",
         headers: { "content-type": "application/json" },

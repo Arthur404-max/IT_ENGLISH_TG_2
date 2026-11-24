@@ -46,6 +46,14 @@ function savePurchases(purchases) {
   fs.writeFileSync(purchasesFile, JSON.stringify(purchases, null, 2));
 }
 
+function hasAccess(purchases, userId) {
+  const record = purchases[String(userId)];
+  if (!record) return false;
+  const paid = Boolean(record.paid_at || record.telegram_payment_charge_id);
+  const free = Number(record.free_until || 0) > Date.now();
+  return paid || free;
+}
+
 async function telegram(method, payload) {
   const response = await fetch(`https://api.telegram.org/bot${token}/${method}`, {
     method: "POST",
@@ -347,14 +355,22 @@ async function pollUpdates() {
 
       const message = update.message;
       if (message?.text === "/start" || message?.text === "/open") {
+        const purchases = loadPurchases();
+        const unlocked = hasAccess(purchases, message.from.id);
         await telegram("sendMessage", {
           chat_id: message.chat.id,
-          text: "IT English — тренажёр английского для IT.",
+          text: unlocked
+            ? "Доступ открыт. Можно запускать IT English Lab."
+            : "Для открытия IT English Lab оплатите 1 Telegram Star или пройдите бесплатную игру.",
           reply_markup: {
             inline_keyboard: [
-              [{ text: "Открыть мини-приложение", web_app: { url: webAppUrl } }],
-              [{ text: "Купить доступ за ⭐ 1", callback_data: "buy_access" }],
-            ],
+              unlocked
+                ? [{ text: "Открыть мини-приложение", web_app: { url: webAppUrl } }]
+                : [{ text: "Купить доступ за ⭐ 1", callback_data: "buy_access" }],
+              !unlocked
+                ? [{ text: "Получить бесплатно через игру", callback_data: "free_game" }]
+                : [],
+            ].filter((row) => row.length),
           },
         });
       }
@@ -368,6 +384,21 @@ async function pollUpdates() {
           update.callback_query.message.chat.id,
           update.callback_query.from.id,
         );
+        await telegram("answerCallbackQuery", {
+          callback_query_id: update.callback_query.id,
+        });
+      }
+
+      if (update.callback_query?.data === "free_game") {
+        await telegram("sendMessage", {
+          chat_id: update.callback_query.message.chat.id,
+          text: "Откройте Mini App, нажмите «Пройти игру» и наберите минимум 8 из 10.",
+          reply_markup: {
+            inline_keyboard: [
+              [{ text: "Играть бесплатно", web_app: { url: webAppUrl } }],
+            ],
+          },
+        });
         await telegram("answerCallbackQuery", {
           callback_query_id: update.callback_query.id,
         });
