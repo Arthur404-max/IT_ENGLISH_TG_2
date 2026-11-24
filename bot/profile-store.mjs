@@ -40,6 +40,7 @@ export class ProfileStore {
         },
         notifications: { enabled: false },
         analytics: { sessions: 0, games: 0, stars: 0 },
+        blitz: { sessions: [], best_score: 0, best_accuracy: 0 },
       };
       this.write(profiles);
     }
@@ -51,6 +52,8 @@ export class ProfileStore {
       rewards: [],
     };
     profile.analytics ||= { sessions: 0, games: 0, stars: 0 };
+    profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
+    profile.blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     return profile;
   }
 
@@ -91,6 +94,7 @@ export class ProfileStore {
         },
         notifications: { enabled: false },
         analytics: { sessions: 0, games: 0, stars: 0 },
+        blitz: { sessions: [], best_score: 0, best_accuracy: 0 },
       };
     }
     profiles[key].game ||= { starts: [], submissions: [] };
@@ -100,6 +104,7 @@ export class ProfileStore {
       rewards: [],
     };
     profiles[key].analytics ||= { sessions: 0, games: 0, stars: 0 };
+    profiles[key].blitz ||= { sessions: [], best_score: 0, best_accuracy: 0 };
     return profiles[key];
   }
 
@@ -166,6 +171,72 @@ export class ProfileStore {
 
   getStreak(userId) {
     return this.getProfile(userId).streak;
+  }
+
+  startBlitz(userId, now = Date.now()) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    profile.blitz.sessions ||= [];
+    const active = profile.blitz.sessions.find((session) =>
+      session.status === "active" && session.expires_at > now);
+    if (active) return { session_id: active.session_id, expires_at: active.expires_at };
+    const session = {
+      session_id: crypto.randomBytes(12).toString("hex"),
+      started_at: now,
+      expires_at: now + 5 * 60 * 1000,
+      status: "active",
+      score: 0,
+      correct: 0,
+      total: 0,
+    };
+    profile.blitz.sessions.push(session);
+    profile.blitz.sessions = profile.blitz.sessions.slice(-20);
+    this.write(profiles);
+    return { session_id: session.session_id, expires_at: session.expires_at };
+  }
+
+  submitBlitz(userId, sessionId, correct, total, now = Date.now()) {
+    const profiles = this.read();
+    const profile = this.ensureInObject(profiles, userId);
+    profile.blitz.sessions ||= [];
+    const session = profile.blitz.sessions.find((item) =>
+      item.session_id === sessionId);
+    if (!session || session.status !== "active") {
+      return { ok: false, reason: "invalid_session" };
+    }
+    if (session.expires_at < now) {
+      session.status = "expired";
+      this.write(profiles);
+      return { ok: false, reason: "expired" };
+    }
+    const safeCorrect = Math.max(0, Math.min(Number(correct || 0), Number(total || 0)));
+    const safeTotal = Math.max(0, Number(total || 0));
+    session.status = "submitted";
+    session.correct = safeCorrect;
+    session.total = safeTotal;
+    session.score = safeCorrect * 100 + safeTotal;
+    session.submitted_at = now;
+    profile.blitz.best_score = Math.max(Number(profile.blitz.best_score || 0), session.score);
+    profile.blitz.best_accuracy = Math.max(
+      Number(profile.blitz.best_accuracy || 0),
+      safeTotal ? safeCorrect / safeTotal : 0,
+    );
+    this.write(profiles);
+    return { ok: true, score: session.score, correct: safeCorrect, total: safeTotal };
+  }
+
+  getLeaderboard(limit = 10) {
+    const profiles = this.read();
+    return Object.values(profiles)
+      .map((profile) => ({
+        user_id: profile.user_id,
+        score: Number(profile.blitz?.best_score || 0),
+        accuracy: Number(profile.blitz?.best_accuracy || 0),
+      }))
+      .filter((entry) => entry.score > 0)
+      .sort((a, b) => b.score - a.score || b.accuracy - a.accuracy)
+      .slice(0, Math.max(1, Math.min(100, Number(limit) || 10)))
+      .map((entry, index) => ({ rank: index + 1, ...entry }));
   }
 
   claimReferral(userId, code, now = Date.now()) {

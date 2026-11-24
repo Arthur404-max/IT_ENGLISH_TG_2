@@ -242,6 +242,59 @@ const server = http.createServer(async (request, response) => {
       return;
     }
 
+    if (request.method === "POST" && request.url === "/api/blitz/start") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const session = profileStore.startBlitz(user.id);
+      response.writeHead(200, headers);
+      response.end(JSON.stringify(session));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/blitz/submit") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const result = profileStore.submitBlitz(
+        user.id,
+        String(body.session_id || ""),
+        Number(body.correct || 0),
+        Number(body.total || 0),
+      );
+      if (!result.ok) {
+        response.writeHead(400, headers);
+        response.end(JSON.stringify({ error: result.reason }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify(result));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/leaderboard") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({
+        entries: profileStore.getLeaderboard(Number(body.limit || 10)),
+      }));
+      return;
+    }
+
     if (request.method === "POST" && request.url === "/api/access/status") {
       const body = await readJson(request);
       const user = validateInitData(body.initData);

@@ -41,5 +41,11 @@ const dayTwo = new Date("2026-11-25T10:00:00.000Z").getTime();
 assert.equal(store.recordLearningDay(789, dayOne).current, 1);
 assert.equal(store.recordLearningDay(789, dayTwo).current, 2);
 
+const blitz = store.startBlitz(123, now);
+assert.ok(blitz.session_id);
+assert.equal(store.submitBlitz(123, blitz.session_id, 18, 20, now + 60_000).ok, true);
+const leaderboard = store.getLeaderboard(5);
+assert.ok(leaderboard.length >= 1);
+
 fs.rmSync(dir, { recursive: true, force: true });
 console.log("PASS: profile sync, daily game limit, hourly submission limit, referral");
