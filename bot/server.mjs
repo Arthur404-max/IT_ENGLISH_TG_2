@@ -9,6 +9,25 @@ const token = process.env.TELEGRAM_BOT_TOKEN;
 const webAppUrl = process.env.TELEGRAM_WEBAPP_URL;
 const port = Number(process.env.PORT || 8788);
 const purchasesFile = path.join(__dirname, "data", "purchases.json");
+const gameSessions = new Map();
+
+const vocabQuestions = [
+  { en: "array", ru: "массив" },
+  { en: "variable", ru: "переменная" },
+  { en: "function", ru: "функция" },
+  { en: "server", ru: "сервер" },
+  { en: "database", ru: "база данных" },
+  { en: "network", ru: "сеть" },
+  { en: "password", ru: "пароль" },
+  { en: "source code", ru: "исходный код" },
+  { en: "keyboard", ru: "клавиатура" },
+  { en: "memory", ru: "память" },
+  { en: "file", ru: "файл" },
+  { en: "browser", ru: "браузер" },
+  { en: "debug", ru: "отладка" },
+  { en: "compiler", ru: "компилятор" },
+  { en: "algorithm", ru: "алгоритм" },
+];
 
 if (!token) throw new Error("TELEGRAM_BOT_TOKEN is required");
 if (!webAppUrl || !/^https:\/\//i.test(webAppUrl)) {
@@ -81,6 +100,22 @@ async function readJson(request) {
   return body ? JSON.parse(body) : {};
 }
 
+function shuffled(items) {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = crypto.randomInt(i + 1);
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function buildGameOptions(answer) {
+  const distractors = shuffled(vocabQuestions.map((item) => item.ru))
+    .filter((value) => value !== answer)
+    .slice(0, 3);
+  return shuffled([answer, ...distractors]);
+}
+
 async function sendPaymentInvoice(chatId, userId) {
   await telegram("sendInvoice", {
     chat_id: chatId,
@@ -112,8 +147,91 @@ const server = http.createServer(async (request, response) => {
         return;
       }
       const purchases = loadPurchases();
+      const record = purchases[String(user.id)];
+      const paid = Boolean(record?.paid_at || record?.telegram_payment_charge_id);
+      const freeUntil = Number(record?.free_until || 0);
       response.writeHead(200, headers);
-      response.end(JSON.stringify({ paid: Boolean(purchases[String(user.id)]) }));
+      response.end(JSON.stringify({
+        paid,
+        free: freeUntil > Date.now(),
+        freeUntil: freeUntil > Date.now() ? freeUntil : null,
+      }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/access/game/start") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const purchases = loadPurchases();
+      const record = purchases[String(user.id)];
+      if (record?.free_until > Date.now()) {
+        response.writeHead(200, headers);
+        response.end(JSON.stringify({ alreadyUnlocked: true }));
+        return;
+      }
+      const nonce = crypto.randomBytes(16).toString("hex");
+      const questions = shuffled(vocabQuestions).slice(0, 10).map((item) => ({
+        en: item.en,
+        options: buildGameOptions(item.ru),
+      }));
+      gameSessions.set(nonce, {
+        userId: String(user.id),
+        expiresAt: Date.now() + 5 * 60_000,
+        answers: questions.map((item) => {
+          const source = vocabQuestions.find((entry) => entry.en === item.en);
+          return source.ru;
+        }),
+      });
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({ nonce, questions }));
+      return;
+    }
+
+    if (request.method === "POST" && request.url === "/api/access/game/submit") {
+      const body = await readJson(request);
+      const user = validateInitData(body.initData);
+      if (!user) {
+        response.writeHead(401, headers);
+        response.end(JSON.stringify({ error: "invalid initData" }));
+        return;
+      }
+      const session = gameSessions.get(String(body.nonce || ""));
+      if (!session ||
+          session.userId !== String(user.id) ||
+          session.expiresAt < Date.now()) {
+        gameSessions.delete(String(body.nonce || ""));
+        response.writeHead(400, headers);
+        response.end(JSON.stringify({ error: "game session expired" }));
+        return;
+      }
+      gameSessions.delete(String(body.nonce || ""));
+      const submitted = Array.isArray(body.answers) ? body.answers : [];
+      const correct = session.answers.reduce(
+        (count, answer, index) => count + (submitted[index] === answer ? 1 : 0),
+        0,
+      );
+      const passed = correct >= 8;
+      if (passed) {
+        const purchases = loadPurchases();
+        const record = purchases[String(user.id)] || {};
+        record.free_until = Date.now() + 24 * 60 * 60 * 1000;
+        record.free_granted_at = new Date().toISOString();
+        record.free_score = correct;
+        purchases[String(user.id)] = record;
+        savePurchases(purchases);
+      }
+      response.writeHead(200, headers);
+      response.end(JSON.stringify({
+        passed,
+        correct,
+        total: session.answers.length,
+        freeUntil: passed ? loadPurchases()[String(user.id)].free_until : null,
+      }));
       return;
     }
 

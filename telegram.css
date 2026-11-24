@@ -121,3 +121,35 @@
   opacity: .7;
   cursor: wait;
 }
+
+.tg-game-button {
+  margin-top: 9px;
+  color: var(--text) !important;
+  background: transparent !important;
+  border: 1px solid var(--line) !important;
+}
+
+.tg-game-progress {
+  height: 5px;
+  margin: 16px 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .08);
+}
+
+.tg-game-progress i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--tg-button, #c8f76d);
+  transition: width .2s ease;
+}
+
+.tg-game-options {
+  display: grid;
+  gap: 8px;
+}
+
+.tg-game-options button {
+  min-height: 42px;
+}
